@@ -228,8 +228,9 @@ class HeritageCombinedExplorer {
                         if (IRELAND_CAT_MAP[c]) { category = IRELAND_CAT_MAP[c]; break; }
                     }
 
-                    // Ireland-specific sub-category label (for display)
-                    const irishCatLabel = cats.length > 0 ? cats[0] : 'Heritage Ireland';
+                    // Ireland-specific category labels (all of them, for display)
+                    const irishCatLabel  = cats.length > 0 ? cats[0] : 'Heritage Ireland';
+                    const irishCatLabels = cats.length > 0 ? cats : ['Heritage Ireland'];
 
                     // Infer period from category
                     let period = 'Other';
@@ -248,6 +249,7 @@ class HeritageCombinedExplorer {
                             imageUrl: props.thumbnail || null,
                             category,
                             irishCatLabel,
+                            irishCatLabels: irishCatLabels.join('|'),
                             period,
                             org: 'heritage-ireland',
                             region: 'ireland',
@@ -559,8 +561,37 @@ class HeritageCombinedExplorer {
             orgBadge.style.color = '#1a3a2a';
         }
 
-        // Category badge — use Irish label if available
-        catBadge.textContent = props.irishCatLabel || props.category;
+        // Category badge(s) — for Heritage Ireland show all categories as separate badges
+        if (props.org === 'heritage-ireland' && props.irishCatLabels) {
+            const allCats = props.irishCatLabels.split('|');
+            // Colour map matching the original heritage-ireland app
+            const IRELAND_CAT_COLORS = {
+                'Castles':                   '#c0392b',
+                'Religious sites':           '#8e44ad',
+                'Gardens':                   '#27ae60',
+                'Prehistoric monuments':     '#d35400',
+                'Historic Houses & Estates': '#2980b9',
+                'Rebellion & Revolution':    '#922b21',
+                'Parks':                     '#16a085',
+                'Iconic Sites':              '#f39c12',
+            };
+            // Replace the single badge with one per category
+            catBadge.style.display = 'none';
+            // Remove any previously injected multi-badges
+            catBadge.parentElement.querySelectorAll('.hi-cat-badge').forEach(el => el.remove());
+            allCats.forEach(cat => {
+                const span = document.createElement('span');
+                span.className = 'badge hi-cat-badge';
+                span.textContent = cat;
+                span.style.background = IRELAND_CAT_COLORS[cat] || '#7f8c8d';
+                span.style.color = '#fff';
+                catBadge.insertAdjacentElement('afterend', span);
+            });
+        } else {
+            catBadge.style.display = '';
+            catBadge.parentElement.querySelectorAll('.hi-cat-badge').forEach(el => el.remove());
+            catBadge.textContent = props.category;
+        }
 
         // Period badge
         if (props.period && props.period !== 'Other') {
