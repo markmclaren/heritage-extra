@@ -68,6 +68,19 @@ class HeritageCombinedExplorer {
             this.rawFeatures = [];
 
             // 1. Cadw Welsh Heritage
+            // Manually designated star sites
+            const CADW_STAR_SITES = new Set([
+                'Castell Conwy',
+                'Castell Caernarfon',
+                'Castell Harlech',
+                'Beaumaris Castle',
+                'Caerphilly Castle',
+                'Raglan Castle',
+                'Chepstow Castle',
+                'Tintern Abbey',
+                "St Davids Bishop's Palace",
+                'Bryn Celli Ddu Chambered Tomb',
+            ]);
             if (cadwRes && cadwRes.features) {
                 cadwRes.features.forEach(f => {
                     const props = f.properties;
@@ -97,7 +110,7 @@ class HeritageCombinedExplorer {
                             org: 'cadw',
                             region: 'uk',
                             isFreeEntry: null,
-                            isTopSite: false,
+                            isTopSite: CADW_STAR_SITES.has(props.name || ''),
                             locationText: null,
                             statusText: null,
                         }
