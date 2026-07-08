@@ -195,6 +195,12 @@ class HeritageCombinedExplorer {
                     if (!visitUrl && props.websiteUrlPath) visitUrl = `https://www.nationaltrust.org.uk${props.websiteUrlPath}`;
                     if (!visitUrl) visitUrl = 'https://www.nationaltrust.org.uk/';
 
+                    // Override known broken image URLs
+                    const NT_IMAGE_OVERRIDES = {
+                        'Waddesdon': 'https://nt.global.ssl.fastly.net/binaries/content/gallery/website/national/regions/oxfordshire-buckinghamshire-berkshire/places/waddesdon-manor/library/summer/parterre-in-summer-at-waddesdon-manor-buckinghamshire-1495313.jpg',
+                    };
+                    const resolvedImageUrl = NT_IMAGE_OVERRIDES[props.title] || props.imageUrl || null;
+
                     this.rawFeatures.push({
                         type: 'Feature',
                         geometry: f.geometry,
@@ -203,7 +209,7 @@ class HeritageCombinedExplorer {
                             title: props.title || 'Unnamed National Trust Site',
                             description: props.description || 'No description available.',
                             visitUrl,
-                            imageUrl: props.imageUrl || null,
+                            imageUrl: resolvedImageUrl,
                             category,
                             period,
                             org: 'national-trust',
