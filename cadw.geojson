@@ -1,0 +1,2595 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.0897035598755,
+          53.264837532536
+        ]
+      },
+      "properties": {
+        "name": "Beaumaris Castle",
+        "description": "Fortress of near-perfect symmetry is an unfinished masterpiece",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/beaumaris-castle",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2025-03/53724-ncx-kc01-1617-0200-web-optimised-1920px.jpg?itok=_yj1wtr_",
+        "location_id": "68c3d38158839",
+        "data_index": "0",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0902051925659,
+          51.776065520052
+        ]
+      },
+      "properties": {
+        "name": "Blaenafon Ironworks",
+        "description": "Giant of the industrial age still stands tall on the shoulders of its\n              workers",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/blaenafon-ironworks",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2020-11/Blaenavon-Cottages---Stack-Square.jpg?itok=Xn4xbxmY",
+        "location_id": "68c3d38171732",
+        "data_index": "1",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "period": "Industrial"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9540348052979,
+          51.610168566223
+        ]
+      },
+      "properties": {
+        "name": "Caerleon Roman Baths",
+        "description": "The luxury and bloodshed of life in a Roman fortress",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/caerleon-roman-baths",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/SVW-C26-1011-0703.JPG?itok=auPnud6q",
+        "location_id": "68c3d38174baa",
+        "data_index": "2",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "period": "Roman"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.276932477951,
+          53.139144410606
+        ]
+      },
+      "properties": {
+        "name": "Castell Caernarfon",
+        "description": "After all these years Caernarfon’s immense strength remains undimmed.",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/castell-caernarfon",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NCX-VH02-1819-0057.jpg?itok=RnsWqcfM",
+        "location_id": "68c3d38178a7a",
+        "data_index": "3",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2202816009521,
+          51.576109398847
+        ]
+      },
+      "properties": {
+        "name": "Caerphilly Castle",
+        "description": "Fear of a Welsh prince inspired the mightiest medieval castle in Wales",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/caerphilly-castle",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/SCX-KC01-1415-0026.jpg?itok=CiyfaqZK",
+        "location_id": "68c3d3817bfa7",
+        "data_index": "4",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2548006805954,
+          51.535864020558
+        ]
+      },
+      "properties": {
+        "name": "Castell Coch",
+        "description": "Fairy-tale castle was a plaything for the rich and powerful",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/castell-coch",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2024-07/Fairy-wrap-1.jpg?itok=1mcCt3Ez",
+        "location_id": "68c3d3817ea82",
+        "data_index": "5",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.6751708984375,
+          51.644122306464
+        ]
+      },
+      "properties": {
+        "name": "Chepstow Castle",
+        "description": "The stones of this magnificent clifftop fortress trace 600 years of\n              history",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/chepstow-castle",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2025-03/34129-scx-vh07-1718-0122-web-optimised-1920px.jpg?itok=MUcEQUBI",
+        "location_id": "68c3d38182d2a",
+        "data_index": "6",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.6369496989064,
+          52.056731167514
+        ]
+      },
+      "properties": {
+        "name": "Castell Cilgerran",
+        "description": "Spectacular castle that wasn’t quite as secure as the Normans hoped",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/castell-cilgerran",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2025-03/IMG_20230709_162623201.jpg?itok=5pbbWM-C",
+        "location_id": "68c3d38185c5d",
+        "data_index": "7",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8256239891052,
+          53.280059392552
+        ]
+      },
+      "properties": {
+        "name": "Castell Conwy",
+        "description": "Magnificent medieval fortress still towers over town after 700 years",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/castell-conwy",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NCX-VH08-1718-0091.jpg?itok=exOU_lbO",
+        "location_id": "68c3d3818857b",
+        "data_index": "8",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.2324829101562,
+          52.916044769379
+        ]
+      },
+      "properties": {
+        "name": "Castell Cricieth",
+        "description": "Spectacular coastal castle built – and destroyed – by powerful Welsh\n              princes",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/castell-cricieth",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NVW-C10-1415-0006.JPG?itok=_x6b1K9w",
+        "location_id": "68c3d3818b856",
+        "data_index": "9",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.4188508989064,
+          53.180874850561
+        ]
+      },
+      "properties": {
+        "name": "Denbigh Castle",
+        "description": "Mighty fortress evokes the drama of medieval warfare",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/denbigh-castle",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/SCX-EQ78-1213-000-3.jpg?itok=_XO0kajx",
+        "location_id": "68c3d3818f4be",
+        "data_index": "10",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.9082145690918,
+          53.05297734742
+        ]
+      },
+      "properties": {
+        "name": "Castell Dolwyddelan",
+        "description": "Commanding Welsh stronghold in spectacular mountain setting",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/castell-dolwyddelan",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NCX-SC01-1516-0528.jpg?itok=Jmq5WzwT",
+        "location_id": "68c3d38192425",
+        "data_index": "11",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.1110056640355,
+          52.85959950484
+        ]
+      },
+      "properties": {
+        "name": "Castell Harlech",
+        "description": "None of Edward I’s mighty coastal fortresses has a more spectacular\n              setting",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/castell-harlech",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NCX-KC02-1617-0008.jpg?h=28faa4f6&itok=fVdbbOUQ",
+        "location_id": "68c3d38195d5d",
+        "data_index": "12",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.308319688007,
+          51.740108692104
+        ]
+      },
+      "properties": {
+        "name": "Kidwelly Castle",
+        "description": "Norman stronghold is a match for the greatest castles of Wales",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/kidwelly-castle",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2025-03/39229-kidwelly-castle-carmarthenshire-web-optimised-1920px.jpg?itok=iccesl-C",
+        "location_id": "68c3d38198c03",
+        "data_index": "13",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.462251663208,
+          51.770017601859
+        ]
+      },
+      "properties": {
+        "name": "Laugharne Castle",
+        "description": "Mighty medieval castle, Tudor mansion and poet’s hideout",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/laugharne-castle",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-06/SCX-VH09-1718-0088.jpg?itok=Tudj2EWp",
+        "location_id": "68c3d3819bda3",
+        "data_index": "14",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7306523323059,
+          51.563305615582
+        ]
+      },
+      "properties": {
+        "name": "Margam Stones Museum",
+        "description": "Magnificent carved stones reach back to the dawn of Christianity in\n              Wales",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/margam-stones-museum",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/SCX-SC01-1516-0143.jpg?itok=aDSmCfxJ",
+        "location_id": "68c3d381a03f2",
+        "data_index": "15",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Religious sites",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.1684532165527,
+          51.555514883268
+        ]
+      },
+      "properties": {
+        "name": "Castell Oxwich",
+        "description": "A castle in name only but hugely impressive",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/castell-oxwich",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/SCX-BZ06-0910-0013.jpg?itok=Y17XZp-N",
+        "location_id": "68c3d381a398d",
+        "data_index": "16",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles",
+        "period": "Tudor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8298296928406,
+          53.281124238681
+        ]
+      },
+      "properties": {
+        "name": "Plas Mawr",
+        "description": "Britain’s finest town house of the golden Elizabethan age",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/plas-mawr",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2023-07/NCX-EQ51-1314-0106.jpg?itok=ocCi3s7x",
+        "location_id": "68c3d381a6bba",
+        "data_index": "17",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Historic houses",
+        "period": "Tudor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.8499221801758,
+          51.770163664318
+        ]
+      },
+      "properties": {
+        "name": "Raglan Castle",
+        "description": "Welsh fortress-palace transformed into regal residence",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/raglan-castle",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/SVW-C29-1314-0340.JPG?itok=pze7lX3D",
+        "location_id": "68c3d381ab5ee",
+        "data_index": "18",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles",
+        "period": "Tudor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.4646415710449,
+          53.289231594475
+        ]
+      },
+      "properties": {
+        "name": "Castell Rhuddlan",
+        "description": "Awesome feat of engineering still towers above the River Clwyd",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/castell-rhuddlan",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NCX-EQ50-1314-0044.jpg?itok=8H_4nFAA",
+        "location_id": "68c3d381af69a",
+        "data_index": "19",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3942818641663,
+          52.984216521907
+        ]
+      },
+      "properties": {
+        "name": "Rug Chapel",
+        "description": "Extravagant private chapel of an arch Royalist who clung to the old\n              ways",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/rug-chapel",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NVW-C56-1314-0021.jpg?h=fc598a34&itok=yplXEkWv",
+        "location_id": "68c3d381b50b3",
+        "data_index": "20",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Religious sites"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.2696180343628,
+          51.882153741025
+        ]
+      },
+      "properties": {
+        "name": "St Davids Bishop's Palace",
+        "description": "Magnificent medieval palace that rivalled its cathedral for glory",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/st-davids-bishops-palace",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2023-04/St-Davids-Bishop%27s-Palace---visitors.jpg?itok=k8n9B8cQ",
+        "location_id": "68c3d381b9997",
+        "data_index": "21",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": [
+          "Historic houses",
+          "Religious sites"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8385307788849,
+          52.275372480032
+        ]
+      },
+      "properties": {
+        "name": "Strata Florida Abbey",
+        "description": "Grand medieval abbey where generations of Welsh princes are buried",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/strata-florida-abbey",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2021-03/Strata-Florida-Abbey-gates_0.jpg?itok=S4a0diTc",
+        "location_id": "68c3d381bd813",
+        "data_index": "22",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Religious sites"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.6770327496342,
+          51.696752895524
+        ]
+      },
+      "properties": {
+        "name": "Tintern Abbey",
+        "description": "Gothic masterpiece became a Romantic symbol of the sublime",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/tintern-abbey",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/SVW-C29-1314-0066.JPG?h=6103f89c&itok=l6cpm250",
+        "location_id": "68c3d381c14a0",
+        "data_index": "23",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Religious sites"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1840181350708,
+          51.883378924973
+        ]
+      },
+      "properties": {
+        "name": "Tretower Court and Castle",
+        "description": "Two-in-one architectural wonder spans 900 years of history.",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/tretower-court-and-castle",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2025-03/50634-mcx-vh01-1819-0084-web-optimised-1920px.jpg?itok=sLSZZrs0",
+        "location_id": "68c3d381c43ca",
+        "data_index": "24",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": [
+          "Castles",
+          "Historic houses"
+        ],
+        "period": [
+          "Medieval",
+          "Tudor"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1867861747742,
+          52.988692470464
+        ]
+      },
+      "properties": {
+        "name": "Valle Crucis Abbey",
+        "description": "Majestic medieval abbey was legendary for its lavish feasts",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/valle-crucis-abbey",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NVW-C10-1314-0213.jpg?itok=YyYhJWon",
+        "location_id": "68c3d381c768a",
+        "data_index": "25",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Religious sites"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.1999812971908,
+          51.612330964129
+        ]
+      },
+      "properties": {
+        "name": "Weobley Castle",
+        "description": "High-society home with its very own watchtower",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/weobley-castle",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/SVW-C01-0809-0528.JPG?itok=pB5yjwpx",
+        "location_id": "68c3d381cb58e",
+        "data_index": "26",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.9356374740601,
+          51.854389410248
+        ]
+      },
+      "properties": {
+        "name": "Castell Carreg Cennen",
+        "description": "Iconic ruin offers an unforgettably romantic experience",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/castell-carreg-cennen",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/S126-231-D.JPG?itok=CgLdwP8L",
+        "location_id": "68c3d381cddf0",
+        "data_index": "27",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.5036220550537,
+          53.207317716593
+        ]
+      },
+      "properties": {
+        "name": "Barclodiad y Gawres Chambered Tomb",
+        "description": "An atmospheric tomb with rare examples of prehistoric art",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/barclodiad-y-gawres-chambered-tomb",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NVW-C78-1112-1076.JPG?itok=hZ6QC4F6",
+        "location_id": "68c3d381d42d4",
+        "data_index": "28",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Burial chamber",
+        "period": "Prehistoric"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2076001167297,
+          53.28810281433
+        ]
+      },
+      "properties": {
+        "name": "Basingwerk Abbey",
+        "description": "A medieval religious centre that’s still a place of pilgrimage",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/basingwerk-abbey",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NCX-SC01-1516-0468.jpg?itok=yiUsEMSy",
+        "location_id": "68c3d381da50d",
+        "data_index": "29",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Religious sites",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.3030142784119,
+          53.188280480974
+        ]
+      },
+      "properties": {
+        "name": "Bodowyr Chambered Tomb",
+        "description": "Neolithic standing stones still shrouded in mystery",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/bodowyr-chambered-tomb",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NCX-SC01-1516-0058_0.jpg?itok=wK9iQ-Kf",
+        "location_id": "68c3d381de1d3",
+        "data_index": "30",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Burial chamber",
+        "period": "Prehistoric"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.4529704159934,
+          51.956746713047
+        ]
+      },
+      "properties": {
+        "name": "Y Gaer Roman Fort",
+        "description": "Rural remains of a major military outpost",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/y-gaer-roman-fort",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/MCX-BZ01-1112-0011.jpg?itok=EzvOK1aa",
+        "location_id": "68c3d381e361e",
+        "data_index": "31",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "period": "Roman"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2405161857605,
+          52.003615265472
+        ]
+      },
+      "properties": {
+        "name": "Castell Bronllys",
+        "description": "Sturdy stone tower with a turbulent history",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/castell-bronllys",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/MCX-BZ07-0910-009.jpg?itok=vdAfeLhb",
+        "location_id": "68c3d381e8e67",
+        "data_index": "32",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.2396926879883,
+          53.204798756903
+        ]
+      },
+      "properties": {
+        "name": "Bryn Celli Ddu Chambered Tomb",
+        "description": "Iconic Neolithic tomb with a celestial secret",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/bryn-celli-ddu-chambered-tomb",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NVW-C71-1011-0171.JPG?itok=eBqRTezY",
+        "location_id": "68c3d381ee639",
+        "data_index": "33",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Burial chamber",
+        "period": "Prehistoric"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.6005973815918,
+          52.468717109426
+        ]
+      },
+      "properties": {
+        "name": "Bryn-tail Leadworks",
+        "description": "Peaceful remains of a busy industrial hub",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/bryn-tail-leadworks",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/MCX-BZ05-0910-001.jpg?itok=4I0N3LeD",
+        "location_id": "68c3d381f208e",
+        "data_index": "34",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "period": "Industrial"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.2312490940094,
+          53.09206542817
+        ]
+      },
+      "properties": {
+        "name": "Cae'r Gors",
+        "description": "Childhood home of a literary heroine and showcase for a unique\n              industrial landscape",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/caer-gors",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NCX-EQ50-1213-0217.jpg?itok=ftSJFPe7",
+        "location_id": "68c3d38201719",
+        "data_index": "35",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Historic houses",
+        "period": "Industrial"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.6322877112205,
+          53.311620025702
+        ]
+      },
+      "properties": {
+        "name": "Caer Gybi Roman Fort",
+        "description": "Northern military outpost in a strategic coastal location",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/caer-gybi-roman-fort",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NVW-C71-1011-0002.JPG?itok=m5WGxoAu",
+        "location_id": "68c3d382068c0",
+        "data_index": "36",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "period": "Roman"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.28674,
+          53.1818663
+        ]
+      },
+      "properties": {
+        "name": "Caer Lêb Romano-British Farm",
+        "description": "Prehistoric settlement with Roman and medieval connections",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/caer-leb-romano-british-farm",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/Caer%20Leb%20011-000-916.jpg?itok=ykll6uP7",
+        "location_id": "68c3d38209319",
+        "data_index": "37",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "period": "Prehistoric"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.6755542639028,
+          53.313362618479
+        ]
+      },
+      "properties": {
+        "name": "Caer y Twr Roman Watchtower",
+        "description": "Iron Age settlement in a spectacular mountaintop location",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/caer-y-twr-roman-watchtower",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NVW-C71-1011-0201.JPG?itok=tpO72vY3",
+        "location_id": "68c3d3820dd8b",
+        "data_index": "38",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "period": "Prehistoric"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9568874,
+          51.6080496
+        ]
+      },
+      "properties": {
+        "name": "Caerleon Roman Amphitheatre",
+        "description": "Blood-soaked Roman entertainment meets Arthurian myth",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/caerleon-roman-amphitheatre",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/SVW-C16-1011-0048-ALT.JPG?itok=eedtBic3",
+        "location_id": "68c3d38213813",
+        "data_index": "39",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "period": "Roman"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7710223197937,
+          51.61168763649
+        ]
+      },
+      "properties": {
+        "name": "Caer-went Roman Town",
+        "description": "A glimpse into a Romanised market town",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/caer-went-roman-town",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/SCX-VH07-1718-0330.jpg?itok=lQimQJuz",
+        "location_id": "68c3d3821645a",
+        "data_index": "40",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "period": "Roman"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7658214569092,
+          53.07301571032
+        ]
+      },
+      "properties": {
+        "name": "Capel Garmon Chambered Tomb",
+        "description": "Neolithic burial chamber in an unexplained location",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/capel-garmon-chambered-tomb",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NVW-C69-1112-0201.JPG?itok=0sruxQ3M",
+        "location_id": "68c3d3821904b",
+        "data_index": "41",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Burial chamber",
+        "period": "Prehistoric"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.2564609,
+          53.3523637
+        ]
+      },
+      "properties": {
+        "name": "Capel Llugwy",
+        "description": "Possibly all that’s left of a vanished community",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/capel-llugwy",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NCX-SC01-1516-0497.jpg?itok=UP2F14RH",
+        "location_id": "68c3d3821f1a9",
+        "data_index": "42",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Religious sites",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.8277666511734,
+          51.698019987428
+        ]
+      },
+      "properties": {
+        "name": "Carew Cross",
+        "description": "Celtic art, Cadw icon",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/carew-cross",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/SVW-C81-1011-0069.JPG?itok=Ti_qAcFn",
+        "location_id": "68c3d38223edc",
+        "data_index": "43",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.8282551765442,
+          52.018592439773
+        ]
+      },
+      "properties": {
+        "name": "Carreg Coetan Arthur Chambered Tomb",
+        "description": "Neolithic tomb with links to Arthurian myth",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/carreg-coetan-arthur-chambered-tomb",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/SCX-SC01-1516-0022.jpg?itok=ZGE3pg8y",
+        "location_id": "68c3d38227cb3",
+        "data_index": "44",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Burial chamber",
+        "period": "Prehistoric"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.7523388544922,
+          51.675996977199
+        ]
+      },
+      "properties": {
+        "name": "Carswell Medieval House",
+        "description": "Through the keyhole of a modest medieval home",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/carswell-medieval-house",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/SCX-SC01-1516-0026.jpg?itok=YiU5rDqX",
+        "location_id": "68c3d3822b3ea",
+        "data_index": "45",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.2979717254639,
+          53.178469341035
+        ]
+      },
+      "properties": {
+        "name": "Castell Bryngwyn Prehistoric Enclosure",
+        "description": "Prehistoric site with an extensive history",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/castell-bryngwyn-prehistoric-enclosure",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/Castell%20Bryn%20Gwyn%20032-000-924.jpg?itok=uPVei-Ca",
+        "location_id": "68c3d38231095",
+        "data_index": "46",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "period": "Prehistoric"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.9708193,
+          52.6583699
+        ]
+      },
+      "properties": {
+        "name": "Castell y Bere",
+        "description": "Architectural ingenuity and natural advantages combine in a must-visit\n              Welsh-built fortress",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/castell-y-bere",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NCX-SC01-1516-0090.jpg?itok=dFkJFSjX",
+        "location_id": "68c3d38233a2e",
+        "data_index": "47",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.6688896343628,
+          51.631466867227
+        ]
+      },
+      "properties": {
+        "name": "Bulwarks Prehistoric Enclosure",
+        "description": "Hidden remnants of an Iron Age fort",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/bulwarks-prehistoric-enclosure",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/SCX-SC01-1516-0032.jpg?itok=XE1DdoB5",
+        "location_id": "68c3d38237173",
+        "data_index": "48",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "period": "Prehistoric"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.6755444369095,
+          51.639889771004
+        ]
+      },
+      "properties": {
+        "name": "Chepstow Port Wall",
+        "description": "Extensive remains of medieval town walls",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/chepstow-port-wall",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/SCX-VH07-1718-0181.jpg?itok=XntUbCiD",
+        "location_id": "68c3d3823a37a",
+        "data_index": "49",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5542429,
+          51.522189
+        ]
+      },
+      "properties": {
+        "name": "Castell Coety",
+        "description": "Romantic ruined castle, a storyboard in stone",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/castell-coety",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/SCX-DR02-1718-0048.jpg?itok=FBW2iA5_",
+        "location_id": "68c3d3823f156",
+        "data_index": "50",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.826731120155,
+          53.279905278565
+        ]
+      },
+      "properties": {
+        "name": "Conwy Town Walls",
+        "description": "Walking the walls of a World Heritage Site",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/conwy-town-walls",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NVW-C27-1011-0363.JPG?itok=fGkjVZGo",
+        "location_id": "68c3d38245725",
+        "data_index": "51",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.896187543869,
+          52.758346975693
+        ]
+      },
+      "properties": {
+        "name": "Cymer Abbey",
+        "description": "An example of Cistercian influence in medieval Wales",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/cymer-abbey",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2025-03/47935-ncx-bz04-0910-045-web-optimised-1920px.jpg?itok=ehiBLkqT",
+        "location_id": "68c3d382496f7",
+        "data_index": "52",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Religious sites",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.4093760000001,
+          53.1877594
+        ]
+      },
+      "properties": {
+        "name": "Denbigh Friary Church",
+        "description": "Ruined religious settlement laid low by Henry VIII",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/denbigh-friary-church",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NCX-SC01-1516-0115.jpg?itok=AkSca6Ni",
+        "location_id": "68c3d3824cf85",
+        "data_index": "53",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Religious sites",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.4208250045776,
+          53.182603666401
+        ]
+      },
+      "properties": {
+        "name": "Denbigh Town Walls",
+        "description": "The first line of defence for Denbigh’s medieval castle",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/denbigh-town-walls",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NCX-SC01-1516-0119.jpg?itok=d94q78Hx",
+        "location_id": "68c3d38250e14",
+        "data_index": "54",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.4190062114484,
+          53.182182055131
+        ]
+      },
+      "properties": {
+        "name": "Earl of Leicester's Church",
+        "description": "Remains of an ill-fated Elizabethan church",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/earl-leicesters-church",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NCX-SC01-1516-0116.jpg?itok=sYM8ifYu",
+        "location_id": "68c3d38254d5d",
+        "data_index": "55",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Religious sites",
+        "period": "Tudor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.4198695112125,
+          53.18173634567
+        ]
+      },
+      "properties": {
+        "name": "St Hilary's Chapel",
+        "description": "Simple town church that welcomed a celebrity congregation",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/st-hilarys-chapel",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2025-03/8499-scx-vh07-1920-0013-web-optimised-1920px.jpg?itok=J7kk3LNy",
+        "location_id": "68c3d38257b2b",
+        "data_index": "56",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Religious sites",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3882903,
+          53.0456881
+        ]
+      },
+      "properties": {
+        "name": "Derwen Cross",
+        "description": "Preaching cross with striking Christian carvings that has stood the\n              test of time",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/derwen-cross",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2025-03/24759-ncx-sc01-1516-0127-web-optimised-1920px.jpg?h=87c4992d&itok=K-dfVqGl",
+        "location_id": "68c3d3825bf19",
+        "data_index": "57",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.4046624156393,
+          53.225231779765
+        ]
+      },
+      "properties": {
+        "name": "Din Dryfol Chambered Tomb",
+        "description": "Burial site and time capsule from the Neolithic period",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/din-dryfol-chambered-tomb",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NCX-SC01-1516-0128.jpg?itok=5_ppZ3Dz",
+        "location_id": "68c3d382645b1",
+        "data_index": "58",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Burial chamber",
+        "period": "Prehistoric"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.2589837,
+          53.3505466
+        ]
+      },
+      "properties": {
+        "name": "Din Llugwy Romano-British Village",
+        "description": "Revealing late Roman settlement – but was it originally from the Iron\n              Age?",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/din-llugwy-romano-british-village",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NCX-SC01-1516-0519.jpg?itok=kguz2sYD",
+        "location_id": "68c3d38269223",
+        "data_index": "59",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "period": [
+          "Prehistoric",
+          "Roman"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.018120765686,
+          51.876570453029
+        ]
+      },
+      "properties": {
+        "name": "Castell Dinefwr",
+        "description": "Much fought-over seat of the kingdom of Deheubarth",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/castell-dinefwr",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/SCX-VH09-1718-0175.jpg?itok=C9AFWH7B",
+        "location_id": "68c3d3826c821",
+        "data_index": "60",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.1140687,
+          53.1165225
+        ]
+      },
+      "properties": {
+        "name": "Castell Dolbadarn",
+        "description": "Welsh castle and solitary guardian of Eryri's (Snowdonia’s)\n              Llanberis Pass",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/castell-dolbadarn",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NCX-SC01-1516-0522.jpg?itok=17vO94yK",
+        "location_id": "68c3d3826eeda",
+        "data_index": "61",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2518354,
+          52.5463695
+        ]
+      },
+      "properties": {
+        "name": "Castell Dolforwyn",
+        "description": "Ruined symbol of Welsh defiance",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/castell-dolforwyn",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NVW-C07-0708-0002.JPG?itok=dmQDz_jG",
+        "location_id": "68c3d38271fb6",
+        "data_index": "62",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.1013889,
+          51.8625
+        ]
+      },
+      "properties": {
+        "name": "Castell Dryslwyn",
+        "description": "Fragmentary – yet evocative – remains of a castle laid low by conflict",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/castell-dryslwyn",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/S132-230-D.JPG?itok=8uJ3RgTJ",
+        "location_id": "68c3d382768bd",
+        "data_index": "63",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.0944273,
+          52.7846596
+        ]
+      },
+      "properties": {
+        "name": "Dyffryn Ardudwy Chambered Tomb",
+        "description": "Neighbouring tombs built several generations apart",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/dyffryn-ardudwy-chambered-tomb",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NVW-C69-1112-0012.JPG?itok=2Mf7SzFR",
+        "location_id": "68c3d3827a190",
+        "data_index": "64",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Burial chamber",
+        "period": "Prehistoric"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.9403059,
+          52.5384656
+        ]
+      },
+      "properties": {
+        "name": "Dyfi Furnace",
+        "description": "Perfectly-preserved example of Welsh industrial heritage in a sublime\n              rural setting",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/dyfi-furnace",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/MCX-AQZ-0009-4429.jpg?itok=l_DlDLcp",
+        "location_id": "68c3d38281076",
+        "data_index": "65",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "period": "Industrial"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1892812999999,
+          52.9921228
+        ]
+      },
+      "properties": {
+        "name": "Eliseg's Pillar",
+        "description": "Unpicking the mysteries of this early Christian cross",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/elisegs-pillar",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NCX-SC01-1516-0143.jpg?itok=harknvTK",
+        "location_id": "68c3d3828d3dc",
+        "data_index": "66",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5679978000001,
+          51.4886085
+        ]
+      },
+      "properties": {
+        "name": "Ewenni Priory",
+        "description": "An unusually warlike religious settlement",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/ewenni-priory",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/SVW-C17-0910-0146.JPG?itok=XHKS0Gkj",
+        "location_id": "68c3d38290523",
+        "data_index": "67",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Religious sites",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0671509,
+          53.1999564
+        ]
+      },
+      "properties": {
+        "name": "Castell Ewloe",
+        "description": "Native-built castle in an unconventional forest setting",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/castell-ewloe",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NCX-SC01-1516-0144.jpg?itok=AmG-dRRC",
+        "location_id": "68c3d38293162",
+        "data_index": "68",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1299039,
+          53.2517575
+        ]
+      },
+      "properties": {
+        "name": "Flint Castle",
+        "description": "The earliest and most unusual of Wales’s English-built castles",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/flint-castle",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NCX-DR01-1718-0018.jpg?itok=OV3f-90h",
+        "location_id": "68c3d382985ec",
+        "data_index": "69",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.8659858999999,
+          51.9153395
+        ]
+      },
+      "properties": {
+        "name": "Grosmont Castle",
+        "description": "Big on the border",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/grosmont-castle",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/SVW-C29-1314-0247.JPG?itok=wltsd0JQ",
+        "location_id": "68c3d3829bbcc",
+        "data_index": "70",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8027924,
+          53.1319062
+        ]
+      },
+      "properties": {
+        "name": "Capel Gwydir Uchaf",
+        "description": "Look upwards to lift the spirits",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/capel-gwydir-uchaf",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NCX-SC01-1516-0152.jpg?itok=v6blWA9x",
+        "location_id": "68c3d382a01c8",
+        "data_index": "71",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Religious sites"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.1559582816215,
+          53.279713281374
+        ]
+      },
+      "properties": {
+        "name": "Hafoty Medieval House",
+        "description": "From timber to stone",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/hafoty-medieval-house",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NCX-SC01-1516-0154.jpg?itok=7KPnOD5L",
+        "location_id": "68c3d382a3054",
+        "data_index": "72",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Historic houses",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.9644936,
+          51.7982053
+        ]
+      },
+      "properties": {
+        "name": "Haverfordwest Priory",
+        "description": "Religious men with green fingers",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/haverfordwest-priory",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/SCX-SC01-1516-0065.jpg?itok=kNiBe8Gh",
+        "location_id": "68c3d382a71b2",
+        "data_index": "73",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Religious sites",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.8782263000001,
+          51.8315282
+        ]
+      },
+      "properties": {
+        "name": "Hen Gwrt Medieval Moated Site",
+        "description": "A well-preserved moat protecting a vanished manor",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/hen-gwrt-medieval-moated-site",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/SVW-C27-0809-0185.JPG?itok=ymmflDX4",
+        "location_id": "68c3d382aa625",
+        "data_index": "74",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Historic houses",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.4769487999999,
+          51.7176599
+        ]
+      },
+      "properties": {
+        "name": "Worker's House",
+        "description": "A terraced time capsule",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/workers-house",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2020-11/Heritage-Cottage-Aberdare.jpg?itok=yl40UyIA",
+        "location_id": "68c3d382ad5bf",
+        "data_index": "75",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Historic houses",
+        "period": "Industrial"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.6859693527222,
+          53.304377451528
+        ]
+      },
+      "properties": {
+        "name": "Holyhead Mountain Prehistoric Village",
+        "description": "A farming community from the past",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/holyhead-mountain-prehistoric-village",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NVW-C71-1011-0018.JPG?itok=zqJF8Btk",
+        "location_id": "68c3d382b5fcc",
+        "data_index": "76",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Historic houses",
+        "period": "Prehistoric"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.8675541278111,
+          51.672329759547
+        ]
+      },
+      "properties": {
+        "name": "Lamphey Bishop's Palace",
+        "description": "A bishop’s tipple",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/lamphey-bishops-palace",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/SCX-VH09-1718-0081.jpg?itok=lpEJR1oU",
+        "location_id": "68c3d382b9405",
+        "data_index": "77",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Religious sites",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3957665819702,
+          52.971308171756
+        ]
+      },
+      "properties": {
+        "name": "Llangar Old Church",
+        "description": "The writing’s on the wall",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/llangar-old-church",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NCX-SC01-1516-0180.jpg?itok=loezrvBi",
+        "location_id": "68c3d382bc39e",
+        "data_index": "78",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Religious sites",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7788511,
+          51.6289583
+        ]
+      },
+      "properties": {
+        "name": "Llanmelin Wood Hillfort",
+        "description": "Who lived here?",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/llanmelin-wood-hillfort",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/SCX-SC01-1516-0096.jpg?itok=8dkFInGj",
+        "location_id": "68c3d382c02e4",
+        "data_index": "79",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "period": "Prehistoric"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.3906145999999,
+          51.7654814
+        ]
+      },
+      "properties": {
+        "name": "Castell Llansteffan",
+        "description": "A prime piece of real estate",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/castell-llansteffan",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2025-03/686365-svw-g44-2425-0007-web-optimised-1920px.jpg?itok=Lj-5PFsi",
+        "location_id": "68c3d382c443c",
+        "data_index": "80",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0369365215302,
+          51.944641849912
+        ]
+      },
+      "properties": {
+        "name": "Llanthony Priory",
+        "description": "A timeless treasure",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/llanthony-priory",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/SCX-BZ09-1819-0010.jpg?itok=I0JbM0wk",
+        "location_id": "68c3d382c913e",
+        "data_index": "81",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Religious sites",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.7976029,
+          51.8223275
+        ]
+      },
+      "properties": {
+        "name": "Llawhaden Castle",
+        "description": "Forgotten castle-cum-mansion that stays in the memory",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/llawhaden-castle",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/SVW-B03-0607-0075_0.JPG?itok=NuWWmWFU",
+        "location_id": "68c3d382ce288",
+        "data_index": "82",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.870913028717,
+          51.827164929449
+        ]
+      },
+      "properties": {
+        "name": "Wiston Castle",
+        "description": "Well-preserved motte-and-bailey with a turbulent history",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/wiston-castle",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/SVW-C81-1011-0016.JPG?itok=5CrAcWaW",
+        "location_id": "68c3d382d2174",
+        "data_index": "83",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.2529207,
+          53.3499375
+        ]
+      },
+      "properties": {
+        "name": "Llugwy Chambered Tomb",
+        "description": "A true heavyweight",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/llugwy-chambered-tomb",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NVW-C71-1011-0074.JPG?itok=s0-cxlFg",
+        "location_id": "68c3d382d55e6",
+        "data_index": "84",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Burial chamber",
+        "period": "Prehistoric"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.0773013,
+          51.6624199
+        ]
+      },
+      "properties": {
+        "name": "Loughor Castle",
+        "description": "Thou shalt not cross",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/loughor-castle",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2025-03/50943-scx-dr02-1920-0025-web-optimised-1920px.jpg?itok=eGfI5RJ1",
+        "location_id": "68c3d382d9294",
+        "data_index": "85",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3085457,
+          53.2986795
+        ]
+      },
+      "properties": {
+        "name": "Maen Achwyfan Cross",
+        "description": "The art of the Vikings",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/maen-achwyfan-cross",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NCX-SC01-1516-0186.jpg?itok=SWiUC650",
+        "location_id": "68c3d382dcd92",
+        "data_index": "86",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7171573000001,
+          51.8123527
+        ]
+      },
+      "properties": {
+        "name": "Monmouth Castle",
+        "description": "Ruined castle with a regal history",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/monmouth-castle",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/SCX-SC01-1516-0152.jpg?itok=geGrJpxv",
+        "location_id": "68c3d382dfacd",
+        "data_index": "87",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1498676,
+          52.5634601
+        ]
+      },
+      "properties": {
+        "name": "Montgomery Castle",
+        "description": "More than the sum of its parts",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/montgomery-castle",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/MCX-SC01-1516-0042.jpg?itok=9o_UaxTr",
+        "location_id": "68c3d382e384d",
+        "data_index": "88",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8265076786157,
+          51.660553045808
+        ]
+      },
+      "properties": {
+        "name": "Neath Abbey",
+        "description": "A site of power – both religious and industrial",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/neath-abbey",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2025-03/26583-abaty-nedd-neath-abbey-web-optimised-1920px.jpg?itok=pKXISmMF",
+        "location_id": "68c3d382e874b",
+        "data_index": "89",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Religious sites",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5832143,
+          51.5088921
+        ]
+      },
+      "properties": {
+        "name": "Newcastle Castle",
+        "description": "A castle built to last",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/newcastle-castle",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/SVW-C23-1213-0172.JPG?itok=QJPRGMOD",
+        "location_id": "68c3d382eaed6",
+        "data_index": "90",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9950220000001,
+          51.5907607
+        ]
+      },
+      "properties": {
+        "name": "Newport Castle",
+        "description": "Final remains of a significant waterfront fortress",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/newport-castle",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/SVW-C25-1011-0019.JPG?itok=z6-Spddu",
+        "location_id": "68c3d382eefe1",
+        "data_index": "91",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.6115193000001,
+          51.4806479
+        ]
+      },
+      "properties": {
+        "name": "Ogmore Castle",
+        "description": "Step into the past",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/ogmore-castle",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/SCX-DR02-1718-0058.jpg?itok=4rjnCzAR",
+        "location_id": "68c3d382f4121",
+        "data_index": "92",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.427316,
+          51.4389017
+        ]
+      },
+      "properties": {
+        "name": "Old Beaupre Castle",
+        "description": "Medieval manor with extravagant Tudor additions and status symbols",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/old-beaupre-castle",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/S123-420-D.JPG?itok=JcH7hQty",
+        "location_id": "68c3d38304728",
+        "data_index": "93",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles",
+        "period": [
+          "Medieval",
+          "Tudor"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.1126106,
+          51.5883328
+        ]
+      },
+      "properties": {
+        "name": "Parc le Breos Chambered Tomb",
+        "description": "Superb example of a Neolithic chambered tomb",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/parc-le-breos-chambered-tomb",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/SCX-BZ06-0910-0019.jpg?itok=MapsQirX",
+        "location_id": "68c3d38307580",
+        "data_index": "94",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Burial chamber",
+        "period": "Prehistoric"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.3522144999999,
+          52.9131819
+        ]
+      },
+      "properties": {
+        "name": "Pennarth Fawr",
+        "description": "Rare stone-built dwelling with impressive timbered supports",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/pennarth-fawr",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NVW-C16-1314-0535.JPG?itok=ftba6IbP",
+        "location_id": "68c3d3830ce3d",
+        "data_index": "95",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Historic houses",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.0564130806613,
+          53.306145166324
+        ]
+      },
+      "properties": {
+        "name": "Penmon Priory, Cross and St Seiriol’s Well",
+        "description": "Three for the price of one at this important holy site",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/penmon-priory-cross-and-st-seiriols-well",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NVW-C71-1011-0251.jpg?itok=R2UfRKtN",
+        "location_id": "68c3d38314c13",
+        "data_index": "96",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Religious sites",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.66179728508,
+          53.295734326514
+        ]
+      },
+      "properties": {
+        "name": "Penrhosfeilw Standing Stones",
+        "description": "Bronze Age standing stones shrouded in mystery",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/penrhosfeilw-standing-stones",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NVW-C71-1011-0045.JPG?itok=uxgJ_6l9",
+        "location_id": "68c3d38319181",
+        "data_index": "97",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "period": "Prehistoric"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.7700056,
+          51.998976
+        ]
+      },
+      "properties": {
+        "name": "Pentre Ifan Chambered Tomb",
+        "description": "Skeletal remains of a Neolithic tomb in haunting location",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/pentre-ifan-chambered-tomb",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/SVW-C21-1314-0335.JPG?itok=p4BYFxIO",
+        "location_id": "68c3d38320905",
+        "data_index": "98",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Burial chamber",
+        "period": "Prehistoric"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.6893551000001,
+          52.7107884
+        ]
+      },
+      "properties": {
+        "name": "Pont Minllyn",
+        "description": "Picturesque hidden bridge over the River Dyfi",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/pont-minllyn",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NCX-SC01-1516-0564.jpg?itok=2KMhaefW",
+        "location_id": "68c3d38324afe",
+        "data_index": "99",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.4809898999999,
+          53.2991236
+        ]
+      },
+      "properties": {
+        "name": "Presaddfed Chambered Tomb",
+        "description": "Two of a kind",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/presaddfed-chambered-tomb",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NVW-C71-1011-0134.JPG?itok=pBMCzBnQ",
+        "location_id": "68c3d38331aa0",
+        "data_index": "100",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Burial chamber",
+        "period": "Prehistoric"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7304820411035,
+          51.621051910162
+        ]
+      },
+      "properties": {
+        "name": "Runston Church",
+        "description": "Lonely church of a long-lost village",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/runston-church",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/SCX-SC01-1516-0185.jpg?itok=w9tuebvn",
+        "location_id": "68c3d38337952",
+        "data_index": "101",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Religious sites",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7903659999999,
+          51.878231
+        ]
+      },
+      "properties": {
+        "name": "Skenfrith Castle",
+        "description": "Significant medieval fortress with a substantial central tower",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/skenfrith-castle",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/SVW-C29-1314-0313-1.JPG?itok=n6V-IR4M",
+        "location_id": "68c3d3833f568",
+        "data_index": "102",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.3421433999999,
+          52.9456222
+        ]
+      },
+      "properties": {
+        "name": "St Cybi's Well",
+        "description": "Hidden holy well with possible pagan origins",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/st-cybis-well",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NCX-SC01-1516-0225.jpg?itok=ijnyGJeU",
+        "location_id": "68c3d38343768",
+        "data_index": "103",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Religious sites",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.6797302284946,
+          52.080565194277
+        ]
+      },
+      "properties": {
+        "name": "St Dogmaels Abbey and Coach House",
+        "description": "Century-spanning ruins of a significant religious settlement",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/st-dogmaels-abbey-and-coach-house",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/SCX-SC01-1516-0191.jpg?itok=OGVsSYVS",
+        "location_id": "68c3d383498d2",
+        "data_index": "104",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Religious sites",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2949489,
+          51.4425677
+        ]
+      },
+      "properties": {
+        "name": "St Lythans Chambered Tomb",
+        "description": "Lonely Neolithic tomb with links to Arthurian legend",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/st-lythans-chambered-tomb",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/SCX-SC01-1516-0194.jpg?itok=dnzJVvVW",
+        "location_id": "68c3d3834d12c",
+        "data_index": "105",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Burial chamber",
+        "period": "Prehistoric"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.2687415,
+          51.872239
+        ]
+      },
+      "properties": {
+        "name": "St Non's Chapel",
+        "description": "Reputed birthplace of Wales’s patron saint in uplifting location",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/st-nons-chapel",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/SCX-BZ06-1011-0142.jpg?itok=fVsdVS1U",
+        "location_id": "68c3d3834f848",
+        "data_index": "106",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Religious sites",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.4558064,
+          51.4575602
+        ]
+      },
+      "properties": {
+        "name": "Llanblethian Castle",
+        "description": "Ruined remains of a 14th-century castle",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/llanblethian-castle",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/SCX-SC01-1516-0619.jpg?itok=qEz1BEPc",
+        "location_id": "68c3d38352c90",
+        "data_index": "107",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2236216,
+          53.2772526
+        ]
+      },
+      "properties": {
+        "name": "St Winefride's Chapel and Well",
+        "description": "Still a popular place of pilgrimage",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/st-winefrides-chapel-and-well",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NCX-SC01-1516-0226.jpg?itok=fzTnRMeY",
+        "location_id": "68c3d3835841c",
+        "data_index": "108",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Religious sites",
+        "period": [
+          "Medieval",
+          "Tudor"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.9412915706635,
+          51.620328047219
+        ]
+      },
+      "properties": {
+        "name": "Swansea Castle",
+        "description": "Urban remnants of a once-mighty fortress",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/swansea-castle",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/SVW-C48-1112-0131.JPG?itok=Gka7EwGY",
+        "location_id": "68c3d3835c276",
+        "data_index": "109",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.9920624,
+          51.9765733
+        ]
+      },
+      "properties": {
+        "name": "Talley Abbey",
+        "description": "Skeletal remains of a unique religious settlement",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/talley-abbey",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/SVW-C78-1011-0014.JPG?itok=YAOcHTCN",
+        "location_id": "68c3d38360412",
+        "data_index": "110",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Religious sites",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3077886999999,
+          51.451483
+        ]
+      },
+      "properties": {
+        "name": "Tinkinswood Chambered Tomb",
+        "description": "A spectacular feat of prehistoric engineering",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/tinkinswood-chambered-tomb",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/SCX-SC01-1516-0267.jpg?itok=FvCQvqKz",
+        "location_id": "68c3d38363dd7",
+        "data_index": "111",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Burial chamber",
+        "period": "Prehistoric"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.6143109,
+          53.2932442
+        ]
+      },
+      "properties": {
+        "name": "Trefignath Chambered Tomb",
+        "description": "A trio of tombs",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/trefignath-chambered-tomb",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NVW-C71-1011-0097.JPG?itok=FHXsjaMS",
+        "location_id": "68c3d38367909",
+        "data_index": "112",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Burial chamber",
+        "period": "Prehistoric"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.4926080382843,
+          53.319516540105
+        ]
+      },
+      "properties": {
+        "name": "Tregwehelydd Standing Stone",
+        "description": "Splintered remains of a Bronze Age monument",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/tregwehelydd-standing-stone",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NVW-C71-1011-0150.JPG?itok=4zjfQgDA",
+        "location_id": "68c3d3836c535",
+        "data_index": "113",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "period": "Prehistoric"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.4618608000001,
+          53.2869628
+        ]
+      },
+      "properties": {
+        "name": "Twtil, Castle Motte",
+        "description": "Medieval mound where a long-lost castle once stood",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/twtil-castle-motte",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NCX-SC01-1516-0216.jpg?itok=0BroS6Pf",
+        "location_id": "68c3d38372599",
+        "data_index": "114",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.6214,
+          53.2967
+        ]
+      },
+      "properties": {
+        "name": "Tŷ Mawr Standing Stone",
+        "description": "Solitary, strangely shaped Bronze Age monument",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/ty-mawr-standing-stone",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NCX-SC01-1516-0234.jpg?itok=-yOq_uxF",
+        "location_id": "68c3d38375ed6",
+        "data_index": "115",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "period": "Prehistoric"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.4823656912186,
+          53.235947082758
+        ]
+      },
+      "properties": {
+        "name": "Tŷ Newydd Chambered Tomb",
+        "description": "Prehistoric art and arrowheads",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/ty-newydd-chambered-tomb",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NVW-C71-1011-0120.JPG?itok=W5pdTJKp",
+        "location_id": "68c3d3837aafc",
+        "data_index": "116",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Burial chamber",
+        "period": "Prehistoric"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9020654,
+          51.8459563
+        ]
+      },
+      "properties": {
+        "name": "White Castle",
+        "description": "The shape of things to come? An early glimpse of Edward I’s Welsh\n              castle-building project",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/white-castle",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/SCX-VH11-1718-0080.jpg?itok=7y2gfUZa",
+        "location_id": "68c3d38380150",
+        "data_index": "117",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.0557789802551,
+          53.305685309158
+        ]
+      },
+      "properties": {
+        "name": "Penmon Dovecote",
+        "description": "A bird box on a truly epic scale",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/penmon-dovecote",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2025-03/36134-nvw-c71-1011-0240.jpg?itok=KQ8MZCxj",
+        "location_id": "68c3d38385ddd",
+        "data_index": "118",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "period": "Tudor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.2656672000885,
+          53.137612627903
+        ]
+      },
+      "properties": {
+        "name": "Segontium Roman Fort",
+        "description": "Roman stronghold that passed into Welsh legend",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/segontium-roman-fort",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NCX-SC01-1516-0557.jpg?itok=GynJCaRc",
+        "location_id": "68c3d3838d258",
+        "data_index": "119",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "period": "Roman"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.2768037319183,
+          53.139565963068
+        ]
+      },
+      "properties": {
+        "name": "Caernarfon Town Walls",
+        "description": "Caernarfon’s security blanket",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/caernarfon-town-walls",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NCX-VH02-1819-0330.JPG?itok=UUVXASUH",
+        "location_id": "68c3d38393474",
+        "data_index": "120",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.03694,
+          53.10742
+        ]
+      },
+      "properties": {
+        "name": "Castell Caergwrle",
+        "description": "",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/castell-caergwrle",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NCX-AQZ-001-0715.jpg?itok=8ZOmUkM6",
+        "location_id": "68c3d38399b4c",
+        "data_index": "121",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "location_type": "Castles",
+        "period": "Medieval"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.3657824588399,
+          53.161937652407
+        ]
+      },
+      "properties": {
+        "name": "Llys Rhosyr",
+        "description": "",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/llys-rhosyr",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NVW-C23-1011-0001.jpg?itok=HyphNQPK",
+        "location_id": "68c3d3839d2fe",
+        "data_index": "122",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9594562565613,
+          51.610656612961
+        ]
+      },
+      "properties": {
+        "name": "Caerleon Roman Barracks",
+        "description": "",
+        "visit_url": "https://cadw.gov.wales/visit/places-to-visit/caerleon-roman-barracks",
+        "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2023-07/DSC_2267.jpg?itok=_3cA9Yrg",
+        "location_id": "68c3d383a44cc",
+        "data_index": "123",
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "period": "Roman"
+      }
+    }
+  ],
+  "metadata": {
+    "generated_by": "HTML Map to GeoJSON Converter",
+    "total_features": 124,
+    "description": "Converted from HTML map with location-content sections"
+  }
+}

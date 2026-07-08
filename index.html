@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heritage Explorer — UK &amp; Ireland</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- MapLibre GL JS -->
+    <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+    <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ── Header ──────────────────────────────────────────────── -->
+<nav class="navbar navbar-expand-lg navbar-dark py-0 px-3">
+    <div class="container-fluid d-flex flex-wrap align-items-center justify-content-between gap-2">
+
+        <!-- Brand -->
+        <span class="navbar-brand d-flex align-items-center me-3 py-2">
+            <div class="logo-icon me-2">
+                <i class="bi bi-compass-fill text-white"></i>
+            </div>
+            <div class="d-flex flex-column">
+                <span class="brand-title">Heritage Explorer</span>
+                <span class="brand-subtitle">UK &amp; Ireland — 4 organisations</span>
+            </div>
+        </span>
+
+        <!-- Stats Bar -->
+        <div class="d-none d-md-flex align-items-center flex-wrap stats-container my-1">
+            <span class="stat-badge bg-total">
+                <i class="bi bi-geo-alt-fill me-1"></i>
+                <span id="total-count">0</span> Sites
+            </span>
+            <span class="stat-badge bg-eh">
+                <span class="dot eh-dot"></span>
+                EH: <span id="eh-count" class="ms-1 fw-bold">0</span>
+            </span>
+            <span class="stat-badge bg-nt">
+                <span class="dot nt-dot"></span>
+                NT: <span id="nt-count" class="ms-1 fw-bold">0</span>
+            </span>
+            <span class="stat-badge bg-cadw">
+                <span class="dot cadw-dot"></span>
+                Cadw: <span id="cadw-count" class="ms-1 fw-bold">0</span>
+            </span>
+            <span class="stat-badge bg-hi">
+                <span class="dot hi-dot"></span>
+                Ireland: <span id="hi-count" class="ms-1 fw-bold">0</span>
+            </span>
+        </div>
+
+        <!-- Search -->
+        <div class="d-flex search-bar-wrapper py-1">
+            <div class="input-group">
+                <span class="input-group-text border-0">
+                    <i class="bi bi-search"></i>
+                </span>
+                <input type="text" id="search-input" class="form-control border-0 py-2"
+                       placeholder="Search by name, county…" aria-label="Search properties">
+                <button id="clear-search" class="btn border-0 d-none" type="button">
+                    <i class="bi bi-x-circle-fill"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- ── Main Map Area ────────────────────────────────────────── -->
+<div class="container-fluid p-0 position-relative map-container-height">
+    <div id="map" class="w-100 h-100"></div>
+
+    <!-- Mobile floating search pill -->
+    <div class="mobile-search-container d-block d-md-none position-absolute start-50 translate-middle-x m-3 w-100 px-3"
+         style="z-index: 1001; top: 0; max-width: 480px;">
+        <div class="mobile-search-pill d-flex align-items-center shadow-lg px-3 py-2">
+            <i class="bi bi-compass-fill text-primary me-2 fs-5"></i>
+            <input type="text" id="mobile-search-input" class="form-control border-0 bg-transparent py-1 shadow-none"
+                   placeholder="Search heritage sites…" style="font-size: 0.9rem;">
+            <button id="mobile-clear-search" class="btn btn-link text-muted p-0 me-2 d-none" type="button">
+                <i class="bi bi-x-circle-fill fs-5"></i>
+            </button>
+            <span class="vr me-2" style="height: 20px; background: rgba(255,255,255,0.2);"></span>
+            <button id="mobile-filter-btn" class="btn btn-link text-primary p-0" type="button" title="Toggle Filters">
+                <i class="bi bi-sliders fs-5"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- ── Draggable Filter Panel ──────────────────────────── -->
+    <div id="filter-panel" class="filter-panel-floating position-absolute top-0 start-0 m-3">
+        <div class="card card-glass shadow border-0">
+            <!-- Mobile drag handle -->
+            <div class="drawer-handle d-block d-md-none"></div>
+
+            <!-- Panel header (drag handle on desktop) -->
+            <div class="card-header d-flex justify-content-between align-items-center border-0">
+                <div class="d-flex align-items-center">
+                    <i class="bi bi-sliders2 me-2 text-white-50"></i>
+                    <h6 class="mb-0 fw-bold outfit-font text-white">Explorer Controls</h6>
+                </div>
+                <div class="d-flex gap-2">
+                    <button id="reset-filters" class="btn btn-sm btn-action" title="Reset all filters">
+                        <i class="bi bi-arrow-counterclockwise"></i>
+                    </button>
+                    <button id="toggle-filters" class="btn btn-sm btn-action d-none d-md-inline-flex" title="Minimise panel">
+                        <i class="bi bi-dash-lg"></i>
+                    </button>
+                    <button id="close-filters-mobile" class="btn btn-sm btn-action d-md-none" title="Close filters">
+                        <i class="bi bi-x-lg"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Panel body -->
+            <div id="filter-content" class="card-body">
+
+                <!-- Country / Region quick-toggle -->
+                <div class="mb-3">
+                    <label class="section-label mb-2">Region</label>
+                    <div class="d-flex gap-2 flex-wrap country-toggle-group">
+                        <input type="checkbox" class="btn-check region-checkbox" id="region-uk" checked autocomplete="off">
+                        <label class="btn flex-fill py-1 px-2 text-center" for="region-uk" style="font-size:0.75rem;">
+                            🇬🇧 UK &amp; Wales
+                        </label>
+                        <input type="checkbox" class="btn-check region-checkbox" id="region-ireland" checked autocomplete="off">
+                        <label class="btn flex-fill py-1 px-2 text-center" for="region-ireland" style="font-size:0.75rem;">
+                            🇮🇪 Ireland
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Organisations -->
+                <div class="mb-3">
+                    <label class="section-label mb-2">Organisations</label>
+                    <div class="form-check-custom mb-1 bg-eh-light">
+                        <input class="form-check-input filter-checkbox" type="checkbox" id="org-eh" checked>
+                        <label class="form-check-label d-flex justify-content-between w-100" for="org-eh">
+                            <span><span class="dot eh-dot"></span>English Heritage</span>
+                            <span class="badge bg-secondary rounded-pill opacity-75" id="org-eh-badge">0</span>
+                        </label>
+                    </div>
+                    <div class="form-check-custom mb-1 bg-nt-light">
+                        <input class="form-check-input filter-checkbox" type="checkbox" id="org-nt" checked>
+                        <label class="form-check-label d-flex justify-content-between w-100" for="org-nt">
+                            <span><span class="dot nt-dot"></span>National Trust</span>
+                            <span class="badge bg-secondary rounded-pill opacity-75" id="org-nt-badge">0</span>
+                        </label>
+                    </div>
+                    <div class="form-check-custom mb-1 bg-cadw-light">
+                        <input class="form-check-input filter-checkbox" type="checkbox" id="org-cadw" checked>
+                        <label class="form-check-label d-flex justify-content-between w-100" for="org-cadw">
+                            <span><span class="dot cadw-dot"></span>Cadw Wales</span>
+                            <span class="badge bg-secondary rounded-pill opacity-75" id="org-cadw-badge">0</span>
+                        </label>
+                    </div>
+                    <div class="form-check-custom bg-hi-light">
+                        <input class="form-check-input filter-checkbox" type="checkbox" id="org-hi" checked>
+                        <label class="form-check-label d-flex justify-content-between w-100" for="org-hi">
+                            <span><span class="dot hi-dot"></span>Heritage Ireland</span>
+                            <span class="badge bg-secondary rounded-pill opacity-75" id="org-hi-badge">0</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Property Category -->
+                <div class="mb-3">
+                    <label class="section-label mb-2">Property Category</label>
+                    <div class="row g-1">
+                        <div class="col-6">
+                            <div class="btn-check-pill-wrapper">
+                                <input type="checkbox" class="btn-check category-checkbox" id="cat-castle" autocomplete="off">
+                                <label class="btn btn-outline-category w-100 text-start" for="cat-castle">
+                                    <i class="bi bi-shield-shaded me-1"></i> Castles
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="btn-check-pill-wrapper">
+                                <input type="checkbox" class="btn-check category-checkbox" id="cat-abbey" autocomplete="off">
+                                <label class="btn btn-outline-category w-100 text-start" for="cat-abbey">
+                                    <i class="bi bi-bank me-1"></i> Religious
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="btn-check-pill-wrapper">
+                                <input type="checkbox" class="btn-check category-checkbox" id="cat-house" autocomplete="off">
+                                <label class="btn btn-outline-category w-100 text-start" for="cat-house">
+                                    <i class="bi bi-house-heart me-1"></i> Houses
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="btn-check-pill-wrapper">
+                                <input type="checkbox" class="btn-check category-checkbox" id="cat-roman" autocomplete="off">
+                                <label class="btn btn-outline-category w-100 text-start" for="cat-roman">
+                                    <i class="bi bi-columns me-1"></i> Roman
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="btn-check-pill-wrapper">
+                                <input type="checkbox" class="btn-check category-checkbox" id="cat-prehistoric" autocomplete="off">
+                                <label class="btn btn-outline-category w-100 text-start" for="cat-prehistoric">
+                                    <i class="bi bi-circle-dot me-1"></i> Prehistoric
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="btn-check-pill-wrapper">
+                                <input type="checkbox" class="btn-check category-checkbox" id="cat-garden" autocomplete="off">
+                                <label class="btn btn-outline-category w-100 text-start" for="cat-garden">
+                                    <i class="bi bi-flower1 me-1"></i> Gardens
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="btn-check-pill-wrapper">
+                                <input type="checkbox" class="btn-check category-checkbox" id="cat-park" autocomplete="off">
+                                <label class="btn btn-outline-category w-100 text-start" for="cat-park">
+                                    <i class="bi bi-tree me-1"></i> Parks
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="btn-check-pill-wrapper">
+                                <input type="checkbox" class="btn-check category-checkbox" id="cat-other" autocomplete="off">
+                                <label class="btn btn-outline-category w-100 text-start" for="cat-other">
+                                    <i class="bi bi-grid-3x3-gap me-1"></i> Other
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Admission & Highlight (UK only) -->
+                <div class="mb-3">
+                    <label class="section-label mb-2">Admission &amp; Highlight</label>
+                    <div class="d-flex gap-2">
+                        <input type="checkbox" class="btn-check spec-checkbox" id="spec-free" autocomplete="off">
+                        <label class="btn btn-outline-spec flex-fill py-1 px-2" for="spec-free">
+                            <i class="bi bi-check-circle-fill me-1 text-success"></i> Free Entry
+                        </label>
+                        <input type="checkbox" class="btn-check spec-checkbox" id="spec-top" autocomplete="off">
+                        <label class="btn btn-outline-spec flex-fill py-1 px-2" for="spec-top">
+                            <i class="bi bi-star-fill me-1 text-warning"></i> Star Site
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Historical Period -->
+                <div class="mb-2">
+                    <label class="section-label mb-2">Historical Period</label>
+                    <select id="period-select" class="form-select">
+                        <option value="">All Historical Periods</option>
+                        <option value="Prehistoric">Prehistoric</option>
+                        <option value="Roman">Roman</option>
+                        <option value="Medieval">Medieval</option>
+                        <option value="Tudor">Tudor</option>
+                        <option value="Industrial">Industrial / Later</option>
+                    </select>
+                </div>
+
+                <!-- Colour mode toggle -->
+                <div class="mt-3 pt-2 border-top border-light-subtle">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="small text-white-50"><i class="bi bi-palette me-1"></i> Colour markers by:</span>
+                        <div class="btn-group btn-group-sm" role="group">
+                            <input type="radio" class="btn-check" name="color-mode" id="color-mode-org" checked autocomplete="off">
+                            <label class="btn btn-outline-secondary px-2" for="color-mode-org" style="font-size:0.72rem;">Org</label>
+                            <input type="radio" class="btn-check" name="color-mode" id="color-mode-cat" autocomplete="off">
+                            <label class="btn btn-outline-secondary px-2" for="color-mode-cat" style="font-size:0.72rem;">Category</label>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- /card-body -->
+        </div><!-- /card -->
+    </div><!-- /filter-panel -->
+
+    <!-- ── Property Details Sidebar ───────────────────────── -->
+    <div id="property-sidebar" class="sidebar-slide-out closed">
+        <div class="sidebar-header d-flex justify-content-between align-items-center p-3 border-bottom">
+            <span class="badge" id="sidebar-org-badge">Organisation</span>
+            <button id="close-sidebar" class="btn btn-close-custom rounded-circle d-flex align-items-center justify-content-center">
+                <i class="bi bi-x-lg"></i>
+            </button>
+        </div>
+        <div class="sidebar-body flex-grow-1 p-0 overflow-y-auto">
+            <div id="sidebar-image-container" class="position-relative">
+                <img id="sidebar-img" src="" alt="Property image" class="sidebar-image d-none">
+                <div id="sidebar-placeholder" class="sidebar-placeholder d-flex flex-column align-items-center justify-content-center text-muted">
+                    <i class="bi bi-image" style="font-size: 3rem;"></i>
+                    <span class="mt-2 text-center small px-4">No image available for this site</span>
+                </div>
+            </div>
+            <div class="p-4">
+                <h4 id="sidebar-title" class="outfit-font fw-bold text-dark mb-2">Property Title</h4>
+                <div class="d-flex flex-wrap gap-2 mb-3">
+                    <span class="badge bg-primary" id="sidebar-category-badge">Category</span>
+                    <span class="badge bg-secondary d-none" id="sidebar-period-badge">Period</span>
+                    <span class="badge bg-success d-none" id="sidebar-free-badge">Free Entry</span>
+                    <span class="badge bg-warning text-dark d-none" id="sidebar-top-badge"><i class="bi bi-star-fill"></i> Star Site</span>
+                    <span class="badge d-none" id="sidebar-status-badge" style="background:#c8a84b;color:#1a3a2a;"></span>
+                </div>
+                <div id="sidebar-location" class="property-location mb-3 d-none">
+                    <i class="bi bi-geo-alt-fill text-muted me-1"></i>
+                    <span id="sidebar-location-text"></span>
+                </div>
+                <p id="sidebar-description" class="property-summary text-secondary lh-lg mb-4">
+                    Property summary description goes here.
+                </p>
+            </div>
+        </div>
+        <div class="sidebar-footer p-3 border-top bg-light d-grid">
+            <a id="sidebar-visit-btn" href="#" target="_blank" rel="noopener"
+               class="btn btn-primary btn-lg d-flex align-items-center justify-content-center gap-2">
+                <i class="bi bi-box-arrow-up-right"></i> Visit Website
+            </a>
+        </div>
+    </div>
+
+    <!-- ── Search Autocomplete Drawer ─────────────────────── -->
+    <div id="search-results-drawer" class="search-results-drawer d-none">
+        <div class="p-2 border-bottom d-flex justify-content-between align-items-center bg-light">
+            <span class="text-muted small fw-bold uppercase-label" id="results-count-label">Search Results</span>
+            <button class="btn btn-sm btn-link text-muted p-0 text-decoration-none" id="close-drawer-btn">Close</button>
+        </div>
+        <div id="search-results-list" class="list-group list-group-flush overflow-y-auto" style="max-height: 250px;"></div>
+    </div>
+
+    <!-- ── Loading Overlay ────────────────────────────────── -->
+    <div id="loading-overlay" class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center">
+        <div class="card shadow p-4 text-center border-0 rounded-4" style="max-width: 320px;">
+            <div class="spinner-border text-primary mb-3" style="width: 3rem; height: 3rem;" role="status">
+                <span class="visually-hidden">Loading…</span>
+            </div>
+            <h5 class="outfit-font fw-bold mb-1 text-white">Loading Heritage Map</h5>
+            <p class="text-white-50 mb-0 small" id="loading-status">Loading datasets…</p>
+        </div>
+    </div>
+
+</div><!-- /map-container-height -->
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core Application Script -->
+<script src="script.js"></script>
+</body>
+</html>
