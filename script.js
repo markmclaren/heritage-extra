@@ -147,6 +147,19 @@ class HeritageCombinedExplorer {
             }
 
             // 3. National Trust
+            // Manually designated star sites
+            const NT_STAR_SITES = new Set([
+                'Fountains Abbey and Studley Royal Water Garden',
+                "Giant's Causeway",
+                'Stourhead',
+                'Cliveden',
+                'Corfe Castle',
+                'Lacock',
+                'Chartwell',
+                'Knole',
+                'Lyme',
+                'Waddesdon',
+            ]);
             if (ntRes && ntRes.features) {
                 ntRes.features.forEach((f, idx) => {
                     const props = f.properties;
@@ -183,7 +196,7 @@ class HeritageCombinedExplorer {
                             org: 'national-trust',
                             region: 'uk',
                             isFreeEntry: null,
-                            isTopSite: false,
+                            isTopSite: NT_STAR_SITES.has(props.title || ''),
                             locationText: null,
                             statusText: null,
                         }
@@ -239,7 +252,7 @@ class HeritageCombinedExplorer {
                             org: 'heritage-ireland',
                             region: 'ireland',
                             isFreeEntry: null,
-                            isTopSite: false,
+                            isTopSite: cats.includes('Iconic Sites'),
                             locationText: null,
                             statusText: props.status || null,
                         }
