@@ -37,15 +37,11 @@ An interactive map combining **four** heritage organisations across the UK and I
 - Vanilla JavaScript (ES2020 class)
 - Self-contained — no build step, no server required
 
-## Data Sources & Unified Dataset
+## Data Source
 
 | File | Source | Description |
 |---|---|---|
-| `heritage_unified.geojson` | Unified DuckDB Pipeline | Consolidated, enriched dataset of all 1,304 sites with standardized schema |
-| `english-heritage.geojson` | English Heritage | Augmented with period, category, and period details |
-| `NationalTrust.geojson` | National Trust | Augmented with period, category, and period details |
-| `cadw.geojson` | Cadw Welsh Heritage | Augmented with period, category, and period details |
-| `heritage_ireland.geojson` | Heritage Ireland | Augmented with period, category, and period details |
+| `heritage_unified.geojson` | Unified DuckDB Pipeline | Consolidated, enriched dataset of all 1,304 sites with standardized schema, verified coordinates, historical periods, and thematic categories |
 
 ## Running Locally
 
