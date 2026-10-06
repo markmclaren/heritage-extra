@@ -1,7 +1,10 @@
 // ============================================================
 //  Heritage Combined Explorer — script.js
 //  UK (English Heritage, National Trust, Cadw) + Heritage Ireland
+//  Enhanced with DuckDB-Wasm Client-Side Spatial Engine
 // ============================================================
+
+import * as duckdb from 'https://cdn.jsdelivr.net/npm/@duckdb/duckdb-wasm@1.32.0/+esm';
 
 class HeritageCombinedExplorer {
     constructor() {
@@ -11,6 +14,14 @@ class HeritageCombinedExplorer {
         this.selectedProperty = null;
         this.activePopup = null;
         this.colorMode = 'org';      // 'org' | 'category'
+
+        // DuckDB-Wasm state
+        this.db = null;
+        this.conn = null;
+        this.spatialLoaded = false;
+        this.proxEnabled = false;
+        this.proxRadiusMiles = 25;
+        this.proxCenter = { lon: -3.18, lat: 51.48 }; // Default: Cardiff
 
         window.heritageMap = this;
         this.init();
@@ -30,6 +41,9 @@ class HeritageCombinedExplorer {
         this.initDraggablePanel();
         this.updateStats();
         this.hideLoading();
+
+        // Boot DuckDB-Wasm in background worker
+        this.initDuckDB();
     }
 
     // ── Data Loading ─────────────────────────────────────────
@@ -322,6 +336,31 @@ class HeritageCombinedExplorer {
             data: { type: 'FeatureCollection', features: this.filteredFeatures },
         });
 
+        // Proximity radius visualizer
+        this.map.addSource('proximity-radius', {
+            type: 'geojson',
+            data: { type: 'FeatureCollection', features: [] },
+        });
+        this.map.addLayer({
+            id: 'proximity-radius-fill',
+            type: 'fill',
+            source: 'proximity-radius',
+            paint: {
+                'fill-color': '#fbbf24',
+                'fill-opacity': 0.12,
+            },
+        });
+        this.map.addLayer({
+            id: 'proximity-radius-outline',
+            type: 'line',
+            source: 'proximity-radius',
+            paint: {
+                'line-color': '#fbbf24',
+                'line-width': 2,
+                'line-dasharray': [2, 2],
+            },
+        });
+
         // Main circles
         this.map.addLayer({
             id: 'sites-circles',
@@ -477,6 +516,13 @@ class HeritageCombinedExplorer {
                 if (!haystack.includes(query)) return false;
             }
 
+            // Proximity filter (DuckDB Spatial / Haversine)
+            if (this.proxEnabled && this.proxCenter && f.geometry && f.geometry.coordinates) {
+                const [lon, lat] = f.geometry.coordinates;
+                const distMiles = this.calculateDistanceMiles(this.proxCenter.lat, this.proxCenter.lon, lat, lon);
+                if (distMiles > this.proxRadiusMiles) return false;
+            }
+
             return true;
         });
 
@@ -487,6 +533,7 @@ class HeritageCombinedExplorer {
             });
         }
 
+        this.updateProximityCircle();
         this.updateStats();
 
         if (fitMapBounds && this.filteredFeatures.length > 0) {
@@ -816,7 +863,322 @@ class HeritageCombinedExplorer {
             this.colorMode = 'category';
             this.updateMarkerColors();
         });
+
+        // ── DuckDB Spatial & Proximity UI Listeners ──────────────
+        const proxEnable = document.getElementById('prox-enable');
+        const proxControls = document.getElementById('prox-controls');
+        const proxRadius = document.getElementById('prox-radius');
+        const proxRadiusLabel = document.getElementById('prox-radius-label');
+
+        if (proxEnable) {
+            proxEnable.addEventListener('change', () => {
+                this.proxEnabled = proxEnable.checked;
+                if (proxControls) proxControls.classList.toggle('d-none', !this.proxEnabled);
+                this.applyFilters(this.proxEnabled);
+            });
+        }
+
+        if (proxRadius) {
+            proxRadius.addEventListener('input', () => {
+                this.proxRadiusMiles = parseInt(proxRadius.value, 10);
+                if (proxRadiusLabel) proxRadiusLabel.textContent = `${this.proxRadiusMiles} miles`;
+                this.applyFilters(false);
+            });
+        }
+
+        document.querySelectorAll('.btn-city-loc').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const lon = parseFloat(btn.dataset.lon);
+                const lat = parseFloat(btn.dataset.lat);
+                this.proxCenter = { lon, lat };
+                if (this.map) this.map.flyTo({ center: [lon, lat], zoom: 8, duration: 1000 });
+                this.applyFilters(true);
+            });
+        });
+
+        const gpsBtn = document.getElementById('prox-loc-gps');
+        if (gpsBtn) {
+            gpsBtn.addEventListener('click', () => {
+                if (navigator.geolocation) {
+                    navigator.geolocation.getCurrentPosition(pos => {
+                        this.proxCenter = { lon: pos.coords.longitude, lat: pos.coords.latitude };
+                        if (this.map) this.map.flyTo({ center: [this.proxCenter.lon, this.proxCenter.lat], zoom: 9, duration: 1000 });
+                        this.applyFilters(true);
+                    }, err => {
+                        alert('Could not retrieve GPS location: ' + err.message);
+                    });
+                }
+            });
+        }
+
+        // Spatial SQL Console Drawer
+        const toggleSqlBtn = document.getElementById('btn-toggle-sql-drawer');
+        const closeSqlBtn = document.getElementById('btn-close-sql-drawer');
+        const sqlDrawer = document.getElementById('sql-drawer');
+        const runSqlBtn = document.getElementById('btn-run-sql');
+        const exportBtn = document.getElementById('btn-export-geojson');
+
+        if (toggleSqlBtn && sqlDrawer) {
+            toggleSqlBtn.addEventListener('click', () => {
+                sqlDrawer.classList.toggle('open');
+            });
+        }
+
+        if (closeSqlBtn && sqlDrawer) {
+            closeSqlBtn.addEventListener('click', () => {
+                sqlDrawer.classList.remove('open');
+            });
+        }
+
+        if (runSqlBtn) {
+            runSqlBtn.addEventListener('click', () => {
+                const input = document.getElementById('sql-console-input');
+                if (input && input.value) {
+                    this.executeDuckDBSQL(input.value.trim());
+                }
+            });
+        }
+
+        document.querySelectorAll('.preset-query-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const sql = btn.dataset.sql;
+                const input = document.getElementById('sql-console-input');
+                if (input) input.value = sql;
+                this.executeDuckDBSQL(sql);
+            });
+        });
+
+        if (exportBtn) {
+            exportBtn.addEventListener('click', () => this.exportCurrentGeoJSON());
+        }
     }
+
+    // ── DuckDB-Wasm Spatial Methods ──────────────────────────
+    calculateDistanceMiles(lat1, lon1, lat2, lon2) {
+        const R = 3958.8; // Earth radius in miles
+        const dLat = (lat2 - lat1) * Math.PI / 180;
+        const dLon = (lon2 - lon1) * Math.PI / 180;
+        const a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+                  Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+                  Math.sin(dLon / 2) * Math.sin(dLon / 2);
+        return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+    }
+
+    createGeoJSONCircle(center, radiusMiles, points = 64) {
+        const km = radiusMiles * 1.60934;
+        const ret = [];
+        const distanceX = km / (111.320 * Math.cos(center.lat * Math.PI / 180));
+        const distanceY = km / 110.574;
+
+        for (let i = 0; i < points; i++) {
+            const theta = (i / points) * (2 * Math.PI);
+            const x = distanceX * Math.cos(theta);
+            const y = distanceY * Math.sin(theta);
+            ret.push([center.lon + x, center.lat + y]);
+        }
+        ret.push(ret[0]);
+        return {
+            type: 'FeatureCollection',
+            features: [{
+                type: 'Feature',
+                geometry: {
+                    type: 'Polygon',
+                    coordinates: [ret]
+                },
+                properties: {}
+            }]
+        };
+    }
+
+    updateProximityCircle() {
+        if (!this.map || !this.map.getSource('proximity-radius')) return;
+        if (this.proxEnabled && this.proxCenter) {
+            const circleData = this.createGeoJSONCircle(this.proxCenter, this.proxRadiusMiles);
+            this.map.getSource('proximity-radius').setData(circleData);
+        } else {
+            this.map.getSource('proximity-radius').setData({ type: 'FeatureCollection', features: [] });
+        }
+    }
+
+    async initDuckDB() {
+        try {
+            const statusText = document.getElementById('duckdb-status-text');
+            if (statusText) statusText.textContent = 'DuckDB: Booting...';
+
+            const JSDELIVR_BUNDLES = duckdb.getJsDelivrBundles();
+            const bundle = JSDELIVR_BUNDLES.eh || await duckdb.selectBundle(JSDELIVR_BUNDLES);
+            const worker_url = URL.createObjectURL(
+                new Blob([`importScripts("${bundle.mainWorker}");`], { type: 'text/javascript' })
+            );
+            const worker = new Worker(worker_url);
+            const logger = new duckdb.ConsoleLogger();
+            this.db = new duckdb.AsyncDuckDB(logger, worker);
+            await this.db.instantiate(bundle.mainModule, bundle.pthreadWorker);
+            URL.revokeObjectURL(worker_url);
+            this.conn = await this.db.connect();
+
+            try {
+                await this.conn.query('INSTALL spatial; LOAD spatial;');
+                this.spatialLoaded = true;
+                console.log('DuckDB-Wasm: Spatial extension loaded successfully!');
+            } catch (spErr) {
+                console.warn('DuckDB spatial extension note:', spErr);
+            }
+
+            await this.populateDuckDBTable();
+
+            const pill = document.getElementById('duckdb-status-pill');
+            if (pill) pill.classList.add('ready');
+            if (statusText) statusText.textContent = this.spatialLoaded ? 'DuckDB Spatial: Ready' : 'DuckDB Core: Ready';
+            const statsBadge = document.getElementById('sql-drawer-stats');
+            if (statsBadge) statsBadge.textContent = `${this.rawFeatures.length} sites in table`;
+
+        } catch (err) {
+            console.error('DuckDB-Wasm init error:', err);
+            const statusText = document.getElementById('duckdb-status-text');
+            if (statusText) statusText.textContent = 'DuckDB: Error';
+        }
+    }
+
+    async populateDuckDBTable() {
+        if (!this.conn || !this.rawFeatures.length) return;
+        const t0 = performance.now();
+
+        if (this.spatialLoaded) {
+            await this.conn.query(`
+                CREATE TABLE heritage_sites (
+                    id VARCHAR,
+                    title VARCHAR,
+                    description VARCHAR,
+                    visit_url VARCHAR,
+                    image_url VARCHAR,
+                    category VARCHAR,
+                    period VARCHAR,
+                    org VARCHAR,
+                    region VARCHAR,
+                    is_free_entry BOOLEAN,
+                    is_top_site BOOLEAN,
+                    location_text VARCHAR,
+                    status_text VARCHAR,
+                    lon DOUBLE,
+                    lat DOUBLE,
+                    geom GEOMETRY
+                );
+            `);
+
+            const BATCH_SIZE = 250;
+            for (let i = 0; i < this.rawFeatures.length; i += BATCH_SIZE) {
+                const batch = this.rawFeatures.slice(i, i + BATCH_SIZE);
+                const values = batch.map(f => {
+                    const p = f.properties;
+                    const coords = (f.geometry && f.geometry.coordinates) ? f.geometry.coordinates : [0, 0];
+                    const esc = (s) => (s ? String(s).replace(/'/g, "''") : '');
+                    return `('${esc(p.id)}', '${esc(p.title)}', '${esc(p.description)}', '${esc(p.visitUrl)}', ` +
+                           `'${esc(p.imageUrl)}', '${esc(p.category)}', '${esc(p.period)}', '${esc(p.org)}', ` +
+                           `'${esc(p.region)}', ${p.isFreeEntry ? 'true' : 'false'}, ${p.isTopSite ? 'true' : 'false'}, ` +
+                           `'${esc(p.locationText)}', '${esc(p.statusText)}', ${coords[0]}, ${coords[1]}, ST_Point(${coords[0]}, ${coords[1]}))`;
+                }).join(',\n');
+                await this.conn.query(`INSERT INTO heritage_sites VALUES ${values};`);
+            }
+        } else {
+            await this.conn.query(`
+                CREATE TABLE heritage_sites (
+                    id VARCHAR,
+                    title VARCHAR,
+                    description VARCHAR,
+                    visit_url VARCHAR,
+                    image_url VARCHAR,
+                    category VARCHAR,
+                    period VARCHAR,
+                    org VARCHAR,
+                    region VARCHAR,
+                    is_free_entry BOOLEAN,
+                    is_top_site BOOLEAN,
+                    location_text VARCHAR,
+                    status_text VARCHAR,
+                    lon DOUBLE,
+                    lat DOUBLE
+                );
+            `);
+            const BATCH_SIZE = 250;
+            for (let i = 0; i < this.rawFeatures.length; i += BATCH_SIZE) {
+                const batch = this.rawFeatures.slice(i, i + BATCH_SIZE);
+                const values = batch.map(f => {
+                    const p = f.properties;
+                    const coords = (f.geometry && f.geometry.coordinates) ? f.geometry.coordinates : [0, 0];
+                    const esc = (s) => (s ? String(s).replace(/'/g, "''") : '');
+                    return `('${esc(p.id)}', '${esc(p.title)}', '${esc(p.description)}', '${esc(p.visitUrl)}', ` +
+                           `'${esc(p.imageUrl)}', '${esc(p.category)}', '${esc(p.period)}', '${esc(p.org)}', ` +
+                           `'${esc(p.region)}', ${p.isFreeEntry ? 'true' : 'false'}, ${p.isTopSite ? 'true' : 'false'}, ` +
+                           `'${esc(p.locationText)}', '${esc(p.statusText)}', ${coords[0]}, ${coords[1]})`;
+                }).join(',\n');
+                await this.conn.query(`INSERT INTO heritage_sites VALUES ${values};`);
+            }
+        }
+
+        const loadMs = (performance.now() - t0).toFixed(1);
+        const msBadge = document.getElementById('duckdb-query-ms');
+        if (msBadge) msBadge.textContent = `${loadMs}ms`;
+        console.log(`DuckDB: Ingested ${this.rawFeatures.length} sites into in-memory table in ${loadMs}ms!`);
+    }
+
+    async executeDuckDBSQL(sql) {
+        if (!this.conn) {
+            alert('DuckDB-Wasm engine is still initializing. Please wait a moment.');
+            return;
+        }
+        const t0 = performance.now();
+        const execLabel = document.getElementById('sql-exec-time');
+        const msBadge = document.getElementById('duckdb-query-ms');
+        try {
+            const result = await this.conn.query(sql);
+            const duration = (performance.now() - t0).toFixed(1);
+            if (execLabel) execLabel.textContent = `Query executed in ${duration} ms (${result.numRows} rows)`;
+            if (msBadge) msBadge.textContent = `${duration}ms`;
+
+            const rows = result.toArray().map(r => {
+                const o = {};
+                for (const k of Object.keys(r)) o[k] = r[k];
+                return o;
+            });
+
+            // Convert matching rows to features
+            const rowIds = new Set(rows.map(r => String(r.id)).filter(Boolean));
+            if (rowIds.size > 0) {
+                this.filteredFeatures = this.rawFeatures.filter(f => rowIds.has(String(f.properties.id)));
+            } else {
+                this.filteredFeatures = [];
+            }
+
+            if (this.map && this.map.getSource('heritage-sites')) {
+                this.map.getSource('heritage-sites').setData({
+                    type: 'FeatureCollection',
+                    features: this.filteredFeatures,
+                });
+            }
+
+            this.updateStats();
+            this.fitMapToFeatures();
+        } catch (err) {
+            console.error('SQL Execution Error:', err);
+            if (execLabel) execLabel.textContent = `SQL Error: ${err.message}`;
+            alert('SQL Query Error: ' + err.message);
+        }
+    }
+
+    exportCurrentGeoJSON() {
+        const dataStr = 'data:text/json;charset=utf-8,' + encodeURIComponent(JSON.stringify({
+            type: 'FeatureCollection',
+            features: this.filteredFeatures
+        }, null, 2));
+        const a = document.createElement('a');
+        a.href = dataStr;
+        a.download = `heritage_sites_export_${Date.now()}.geojson`;
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+    }
+
 
     // ── Toggle Panel Minimise ────────────────────────────────
     toggleFilterPanel() {
