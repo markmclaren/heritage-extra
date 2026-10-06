@@ -411,10 +411,31 @@
         </div>
         <div class="sql-drawer-body">
             <div class="sql-editor-pane">
-                <textarea id="sql-console-input" class="sql-textarea" spellcheck="false">SELECT * FROM heritage_sites WHERE category = 'Castle' AND org = 'cadw';</textarea>
-                <div class="d-flex justify-content-between align-items-center mt-2">
-                    <span class="text-white-50 small" style="font-size: 0.7rem;">Dataset Table: <code>heritage_sites</code> • Spatial Geometry: <code>geom</code></span>
-                    <span class="text-warning small" id="sql-exec-time" style="font-size: 0.75rem;">Query executed in 0 ms</span>
+                <div class="sql-input-container">
+                    <textarea id="sql-console-input" class="sql-textarea" rows="2" spellcheck="false">SELECT * FROM heritage_sites WHERE category = 'Castle' AND org = 'cadw';</textarea>
+                    <div class="d-flex justify-content-between align-items-center mt-1 mb-2">
+                        <span class="text-white-50 small" style="font-size: 0.7rem;">Dataset Table: <code>heritage_sites</code> • Spatial Geometry: <code>geom</code></span>
+                        <span class="text-warning small" id="sql-exec-time" style="font-size: 0.75rem;">Ready to execute</span>
+                    </div>
+                </div>
+                
+                <!-- SQL Results Table Container -->
+                <div class="sql-results-container">
+                    <div class="sql-results-header d-flex justify-content-between align-items-center py-1 px-2">
+                        <div class="d-flex align-items-center gap-2">
+                            <span class="section-label mb-0 text-white-50" style="font-size: 0.68rem;">Query Results</span>
+                            <span class="badge bg-dark border border-secondary text-info font-monospace" id="sql-results-count" style="font-size: 0.7rem;">0 rows</span>
+                        </div>
+                        <button id="btn-export-csv" class="btn btn-sm btn-link text-white-50 text-decoration-none py-0 px-1" style="font-size: 0.7rem;">
+                            <i class="bi bi-file-earmark-spreadsheet me-1"></i>Export CSV
+                        </button>
+                    </div>
+                    <div class="sql-results-table-wrapper" id="sql-results-wrapper">
+                        <div class="sql-results-empty text-white-50 text-center py-4">
+                            <i class="bi bi-table d-block fs-3 mb-1 opacity-50"></i>
+                            <span style="font-size: 0.78rem;">Click a preset or run a query above to see tabular results</span>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="sql-presets-pane">

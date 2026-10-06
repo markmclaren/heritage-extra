@@ -22,6 +22,7 @@ class HeritageCombinedExplorer {
         this.proxEnabled = false;
         this.proxRadiusMiles = 25;
         this.proxCenter = { lon: -3.18, lat: 51.48 }; // Default: Cardiff
+        this.lastSQLRows = [];
 
         window.heritageMap = this;
         this.init();
@@ -1006,6 +1007,11 @@ class HeritageCombinedExplorer {
         if (exportBtn) {
             exportBtn.addEventListener('click', () => this.exportCurrentGeoJSON());
         }
+
+        const exportCsvBtn = document.getElementById('btn-export-csv');
+        if (exportCsvBtn) {
+            exportCsvBtn.addEventListener('click', () => this.exportSQLResultsCSV());
+        }
     }
 
     // ── DuckDB-Wasm Spatial Methods ──────────────────────────
@@ -1217,6 +1223,102 @@ class HeritageCombinedExplorer {
         console.log(`DuckDB: Ingested ${this.rawFeatures.length} sites into in-memory table in ${loadMs}ms!`);
     }
 
+    escapeHtml(str) {
+        if (str == null) return '';
+        return String(str)
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#039;');
+    }
+
+    renderSQLResults(rows, duration, numRows) {
+        this.lastSQLRows = rows;
+        const countBadge = document.getElementById('sql-results-count');
+        const wrapper = document.getElementById('sql-results-wrapper');
+        const totalCount = numRows != null ? numRows : rows.length;
+
+        if (countBadge) {
+            countBadge.textContent = `${totalCount} row${totalCount === 1 ? '' : 's'}`;
+        }
+
+        if (!wrapper) return;
+
+        if (!rows || rows.length === 0) {
+            wrapper.innerHTML = `
+                <div class="sql-results-empty text-white-50 text-center py-4">
+                    <i class="bi bi-info-circle d-block fs-3 mb-1 text-warning opacity-75"></i>
+                    <span style="font-size: 0.78rem;">Query executed successfully with 0 matching rows.</span>
+                </div>
+            `;
+            return;
+        }
+
+        const cols = Object.keys(rows[0]);
+        let html = '<table class="sql-results-table"><thead><tr>';
+        cols.forEach(col => {
+            html += `<th>${this.escapeHtml(col)}</th>`;
+        });
+        html += '</tr></thead><tbody>';
+
+        const maxDisplay = Math.min(rows.length, 200);
+        for (let i = 0; i < maxDisplay; i++) {
+            const row = rows[i];
+            html += '<tr>';
+            cols.forEach(col => {
+                const val = row[col];
+                let displayVal;
+                if (val === null || val === undefined) {
+                    displayVal = '<span class="text-white-50 fst-italic">null</span>';
+                } else if (typeof val === 'boolean') {
+                    displayVal = val
+                        ? '<span class="badge bg-success py-0 px-1" style="font-size:0.65rem;">true</span>'
+                        : '<span class="badge bg-secondary py-0 px-1" style="font-size:0.65rem;">false</span>';
+                } else if (typeof val === 'number') {
+                    displayVal = `<span class="text-warning">${this.escapeHtml(val)}</span>`;
+                } else {
+                    displayVal = this.escapeHtml(String(val));
+                }
+                html += `<td>${displayVal}</td>`;
+            });
+            html += '</tr>';
+        }
+        html += '</tbody></table>';
+
+        if (rows.length > 200) {
+            html += `<div class="text-center text-white-50 py-1 small" style="font-size: 0.68rem; background: rgba(0,0,0,0.2);">Showing first 200 of ${rows.length} rows</div>`;
+        }
+
+        wrapper.innerHTML = html;
+    }
+
+    exportSQLResultsCSV() {
+        if (!this.lastSQLRows || !this.lastSQLRows.length) {
+            alert('No query results available to export.');
+            return;
+        }
+        const cols = Object.keys(this.lastSQLRows[0]);
+        const lines = [];
+        lines.push(cols.map(c => `"${String(c).replace(/"/g, '""')}"`).join(','));
+        this.lastSQLRows.forEach(row => {
+            const vals = cols.map(c => {
+                const v = row[c] == null ? '' : String(row[c]);
+                return `"${v.replace(/"/g, '""')}"`;
+            });
+            lines.push(vals.join(','));
+        });
+        const blob = new Blob([lines.join('\n')], { type: 'text/csv;charset=utf-8;' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `heritage_query_results_${Date.now()}.csv`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+    }
+
     async executeDuckDBSQL(sql) {
         if (!this.conn) {
             alert('Spatial engine is still initializing. Please wait a moment.');
@@ -1228,32 +1330,57 @@ class HeritageCombinedExplorer {
         try {
             const result = await this.conn.query(sql);
             const duration = (performance.now() - t0).toFixed(1);
-            if (execLabel) execLabel.textContent = `Query executed in ${duration} ms (${result.numRows} rows)`;
             if (msBadge) msBadge.textContent = `${duration}ms`;
 
             const rows = result.toArray().map(r => {
                 const o = {};
-                for (const k of Object.keys(r)) o[k] = r[k];
+                for (const k of Object.keys(r)) {
+                    const v = r[k];
+                    o[k] = typeof v === 'bigint' ? Number(v) : v;
+                }
                 return o;
             });
 
-            // Convert matching rows to features
-            const rowIds = new Set(rows.map(r => String(r.id)).filter(Boolean));
-            if (rowIds.size > 0) {
+            // 1. Render data table in console drawer
+            this.renderSQLResults(rows, duration, result.numRows);
+
+            // 2. Determine if results represent site entities for map rendering
+            const hasIds = rows.length > 0 && ('id' in rows[0]);
+            const rowIds = new Set(rows.map(r => r.id != null ? String(r.id) : null).filter(Boolean));
+
+            if (hasIds && rowIds.size > 0) {
                 this.filteredFeatures = this.rawFeatures.filter(f => rowIds.has(String(f.properties.id)));
+                if (this.map && this.map.getSource('heritage-sites')) {
+                    this.map.getSource('heritage-sites').setData({
+                        type: 'FeatureCollection',
+                        features: this.filteredFeatures,
+                    });
+                }
+                if (execLabel) {
+                    execLabel.textContent = `Executed in ${duration} ms (${result.numRows} rows • map updated)`;
+                }
+                this.updateStats();
+                this.fitMapToFeatures();
+            } else if (!hasIds && rows.length > 0) {
+                // Aggregation or projection query (no site IDs):
+                // Keep existing map markers intact and inform user
+                if (execLabel) {
+                    execLabel.textContent = `Executed in ${duration} ms (${result.numRows} summary rows • map kept)`;
+                }
             } else {
+                // Query returned zero rows
                 this.filteredFeatures = [];
+                if (this.map && this.map.getSource('heritage-sites')) {
+                    this.map.getSource('heritage-sites').setData({
+                        type: 'FeatureCollection',
+                        features: [],
+                    });
+                }
+                if (execLabel) {
+                    execLabel.textContent = `Executed in ${duration} ms (0 rows)`;
+                }
+                this.updateStats();
             }
-
-            if (this.map && this.map.getSource('heritage-sites')) {
-                this.map.getSource('heritage-sites').setData({
-                    type: 'FeatureCollection',
-                    features: this.filteredFeatures,
-                });
-            }
-
-            this.updateStats();
-            this.fitMapToFeatures();
         } catch (err) {
             console.error('SQL Execution Error:', err);
             if (execLabel) execLabel.textContent = `SQL Error: ${err.message}`;
