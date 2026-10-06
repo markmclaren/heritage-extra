@@ -361,6 +361,23 @@ class HeritageCombinedExplorer {
             },
         });
 
+        // Proximity center point marker
+        this.map.addSource('proximity-center', {
+            type: 'geojson',
+            data: { type: 'FeatureCollection', features: [] },
+        });
+        this.map.addLayer({
+            id: 'proximity-center-marker',
+            type: 'circle',
+            source: 'proximity-center',
+            paint: {
+                'circle-radius': 7,
+                'circle-color': '#fbbf24',
+                'circle-stroke-color': '#ffffff',
+                'circle-stroke-width': 2.5,
+            },
+        });
+
         // Main circles
         this.map.addLayer({
             id: 'sites-circles',
@@ -411,6 +428,24 @@ class HeritageCombinedExplorer {
             }
         });
 
+        // General map click for setting proximity center
+        this.map.on('click', (e) => {
+            const features = this.map.queryRenderedFeatures(e.point, { layers: ['sites-circles'] });
+            if (features && features.length > 0) return;
+
+            if (this.proxEnabled || this.isPickingProxCenter) {
+                this.setProximityCenter(e.lngLat.lng, e.lngLat.lat);
+                if (this.isPickingProxCenter) {
+                    this.isPickingProxCenter = false;
+                    const label = document.getElementById('prox-pick-label');
+                    if (label) label.textContent = 'Click Map to Set Center';
+                    const pickBtn = document.getElementById('prox-pick-map');
+                    if (pickBtn) pickBtn.classList.remove('btn-warning');
+                    this.map.getCanvas().style.cursor = '';
+                }
+            }
+        });
+
         // Hover effects
         this.map.on('mouseenter', 'sites-circles', (e) => {
             this.map.getCanvas().style.cursor = 'pointer';
@@ -436,11 +471,11 @@ class HeritageCombinedExplorer {
                 '#6c757d'
             ];
         }
-        // Category colour coding
+        // Category colour coding matching UI dots
         return [
             'match', ['get', 'category'],
             'Castle',     '#CF142B',
-            'Abbey',      '#4B0082',
+            'Abbey',      '#8e44ad',
             'House',      '#1a6e3c',
             'Roman',      '#8B4513',
             'Prehistoric','#FF8C00',
@@ -657,6 +692,18 @@ class HeritageCombinedExplorer {
             catBadge.style.display = '';
             catBadge.parentElement.querySelectorAll('.hi-cat-badge').forEach(el => el.remove());
             catBadge.textContent = props.category;
+            const CAT_COLORS = {
+                'Castle':      '#CF142B',
+                'Abbey':       '#8e44ad',
+                'House':       '#1a6e3c',
+                'Roman':       '#8B4513',
+                'Prehistoric': '#FF8C00',
+                'Garden':      '#2ecc71',
+                'Park':        '#16a085',
+                'Other':       '#6c757d'
+            };
+            catBadge.style.background = CAT_COLORS[props.category] || '#6c757d';
+            catBadge.style.color = '#ffffff';
         }
 
         // Period badge
@@ -886,24 +933,32 @@ class HeritageCombinedExplorer {
             });
         }
 
-        document.querySelectorAll('.btn-city-loc').forEach(btn => {
-            btn.addEventListener('click', () => {
-                const lon = parseFloat(btn.dataset.lon);
-                const lat = parseFloat(btn.dataset.lat);
-                this.proxCenter = { lon, lat };
-                if (this.map) this.map.flyTo({ center: [lon, lat], zoom: 8, duration: 1000 });
-                this.applyFilters(true);
+        const pickMapBtn = document.getElementById('prox-pick-map');
+        const pickMapLabel = document.getElementById('prox-pick-label');
+        if (pickMapBtn) {
+            pickMapBtn.addEventListener('click', () => {
+                this.isPickingProxCenter = !this.isPickingProxCenter;
+                if (this.isPickingProxCenter) {
+                    pickMapBtn.classList.remove('btn-outline-warning');
+                    pickMapBtn.classList.add('btn-warning');
+                    if (pickMapLabel) pickMapLabel.textContent = 'Click map point...';
+                    if (this.map) this.map.getCanvas().style.cursor = 'crosshair';
+                } else {
+                    pickMapBtn.classList.remove('btn-warning');
+                    pickMapBtn.classList.add('btn-outline-warning');
+                    if (pickMapLabel) pickMapLabel.textContent = 'Click Map to Set Center';
+                    if (this.map) this.map.getCanvas().style.cursor = '';
+                }
             });
-        });
+        }
 
         const gpsBtn = document.getElementById('prox-loc-gps');
         if (gpsBtn) {
             gpsBtn.addEventListener('click', () => {
                 if (navigator.geolocation) {
                     navigator.geolocation.getCurrentPosition(pos => {
-                        this.proxCenter = { lon: pos.coords.longitude, lat: pos.coords.latitude };
-                        if (this.map) this.map.flyTo({ center: [this.proxCenter.lon, this.proxCenter.lat], zoom: 9, duration: 1000 });
-                        this.applyFilters(true);
+                        this.setProximityCenter(pos.coords.longitude, pos.coords.latitude);
+                        if (this.map) this.map.flyTo({ center: [pos.coords.longitude, pos.coords.latitude], zoom: 9, duration: 1000 });
                     }, err => {
                         alert('Could not retrieve GPS location: ' + err.message);
                     });
@@ -990,8 +1045,48 @@ class HeritageCombinedExplorer {
         };
     }
 
+    setProximityCenter(lon, lat) {
+        this.proxCenter = { lon, lat };
+        const coordLabel = document.getElementById('prox-center-coords');
+        if (coordLabel) {
+            coordLabel.textContent = `${lon.toFixed(3)}, ${lat.toFixed(3)}`;
+        }
+        if (!this.proxEnabled) {
+            const proxEnable = document.getElementById('prox-enable');
+            if (proxEnable) {
+                proxEnable.checked = true;
+                this.proxEnabled = true;
+                const proxControls = document.getElementById('prox-controls');
+                if (proxControls) proxControls.classList.remove('d-none');
+            }
+        }
+        this.updateProximityCenterMarker();
+        this.updateProximityCircle();
+        this.applyFilters(false);
+    }
+
+    updateProximityCenterMarker() {
+        if (!this.map || !this.map.getSource('proximity-center')) return;
+        if (this.proxEnabled && this.proxCenter) {
+            this.map.getSource('proximity-center').setData({
+                type: 'FeatureCollection',
+                features: [{
+                    type: 'Feature',
+                    geometry: {
+                        type: 'Point',
+                        coordinates: [this.proxCenter.lon, this.proxCenter.lat]
+                    },
+                    properties: {}
+                }]
+            });
+        } else {
+            this.map.getSource('proximity-center').setData({ type: 'FeatureCollection', features: [] });
+        }
+    }
+
     updateProximityCircle() {
         if (!this.map || !this.map.getSource('proximity-radius')) return;
+        this.updateProximityCenterMarker();
         if (this.proxEnabled && this.proxCenter) {
             const circleData = this.createGeoJSONCircle(this.proxCenter, this.proxRadiusMiles);
             this.map.getSource('proximity-radius').setData(circleData);
@@ -1003,7 +1098,7 @@ class HeritageCombinedExplorer {
     async initDuckDB() {
         try {
             const statusText = document.getElementById('duckdb-status-text');
-            if (statusText) statusText.textContent = 'DuckDB: Booting...';
+            if (statusText) statusText.textContent = 'Spatial Engine: Booting...';
 
             const JSDELIVR_BUNDLES = duckdb.getJsDelivrBundles();
             const bundle = JSDELIVR_BUNDLES.eh || await duckdb.selectBundle(JSDELIVR_BUNDLES);
@@ -1029,14 +1124,14 @@ class HeritageCombinedExplorer {
 
             const pill = document.getElementById('duckdb-status-pill');
             if (pill) pill.classList.add('ready');
-            if (statusText) statusText.textContent = this.spatialLoaded ? 'DuckDB Spatial: Ready' : 'DuckDB Core: Ready';
+            if (statusText) statusText.textContent = 'Spatial Engine: Ready';
             const statsBadge = document.getElementById('sql-drawer-stats');
             if (statsBadge) statsBadge.textContent = `${this.rawFeatures.length} sites in table`;
 
         } catch (err) {
             console.error('DuckDB-Wasm init error:', err);
             const statusText = document.getElementById('duckdb-status-text');
-            if (statusText) statusText.textContent = 'DuckDB: Error';
+            if (statusText) statusText.textContent = 'Spatial Engine: Error';
         }
     }
 
@@ -1124,7 +1219,7 @@ class HeritageCombinedExplorer {
 
     async executeDuckDBSQL(sql) {
         if (!this.conn) {
-            alert('DuckDB-Wasm engine is still initializing. Please wait a moment.');
+            alert('Spatial engine is still initializing. Please wait a moment.');
             return;
         }
         const t0 = performance.now();

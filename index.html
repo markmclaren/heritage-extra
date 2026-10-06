@@ -19,7 +19,7 @@
     <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=2">
 </head>
 <body>
 
@@ -62,11 +62,11 @@
             </span>
         </div>
 
-        <!-- DuckDB-Wasm Engine Bar -->
+        <!-- Spatial Engine Status Bar -->
         <div class="d-none d-lg-flex align-items-center gap-2 my-1">
             <span class="duckdb-pill" id="duckdb-status-pill">
-                <i class="bi bi-cpu-fill"></i>
-                <span id="duckdb-status-text">DuckDB: Loading...</span>
+                <i class="bi bi-lightning-charge-fill"></i>
+                <span id="duckdb-status-text">Spatial Engine</span>
                 <span id="duckdb-query-ms" class="badge bg-dark bg-opacity-50 ms-1">--</span>
             </span>
             <button id="btn-toggle-sql-drawer" class="btn btn-sql-toggle" type="button">
@@ -187,11 +187,11 @@
                     </div>
                 </div>
 
-                <!-- Spatial Proximity (DuckDB ST_Distance_Sphere) -->
+                <!-- Spatial Proximity Filter -->
                 <div class="proximity-card mb-3">
                     <div class="d-flex justify-content-between align-items-center mb-1">
                         <label class="section-label mb-0" style="color: #fbbf24; font-size: 0.76rem;">
-                            <i class="bi bi-geo-alt-fill me-1"></i> Proximity Filter (DuckDB)
+                            <i class="bi bi-geo-alt-fill me-1"></i> Spatial Radius Filter
                         </label>
                         <div class="form-check form-switch m-0">
                             <input class="form-check-input" type="checkbox" id="prox-enable">
@@ -202,14 +202,17 @@
                             <span class="small text-white-50" style="font-size: 0.72rem;">Radius:</span>
                             <span class="small fw-bold text-warning" id="prox-radius-label">25 miles</span>
                         </div>
-                        <input type="range" class="form-range" id="prox-radius" min="5" max="100" step="5" value="25">
-                        <div class="d-flex gap-1 flex-wrap mt-2">
-                            <button class="btn btn-sm btn-outline-warning py-0 px-2" style="font-size: 0.7rem;" id="prox-loc-gps"><i class="bi bi-crosshair"></i> GPS</button>
-                            <button class="btn btn-sm btn-outline-light py-0 px-2 btn-city-loc" style="font-size: 0.7rem;" data-lon="-0.12" data-lat="51.5">London</button>
-                            <button class="btn btn-sm btn-outline-light py-0 px-2 btn-city-loc" style="font-size: 0.7rem;" data-lon="-3.18" data-lat="51.48">Cardiff</button>
-                            <button class="btn btn-sm btn-outline-light py-0 px-2 btn-city-loc" style="font-size: 0.7rem;" data-lon="-3.19" data-lat="55.95">Edinburgh</button>
-                            <button class="btn btn-sm btn-outline-light py-0 px-2 btn-city-loc" style="font-size: 0.7rem;" data-lon="-6.26" data-lat="53.35">Dublin</button>
-                            <button class="btn btn-sm btn-outline-light py-0 px-2 btn-city-loc" style="font-size: 0.7rem;" data-lon="-2.36" data-lat="51.38">Bath</button>
+                        <div class="d-flex gap-2 align-items-center mt-2">
+                            <button class="btn btn-sm btn-outline-warning py-1 px-2 flex-fill d-flex align-items-center justify-content-center gap-1" style="font-size: 0.72rem;" id="prox-pick-map">
+                                <i class="bi bi-cursor-fill"></i> <span id="prox-pick-label">Click Map to Set Center</span>
+                            </button>
+                            <button class="btn btn-sm btn-outline-light py-1 px-2 d-flex align-items-center justify-content-center gap-1" style="font-size: 0.72rem;" id="prox-loc-gps" title="Use current GPS location">
+                                <i class="bi bi-crosshair"></i> GPS
+                            </button>
+                        </div>
+                        <div class="small text-white-50 mt-1 d-flex justify-content-between align-items-center" style="font-size: 0.68rem;">
+                            <span>Center:</span>
+                            <span id="prox-center-coords" class="text-warning font-monospace">-3.18, 51.48</span>
                         </div>
                     </div>
                 </div>
@@ -221,64 +224,64 @@
                         <div class="col-6">
                             <div class="btn-check-pill-wrapper">
                                 <input type="checkbox" class="btn-check category-checkbox" id="cat-castle" autocomplete="off">
-                                <label class="btn btn-outline-category w-100 text-start" for="cat-castle">
-                                    <i class="bi bi-shield-shaded me-1"></i> Castles
+                                <label class="btn btn-outline-category w-100 text-start d-flex align-items-center" for="cat-castle">
+                                    <span class="dot cat-dot-castle"></span> Castles
                                 </label>
                             </div>
                         </div>
                         <div class="col-6">
                             <div class="btn-check-pill-wrapper">
                                 <input type="checkbox" class="btn-check category-checkbox" id="cat-abbey" autocomplete="off">
-                                <label class="btn btn-outline-category w-100 text-start" for="cat-abbey">
-                                    <i class="bi bi-bank me-1"></i> Religious
+                                <label class="btn btn-outline-category w-100 text-start d-flex align-items-center" for="cat-abbey">
+                                    <span class="dot cat-dot-abbey"></span> Religious
                                 </label>
                             </div>
                         </div>
                         <div class="col-6">
                             <div class="btn-check-pill-wrapper">
                                 <input type="checkbox" class="btn-check category-checkbox" id="cat-house" autocomplete="off">
-                                <label class="btn btn-outline-category w-100 text-start" for="cat-house">
-                                    <i class="bi bi-house-heart me-1"></i> Houses
+                                <label class="btn btn-outline-category w-100 text-start d-flex align-items-center" for="cat-house">
+                                    <span class="dot cat-dot-house"></span> Houses
                                 </label>
                             </div>
                         </div>
                         <div class="col-6">
                             <div class="btn-check-pill-wrapper">
                                 <input type="checkbox" class="btn-check category-checkbox" id="cat-roman" autocomplete="off">
-                                <label class="btn btn-outline-category w-100 text-start" for="cat-roman">
-                                    <i class="bi bi-columns me-1"></i> Roman
+                                <label class="btn btn-outline-category w-100 text-start d-flex align-items-center" for="cat-roman">
+                                    <span class="dot cat-dot-roman"></span> Roman
                                 </label>
                             </div>
                         </div>
                         <div class="col-6">
                             <div class="btn-check-pill-wrapper">
                                 <input type="checkbox" class="btn-check category-checkbox" id="cat-prehistoric" autocomplete="off">
-                                <label class="btn btn-outline-category w-100 text-start" for="cat-prehistoric">
-                                    <i class="bi bi-circle-dot me-1"></i> Prehistoric
+                                <label class="btn btn-outline-category w-100 text-start d-flex align-items-center" for="cat-prehistoric">
+                                    <span class="dot cat-dot-prehistoric"></span> Prehistoric
                                 </label>
                             </div>
                         </div>
                         <div class="col-6">
                             <div class="btn-check-pill-wrapper">
                                 <input type="checkbox" class="btn-check category-checkbox" id="cat-garden" autocomplete="off">
-                                <label class="btn btn-outline-category w-100 text-start" for="cat-garden">
-                                    <i class="bi bi-flower1 me-1"></i> Gardens
+                                <label class="btn btn-outline-category w-100 text-start d-flex align-items-center" for="cat-garden">
+                                    <span class="dot cat-dot-garden"></span> Gardens
                                 </label>
                             </div>
                         </div>
                         <div class="col-6">
                             <div class="btn-check-pill-wrapper">
                                 <input type="checkbox" class="btn-check category-checkbox" id="cat-park" autocomplete="off">
-                                <label class="btn btn-outline-category w-100 text-start" for="cat-park">
-                                    <i class="bi bi-tree me-1"></i> Parks
+                                <label class="btn btn-outline-category w-100 text-start d-flex align-items-center" for="cat-park">
+                                    <span class="dot cat-dot-park"></span> Parks
                                 </label>
                             </div>
                         </div>
                         <div class="col-6">
                             <div class="btn-check-pill-wrapper">
                                 <input type="checkbox" class="btn-check category-checkbox" id="cat-other" autocomplete="off">
-                                <label class="btn btn-outline-category w-100 text-start" for="cat-other">
-                                    <i class="bi bi-grid-3x3-gap me-1"></i> Other
+                                <label class="btn btn-outline-category w-100 text-start d-flex align-items-center" for="cat-other">
+                                    <span class="dot cat-dot-other"></span> Other
                                 </label>
                             </div>
                         </div>
@@ -397,7 +400,7 @@
         <div class="sql-drawer-header">
             <div class="d-flex align-items-center gap-2">
                 <i class="bi bi-terminal-fill text-warning"></i>
-                <h6 class="mb-0 fw-bold outfit-font text-white">DuckDB-Wasm Spatial Console</h6>
+                <h6 class="mb-0 fw-bold outfit-font text-white">Spatial Analytics Console</h6>
                 <span class="badge bg-secondary opacity-75" id="sql-drawer-stats">1,304 sites loaded</span>
             </div>
             <div class="d-flex align-items-center gap-2">
@@ -410,7 +413,7 @@
             <div class="sql-editor-pane">
                 <textarea id="sql-console-input" class="sql-textarea" spellcheck="false">SELECT * FROM heritage_sites WHERE category = 'Castle' AND org = 'cadw';</textarea>
                 <div class="d-flex justify-content-between align-items-center mt-2">
-                    <span class="text-white-50 small" style="font-size: 0.7rem;">In-Memory Table: <code>heritage_sites</code> • Spatial Geometry: <code>geom</code></span>
+                    <span class="text-white-50 small" style="font-size: 0.7rem;">Dataset Table: <code>heritage_sites</code> • Spatial Geometry: <code>geom</code></span>
                     <span class="text-warning small" id="sql-exec-time" style="font-size: 0.75rem;">Query executed in 0 ms</span>
                 </div>
             </div>
