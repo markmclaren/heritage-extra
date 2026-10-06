@@ -90,6 +90,10 @@ html, body {
 .cat-dot-prehistoric { background: #FF8C00; box-shadow: 0 0 6px rgba(255, 140, 0, 0.6); }
 .cat-dot-garden      { background: #2ecc71; box-shadow: 0 0 6px rgba(46, 204, 113, 0.6); }
 .cat-dot-park        { background: #16a085; box-shadow: 0 0 6px rgba(22, 160, 133, 0.6); }
+.cat-dot-nature      { background: #0284c7; box-shadow: 0 0 6px rgba(2, 132, 199, 0.6); }
+.cat-dot-industrial  { background: #d97706; box-shadow: 0 0 6px rgba(217, 119, 6, 0.6); }
+.cat-dot-military    { background: #991b1b; box-shadow: 0 0 6px rgba(153, 27, 27, 0.6); }
+.cat-dot-monument    { background: #6366f1; box-shadow: 0 0 6px rgba(99, 102, 241, 0.6); }
 .cat-dot-other       { background: #6c757d; box-shadow: 0 0 6px rgba(108, 117, 125, 0.6); }
 
 /* ── Search bar ─────────────────────────────────────────────── */

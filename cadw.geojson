@@ -19,7 +19,13 @@
         "data_index": "0",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Castles",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "13th Century (1295, Edward I)",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ],
+        "isTopSite": true
       }
     },
     {
@@ -39,7 +45,13 @@
         "location_id": "68c3d38171732",
         "data_index": "1",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
-        "period": "Industrial"
+        "period": "Industrial",
+        "period_detail": "Late 18th Century (1789)",
+        "category": "Industrial",
+        "categories": [
+          "Industrial"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -59,7 +71,13 @@
         "location_id": "68c3d38174baa",
         "data_index": "2",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
-        "period": "Roman"
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -73,14 +91,20 @@
       },
       "properties": {
         "name": "Castell Caernarfon",
-        "description": "After all these years Caernarfon’s immense strength remains undimmed.",
+        "description": "After all these years Caernarfon\u2019s immense strength remains undimmed.",
         "visit_url": "https://cadw.gov.wales/visit/places-to-visit/castell-caernarfon",
         "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NCX-VH02-1819-0057.jpg?itok=RnsWqcfM",
         "location_id": "68c3d38178a7a",
         "data_index": "3",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Castles",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -101,7 +125,13 @@
         "data_index": "4",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Castles",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ],
+        "isTopSite": true
       }
     },
     {
@@ -122,7 +152,13 @@
         "data_index": "5",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Castles",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -143,7 +179,14 @@
         "data_index": "6",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Castles",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "Nature & Coast"
+        ],
+        "isTopSite": true
       }
     },
     {
@@ -157,14 +200,20 @@
       },
       "properties": {
         "name": "Castell Cilgerran",
-        "description": "Spectacular castle that wasn’t quite as secure as the Normans hoped",
+        "description": "Spectacular castle that wasn\u2019t quite as secure as the Normans hoped",
         "visit_url": "https://cadw.gov.wales/visit/places-to-visit/castell-cilgerran",
         "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2025-03/IMG_20230709_162623201.jpg?itok=5pbbWM-C",
         "location_id": "68c3d38185c5d",
         "data_index": "7",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Castles",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -185,7 +234,13 @@
         "data_index": "8",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Castles",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -199,14 +254,21 @@
       },
       "properties": {
         "name": "Castell Cricieth",
-        "description": "Spectacular coastal castle built – and destroyed – by powerful Welsh\n              princes",
+        "description": "Spectacular coastal castle built \u2013 and destroyed \u2013 by powerful Welsh\n              princes",
         "visit_url": "https://cadw.gov.wales/visit/places-to-visit/castell-cricieth",
         "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NVW-C10-1415-0006.JPG?itok=_x6b1K9w",
         "location_id": "68c3d3818b856",
         "data_index": "9",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Castles",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "Nature & Coast"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -227,7 +289,13 @@
         "data_index": "10",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Castles",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -248,7 +316,13 @@
         "data_index": "11",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Castles",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -262,14 +336,21 @@
       },
       "properties": {
         "name": "Castell Harlech",
-        "description": "None of Edward I’s mighty coastal fortresses has a more spectacular\n              setting",
+        "description": "None of Edward I\u2019s mighty coastal fortresses has a more spectacular\n              setting",
         "visit_url": "https://cadw.gov.wales/visit/places-to-visit/castell-harlech",
         "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NCX-KC02-1617-0008.jpg?h=28faa4f6&itok=fVdbbOUQ",
         "location_id": "68c3d38195d5d",
         "data_index": "12",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Castles",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "Nature & Coast"
+        ],
+        "isTopSite": true
       }
     },
     {
@@ -290,7 +371,13 @@
         "data_index": "13",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Castles",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -304,14 +391,21 @@
       },
       "properties": {
         "name": "Laugharne Castle",
-        "description": "Mighty medieval castle, Tudor mansion and poet’s hideout",
+        "description": "Mighty medieval castle, Tudor mansion and poet\u2019s hideout",
         "visit_url": "https://cadw.gov.wales/visit/places-to-visit/laugharne-castle",
         "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-06/SCX-VH09-1718-0088.jpg?itok=Tudj2EWp",
         "location_id": "68c3d3819bda3",
         "data_index": "14",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Castles",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "House"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -332,7 +426,13 @@
         "data_index": "15",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Religious sites",
-        "period": "Medieval"
+        "period": "Early Medieval",
+        "period_detail": "Early Christian / Celtic stones",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -353,7 +453,13 @@
         "data_index": "16",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Castles",
-        "period": "Tudor"
+        "period": "Tudor",
+        "period_detail": "Cadw designated: Tudor",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -367,14 +473,21 @@
       },
       "properties": {
         "name": "Plas Mawr",
-        "description": "Britain’s finest town house of the golden Elizabethan age",
+        "description": "Britain\u2019s finest town house of the golden Elizabethan age",
         "visit_url": "https://cadw.gov.wales/visit/places-to-visit/plas-mawr",
         "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2023-07/NCX-EQ51-1314-0106.jpg?itok=ocCi3s7x",
         "location_id": "68c3d381a6bba",
         "data_index": "17",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Historic houses",
-        "period": "Tudor"
+        "period": "Tudor",
+        "period_detail": "Cadw designated: Tudor",
+        "category": "House",
+        "categories": [
+          "House",
+          "Nature & Coast"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -395,7 +508,14 @@
         "data_index": "18",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Castles",
-        "period": "Tudor"
+        "period": "Tudor",
+        "period_detail": "Cadw designated: Tudor",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "House"
+        ],
+        "isTopSite": true
       }
     },
     {
@@ -416,7 +536,13 @@
         "data_index": "19",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Castles",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -436,7 +562,14 @@
         "location_id": "68c3d381b50b3",
         "data_index": "20",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
-        "location_type": "Religious sites"
+        "location_type": "Religious sites",
+        "period": "Stuart",
+        "period_detail": "17th Century (1637, Royalist)",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -459,7 +592,14 @@
         "location_type": [
           "Historic houses",
           "Religious sites"
-        ]
+        ],
+        "period": "Medieval",
+        "period_detail": "14th Century (1327)",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ],
+        "isTopSite": true
       }
     },
     {
@@ -479,7 +619,14 @@
         "location_id": "68c3d381bd813",
         "data_index": "22",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
-        "location_type": "Religious sites"
+        "location_type": "Religious sites",
+        "period": "Medieval",
+        "period_detail": "12th Century (1164 Cistercian)",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -499,7 +646,14 @@
         "location_id": "68c3d381c14a0",
         "data_index": "23",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
-        "location_type": "Religious sites"
+        "location_type": "Religious sites",
+        "period": "Medieval",
+        "period_detail": "12th-13th Century (1131 Cistercian)",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ],
+        "isTopSite": true
       }
     },
     {
@@ -523,10 +677,16 @@
           "Castles",
           "Historic houses"
         ],
-        "period": [
-          "Medieval",
-          "Tudor"
-        ]
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "House",
+          "Monument",
+          "Nature & Coast"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -546,7 +706,14 @@
         "location_id": "68c3d381c768a",
         "data_index": "25",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
-        "location_type": "Religious sites"
+        "location_type": "Religious sites",
+        "period": "Medieval",
+        "period_detail": "13th Century (1201 Cistercian)",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -566,7 +733,14 @@
         "location_id": "68c3d381cb58e",
         "data_index": "26",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
-        "location_type": "Castles"
+        "location_type": "Castles",
+        "period": "Medieval",
+        "period_detail": "14th Century fortified manor",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -587,7 +761,15 @@
         "data_index": "27",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Castles",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Roman",
+        "categories": [
+          "Roman",
+          "Castle",
+          "Industrial"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -608,7 +790,14 @@
         "data_index": "28",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Burial chamber",
-        "period": "Prehistoric"
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Nature & Coast"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -622,14 +811,20 @@
       },
       "properties": {
         "name": "Basingwerk Abbey",
-        "description": "A medieval religious centre that’s still a place of pilgrimage",
+        "description": "A medieval religious centre that\u2019s still a place of pilgrimage",
         "visit_url": "https://cadw.gov.wales/visit/places-to-visit/basingwerk-abbey",
         "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NCX-SC01-1516-0468.jpg?itok=yiUsEMSy",
         "location_id": "68c3d381da50d",
         "data_index": "29",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Religious sites",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -650,7 +845,14 @@
         "data_index": "30",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Burial chamber",
-        "period": "Prehistoric"
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Nature & Coast"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -670,7 +872,13 @@
         "location_id": "68c3d381e361e",
         "data_index": "31",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
-        "period": "Roman"
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -691,7 +899,14 @@
         "data_index": "32",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Castles",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "Nature & Coast"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -712,7 +927,14 @@
         "data_index": "33",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Burial chamber",
-        "period": "Prehistoric"
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Nature & Coast"
+        ],
+        "isTopSite": true
       }
     },
     {
@@ -732,7 +954,13 @@
         "location_id": "68c3d381f208e",
         "data_index": "34",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
-        "period": "Industrial"
+        "period": "Industrial",
+        "period_detail": "Cadw designated: Industrial",
+        "category": "Industrial",
+        "categories": [
+          "Industrial"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -753,7 +981,15 @@
         "data_index": "35",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Historic houses",
-        "period": "Industrial"
+        "period": "Industrial",
+        "period_detail": "Cadw designated: Industrial",
+        "category": "Industrial",
+        "categories": [
+          "Industrial",
+          "House",
+          "Nature & Coast"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -773,7 +1009,14 @@
         "location_id": "68c3d382068c0",
         "data_index": "36",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
-        "period": "Roman"
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman",
+          "Nature & Coast"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -786,14 +1029,22 @@
         ]
       },
       "properties": {
-        "name": "Caer Lêb Romano-British Farm",
+        "name": "Caer L\u00eab Romano-British Farm",
         "description": "Prehistoric settlement with Roman and medieval connections",
         "visit_url": "https://cadw.gov.wales/visit/places-to-visit/caer-leb-romano-british-farm",
         "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/Caer%20Leb%20011-000-916.jpg?itok=ykll6uP7",
         "location_id": "68c3d38209319",
         "data_index": "37",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
-        "period": "Prehistoric"
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Roman",
+          "Nature & Coast"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -813,7 +1064,15 @@
         "location_id": "68c3d3820dd8b",
         "data_index": "38",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
-        "period": "Prehistoric"
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Roman",
+          "Nature & Coast"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -833,7 +1092,13 @@
         "location_id": "68c3d38213813",
         "data_index": "39",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
-        "period": "Roman"
+        "period": "Roman",
+        "period_detail": "Roman Britain (c. 90 AD)",
+        "category": "Roman",
+        "categories": [
+          "Roman"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -853,7 +1118,13 @@
         "location_id": "68c3d3821645a",
         "data_index": "40",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
-        "period": "Roman"
+        "period": "Roman",
+        "period_detail": "Roman Britain (Venta Silurum)",
+        "category": "Roman",
+        "categories": [
+          "Roman"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -874,7 +1145,14 @@
         "data_index": "41",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Burial chamber",
-        "period": "Prehistoric"
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Nature & Coast"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -888,14 +1166,20 @@
       },
       "properties": {
         "name": "Capel Llugwy",
-        "description": "Possibly all that’s left of a vanished community",
+        "description": "Possibly all that\u2019s left of a vanished community",
         "visit_url": "https://cadw.gov.wales/visit/places-to-visit/capel-llugwy",
         "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NCX-SC01-1516-0497.jpg?itok=UP2F14RH",
         "location_id": "68c3d3821f1a9",
         "data_index": "42",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Religious sites",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "12th Century chapel ruins",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -915,7 +1199,13 @@
         "location_id": "68c3d38223edc",
         "data_index": "43",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Monument",
+        "categories": [
+          "Monument"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -936,7 +1226,14 @@
         "data_index": "44",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Burial chamber",
-        "period": "Prehistoric"
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Nature & Coast"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -956,7 +1253,13 @@
         "location_id": "68c3d3822b3ea",
         "data_index": "45",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "House",
+        "categories": [
+          "House"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -976,7 +1279,15 @@
         "location_id": "68c3d38231095",
         "data_index": "46",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
-        "period": "Prehistoric"
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Castle",
+          "Nature & Coast"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -997,7 +1308,14 @@
         "data_index": "47",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Castles",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "Monument"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1017,7 +1335,14 @@
         "location_id": "68c3d38237173",
         "data_index": "48",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
-        "period": "Prehistoric"
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Nature & Coast"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1038,7 +1363,13 @@
         "data_index": "49",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Castles",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "13th Century (1272)",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1059,7 +1390,15 @@
         "data_index": "50",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Castles",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Roman",
+        "categories": [
+          "Roman",
+          "Castle",
+          "Nature & Coast"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1080,7 +1419,13 @@
         "data_index": "51",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Castles",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "13th Century (1283)",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1101,7 +1446,13 @@
         "data_index": "52",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Religious sites",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1122,7 +1473,13 @@
         "data_index": "53",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Religious sites",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1136,14 +1493,22 @@
       },
       "properties": {
         "name": "Denbigh Town Walls",
-        "description": "The first line of defence for Denbigh’s medieval castle",
+        "description": "The first line of defence for Denbigh\u2019s medieval castle",
         "visit_url": "https://cadw.gov.wales/visit/places-to-visit/denbigh-town-walls",
         "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NCX-SC01-1516-0119.jpg?itok=d94q78Hx",
         "location_id": "68c3d38250e14",
         "data_index": "54",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Castles",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Military",
+          "Castle",
+          "Nature & Coast"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1164,7 +1529,13 @@
         "data_index": "55",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Religious sites",
-        "period": "Tudor"
+        "period": "Tudor",
+        "period_detail": "Cadw designated: Tudor",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1185,7 +1556,13 @@
         "data_index": "56",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Religious sites",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1205,7 +1582,13 @@
         "location_id": "68c3d3825bf19",
         "data_index": "57",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Monument",
+        "categories": [
+          "Monument"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1226,7 +1609,14 @@
         "data_index": "58",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Burial chamber",
-        "period": "Prehistoric"
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Nature & Coast"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1240,16 +1630,22 @@
       },
       "properties": {
         "name": "Din Llugwy Romano-British Village",
-        "description": "Revealing late Roman settlement – but was it originally from the Iron\n              Age?",
+        "description": "Revealing late Roman settlement \u2013 but was it originally from the Iron\n              Age?",
         "visit_url": "https://cadw.gov.wales/visit/places-to-visit/din-llugwy-romano-british-village",
         "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NCX-SC01-1516-0519.jpg?itok=kguz2sYD",
         "location_id": "68c3d38269223",
         "data_index": "59",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
-        "period": [
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
           "Prehistoric",
-          "Roman"
-        ]
+          "Roman",
+          "House",
+          "Nature & Coast"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1270,7 +1666,13 @@
         "data_index": "60",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Castles",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1284,14 +1686,20 @@
       },
       "properties": {
         "name": "Castell Dolbadarn",
-        "description": "Welsh castle and solitary guardian of Eryri's (Snowdonia’s)\n              Llanberis Pass",
+        "description": "Welsh castle and solitary guardian of Eryri's (Snowdonia\u2019s)\n              Llanberis Pass",
         "visit_url": "https://cadw.gov.wales/visit/places-to-visit/castell-dolbadarn",
         "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NCX-SC01-1516-0522.jpg?itok=17vO94yK",
         "location_id": "68c3d3826eeda",
         "data_index": "61",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Castles",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1312,7 +1720,13 @@
         "data_index": "62",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Castles",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1326,14 +1740,20 @@
       },
       "properties": {
         "name": "Castell Dryslwyn",
-        "description": "Fragmentary – yet evocative – remains of a castle laid low by conflict",
+        "description": "Fragmentary \u2013 yet evocative \u2013 remains of a castle laid low by conflict",
         "visit_url": "https://cadw.gov.wales/visit/places-to-visit/castell-dryslwyn",
         "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/S132-230-D.JPG?itok=8uJ3RgTJ",
         "location_id": "68c3d382768bd",
         "data_index": "63",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Castles",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1354,7 +1774,14 @@
         "data_index": "64",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Burial chamber",
-        "period": "Prehistoric"
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Nature & Coast"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1374,7 +1801,13 @@
         "location_id": "68c3d38281076",
         "data_index": "65",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
-        "period": "Industrial"
+        "period": "Industrial",
+        "period_detail": "Cadw designated: Industrial",
+        "category": "Industrial",
+        "categories": [
+          "Industrial"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1394,7 +1827,13 @@
         "location_id": "68c3d3828d3dc",
         "data_index": "66",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Monument",
+        "categories": [
+          "Monument"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1415,7 +1854,13 @@
         "data_index": "67",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Religious sites",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1436,7 +1881,14 @@
         "data_index": "68",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Castles",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "Nature & Coast"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1450,14 +1902,20 @@
       },
       "properties": {
         "name": "Flint Castle",
-        "description": "The earliest and most unusual of Wales’s English-built castles",
+        "description": "The earliest and most unusual of Wales\u2019s English-built castles",
         "visit_url": "https://cadw.gov.wales/visit/places-to-visit/flint-castle",
         "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NCX-DR01-1718-0018.jpg?itok=OV3f-90h",
         "location_id": "68c3d382985ec",
         "data_index": "69",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Castles",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1478,7 +1936,13 @@
         "data_index": "70",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Castles",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1498,7 +1962,14 @@
         "location_id": "68c3d382a01c8",
         "data_index": "71",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
-        "location_type": "Religious sites"
+        "location_type": "Religious sites",
+        "period": "Stuart",
+        "period_detail": "17th Century (1673)",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1519,7 +1990,14 @@
         "data_index": "72",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Historic houses",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "House",
+        "categories": [
+          "House",
+          "Nature & Coast"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1540,7 +2018,13 @@
         "data_index": "73",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Religious sites",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1561,7 +2045,14 @@
         "data_index": "74",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Historic houses",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "House",
+        "categories": [
+          "House",
+          "Nature & Coast"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1582,7 +2073,15 @@
         "data_index": "75",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Historic houses",
-        "period": "Industrial"
+        "period": "Industrial",
+        "period_detail": "Cadw designated: Industrial",
+        "category": "Industrial",
+        "categories": [
+          "Industrial",
+          "House",
+          "Nature & Coast"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1603,7 +2102,15 @@
         "data_index": "76",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Historic houses",
-        "period": "Prehistoric"
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "House",
+          "Nature & Coast"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1617,14 +2124,21 @@
       },
       "properties": {
         "name": "Lamphey Bishop's Palace",
-        "description": "A bishop’s tipple",
+        "description": "A bishop\u2019s tipple",
         "visit_url": "https://cadw.gov.wales/visit/places-to-visit/lamphey-bishops-palace",
         "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/SCX-VH09-1718-0081.jpg?itok=lpEJR1oU",
         "location_id": "68c3d382b9405",
         "data_index": "77",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Religious sites",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious",
+          "House"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1638,14 +2152,20 @@
       },
       "properties": {
         "name": "Llangar Old Church",
-        "description": "The writing’s on the wall",
+        "description": "The writing\u2019s on the wall",
         "visit_url": "https://cadw.gov.wales/visit/places-to-visit/llangar-old-church",
         "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NCX-SC01-1516-0180.jpg?itok=loezrvBi",
         "location_id": "68c3d382bc39e",
         "data_index": "78",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Religious sites",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1665,7 +2185,14 @@
         "location_id": "68c3d382c02e4",
         "data_index": "79",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
-        "period": "Prehistoric"
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Nature & Coast"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1686,7 +2213,14 @@
         "data_index": "80",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Castles",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "Park"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1707,7 +2241,13 @@
         "data_index": "81",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Religious sites",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1728,7 +2268,14 @@
         "data_index": "82",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Castles",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "House"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1748,7 +2295,14 @@
         "location_id": "68c3d382d2174",
         "data_index": "83",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
-        "location_type": "Castles"
+        "location_type": "Castles",
+        "period": "Medieval",
+        "period_detail": "12th Century Norman motte-and-bailey",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1769,7 +2323,14 @@
         "data_index": "84",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Burial chamber",
-        "period": "Prehistoric"
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Nature & Coast"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1790,7 +2351,14 @@
         "data_index": "85",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Castles",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "Monument"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1810,7 +2378,13 @@
         "location_id": "68c3d382dcd92",
         "data_index": "86",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Monument",
+        "categories": [
+          "Monument"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1831,7 +2405,14 @@
         "data_index": "87",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Castles",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "Nature & Coast"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1852,7 +2433,13 @@
         "data_index": "88",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Castles",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1866,14 +2453,21 @@
       },
       "properties": {
         "name": "Neath Abbey",
-        "description": "A site of power – both religious and industrial",
+        "description": "A site of power \u2013 both religious and industrial",
         "visit_url": "https://cadw.gov.wales/visit/places-to-visit/neath-abbey",
         "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2025-03/26583-abaty-nedd-neath-abbey-web-optimised-1920px.jpg?itok=pKXISmMF",
         "location_id": "68c3d382e874b",
         "data_index": "89",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Religious sites",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious",
+          "Industrial"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1894,7 +2488,13 @@
         "data_index": "90",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Castles",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1915,7 +2515,13 @@
         "data_index": "91",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Castles",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1936,7 +2542,13 @@
         "data_index": "92",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Castles",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1957,10 +2569,14 @@
         "data_index": "93",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Castles",
-        "period": [
-          "Medieval",
-          "Tudor"
-        ]
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "House"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -1981,7 +2597,14 @@
         "data_index": "94",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Burial chamber",
-        "period": "Prehistoric"
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Nature & Coast"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -2002,7 +2625,13 @@
         "data_index": "95",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Historic houses",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "15th Century hall house",
+        "category": "House",
+        "categories": [
+          "House"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -2015,7 +2644,7 @@
         ]
       },
       "properties": {
-        "name": "Penmon Priory, Cross and St Seiriol’s Well",
+        "name": "Penmon Priory, Cross and St Seiriol\u2019s Well",
         "description": "Three for the price of one at this important holy site",
         "visit_url": "https://cadw.gov.wales/visit/places-to-visit/penmon-priory-cross-and-st-seiriols-well",
         "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NVW-C71-1011-0251.jpg?itok=R2UfRKtN",
@@ -2023,7 +2652,14 @@
         "data_index": "96",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Religious sites",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious",
+          "Monument"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -2043,7 +2679,14 @@
         "location_id": "68c3d38319181",
         "data_index": "97",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
-        "period": "Prehistoric"
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Nature & Coast"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -2064,7 +2707,14 @@
         "data_index": "98",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Burial chamber",
-        "period": "Prehistoric"
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Nature & Coast"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -2083,7 +2733,14 @@
         "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NCX-SC01-1516-0564.jpg?itok=2KMhaefW",
         "location_id": "68c3d38324afe",
         "data_index": "99",
-        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png"
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "period": "Stuart",
+        "period_detail": "17th Century (Packhorse bridge)",
+        "category": "Industrial",
+        "categories": [
+          "Industrial"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -2104,7 +2761,14 @@
         "data_index": "100",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Burial chamber",
-        "period": "Prehistoric"
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Nature & Coast"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -2125,7 +2789,14 @@
         "data_index": "101",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Religious sites",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious",
+          "House"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -2146,7 +2817,13 @@
         "data_index": "102",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Castles",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -2167,7 +2844,13 @@
         "data_index": "103",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Religious sites",
-        "period": "Medieval"
+        "period": "Early Medieval",
+        "period_detail": "Celtic / Early Christian holy well",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -2188,7 +2871,14 @@
         "data_index": "104",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Religious sites",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious",
+          "House"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -2209,7 +2899,14 @@
         "data_index": "105",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Burial chamber",
-        "period": "Prehistoric"
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Nature & Coast"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -2223,14 +2920,20 @@
       },
       "properties": {
         "name": "St Non's Chapel",
-        "description": "Reputed birthplace of Wales’s patron saint in uplifting location",
+        "description": "Reputed birthplace of Wales\u2019s patron saint in uplifting location",
         "visit_url": "https://cadw.gov.wales/visit/places-to-visit/st-nons-chapel",
         "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/SCX-BZ06-1011-0142.jpg?itok=fVsdVS1U",
         "location_id": "68c3d3834f848",
         "data_index": "106",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Religious sites",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -2251,7 +2954,13 @@
         "data_index": "107",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Castles",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -2272,10 +2981,13 @@
         "data_index": "108",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Religious sites",
-        "period": [
-          "Medieval",
-          "Tudor"
-        ]
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -2296,7 +3008,13 @@
         "data_index": "109",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Castles",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -2317,7 +3035,13 @@
         "data_index": "110",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Religious sites",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -2338,7 +3062,14 @@
         "data_index": "111",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Burial chamber",
-        "period": "Prehistoric"
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Nature & Coast"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -2359,7 +3090,14 @@
         "data_index": "112",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Burial chamber",
-        "period": "Prehistoric"
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Nature & Coast"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -2379,7 +3117,15 @@
         "location_id": "68c3d3836c535",
         "data_index": "113",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
-        "period": "Prehistoric"
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Monument",
+          "Nature & Coast"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -2400,7 +3146,13 @@
         "data_index": "114",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Castles",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -2413,14 +3165,22 @@
         ]
       },
       "properties": {
-        "name": "Tŷ Mawr Standing Stone",
+        "name": "T\u0177 Mawr Standing Stone",
         "description": "Solitary, strangely shaped Bronze Age monument",
         "visit_url": "https://cadw.gov.wales/visit/places-to-visit/ty-mawr-standing-stone",
         "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NCX-SC01-1516-0234.jpg?itok=-yOq_uxF",
         "location_id": "68c3d38375ed6",
         "data_index": "115",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
-        "period": "Prehistoric"
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Monument",
+          "Nature & Coast"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -2433,7 +3193,7 @@
         ]
       },
       "properties": {
-        "name": "Tŷ Newydd Chambered Tomb",
+        "name": "T\u0177 Newydd Chambered Tomb",
         "description": "Prehistoric art and arrowheads",
         "visit_url": "https://cadw.gov.wales/visit/places-to-visit/ty-newydd-chambered-tomb",
         "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NVW-C71-1011-0120.JPG?itok=W5pdTJKp",
@@ -2441,7 +3201,14 @@
         "data_index": "116",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Burial chamber",
-        "period": "Prehistoric"
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Nature & Coast"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -2455,14 +3222,20 @@
       },
       "properties": {
         "name": "White Castle",
-        "description": "The shape of things to come? An early glimpse of Edward I’s Welsh\n              castle-building project",
+        "description": "The shape of things to come? An early glimpse of Edward I\u2019s Welsh\n              castle-building project",
         "visit_url": "https://cadw.gov.wales/visit/places-to-visit/white-castle",
         "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/SCX-VH11-1718-0080.jpg?itok=7y2gfUZa",
         "location_id": "68c3d38380150",
         "data_index": "117",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Castles",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -2482,7 +3255,13 @@
         "location_id": "68c3d38385ddd",
         "data_index": "118",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
-        "period": "Tudor"
+        "period": "Stuart",
+        "period_detail": "c. 1600 (Jacobean)",
+        "category": "Monument",
+        "categories": [
+          "Monument"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -2502,7 +3281,13 @@
         "location_id": "68c3d3838d258",
         "data_index": "119",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
-        "period": "Roman"
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -2516,14 +3301,20 @@
       },
       "properties": {
         "name": "Caernarfon Town Walls",
-        "description": "Caernarfon’s security blanket",
+        "description": "Caernarfon\u2019s security blanket",
         "visit_url": "https://cadw.gov.wales/visit/places-to-visit/caernarfon-town-walls",
         "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NCX-VH02-1819-0330.JPG?itok=UUVXASUH",
         "location_id": "68c3d38393474",
         "data_index": "120",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Castles",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "13th Century (1283)",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -2544,7 +3335,13 @@
         "data_index": "121",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
         "location_type": "Castles",
-        "period": "Medieval"
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -2563,7 +3360,14 @@
         "image_url": "https://cadw.gov.wales/sites/default/files/styles/promo/public/2019-05/NVW-C23-1011-0001.jpg?itok=HyphNQPK",
         "location_id": "68c3d3839d2fe",
         "data_index": "122",
-        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png"
+        "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
+        "period": "Medieval",
+        "period_detail": "13th Century (Princes of Gwynedd)",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ],
+        "isTopSite": false
       }
     },
     {
@@ -2583,7 +3387,13 @@
         "location_id": "68c3d383a44cc",
         "data_index": "123",
         "icon_url": "https://cadw.gov.wales/themes/custom/cadw/img/icons/pin.png",
-        "period": "Roman"
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman"
+        ],
+        "isTopSite": false
       }
     }
   ],

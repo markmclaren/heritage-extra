@@ -33,7 +33,13 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "11th Century (1066 Norman Conquest)",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ]
       }
     },
     {
@@ -48,7 +54,7 @@
       "properties": {
         "id": 3740,
         "title": "Abbotsbury Abbey Remains",
-        "summary": "Part of a monastic building, perhaps the abbot’s lodging, of Benedictine Abbotsbury Abbey, Henry VIII ordered its destruction during the Dissolution in 1538. St Catherine's Chapel is nearby.",
+        "summary": "Part of a monastic building, perhaps the abbot\u2019s lodging, of Benedictine Abbotsbury Abbey, Henry VIII ordered its destruction during the Dissolution in 1538. St Catherine's Chapel is nearby.",
         "path": "/visit/places/abbotsbury-abbey-remains/",
         "imagePath": "/siteassets/home/visit/places-to-visit/abbotsbury-abbey/abbotsbury-abbey-hero.jpg?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "",
@@ -59,7 +65,13 @@
         "primaryPropertyType": 1,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Tudor",
+        "period_detail": "Cadw designated: Tudor",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ]
       }
     },
     {
@@ -87,7 +99,13 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ]
       }
     },
     {
@@ -115,7 +133,14 @@
         "selectedFacilityList": [
           172
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Stuart",
+        "period_detail": "Stuart & Jacobean Era (1603 - 1714)",
+        "category": "House",
+        "categories": [
+          "House",
+          "Monument"
+        ]
       }
     },
     {
@@ -145,7 +170,15 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "Religious",
+          "House"
+        ]
       }
     },
     {
@@ -174,7 +207,15 @@
           173,
           175
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman",
+          "Garden",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -204,7 +245,17 @@
           174,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Religious",
+          "House",
+          "Monument",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -230,7 +281,13 @@
         "primaryPropertyType": 7,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman"
+        ]
       }
     },
     {
@@ -256,7 +313,13 @@
         "primaryPropertyType": 4,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Stuart",
+        "period_detail": "Stuart & Jacobean Era (1603 - 1714)",
+        "category": "House",
+        "categories": [
+          "House"
+        ]
       }
     },
     {
@@ -284,7 +347,13 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Georgian",
+        "period_detail": "18th Century (1701 Baroque/Palladian masterpiece)",
+        "category": "House",
+        "categories": [
+          "House"
+        ]
       }
     },
     {
@@ -312,7 +381,13 @@
         "selectedFacilityList": [
           174
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Georgian",
+        "period_detail": "18th-19th Century (Robert Adam & Duke of Wellington)",
+        "category": "House",
+        "categories": [
+          "House"
+        ]
       }
     },
     {
@@ -338,7 +413,15 @@
         "primaryPropertyType": 6,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Monument",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -364,7 +447,14 @@
         "primaryPropertyType": 6,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -393,7 +483,13 @@
           173,
           175
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Stuart",
+        "period_detail": "Stuart & Jacobean Era (1603 - 1714)",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ]
       }
     },
     {
@@ -419,7 +515,15 @@
         "primaryPropertyType": 2,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Victorian",
+        "period_detail": "Victorian Era (1837 - 1901)",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "House",
+          "Park"
+        ]
       }
     },
     {
@@ -451,7 +555,13 @@
           175,
           176
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Stuart",
+        "period_detail": "17th Century (1603-1614 Jacobean palace)",
+        "category": "House",
+        "categories": [
+          "House"
+        ]
       }
     },
     {
@@ -479,7 +589,13 @@
         "selectedFacilityList": [
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Neolithic henge & stone circles (c. 2600 BC)",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric"
+        ]
       }
     },
     {
@@ -510,7 +626,15 @@
           175,
           176
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "House",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -536,7 +660,14 @@
         "primaryPropertyType": 2,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "House"
+        ]
       }
     },
     {
@@ -562,7 +693,14 @@
         "primaryPropertyType": 6,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -590,7 +728,13 @@
         "selectedFacilityList": [
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman"
+        ]
       }
     },
     {
@@ -616,7 +760,15 @@
         "primaryPropertyType": 6,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "House",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -646,7 +798,14 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -674,7 +833,14 @@
         "selectedFacilityList": [
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Tudor",
+        "period_detail": "Cadw designated: Tudor",
+        "category": "Military",
+        "categories": [
+          "Military",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -708,7 +874,15 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious",
+          "House",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -737,7 +911,18 @@
           173,
           175
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Castle",
+          "House",
+          "Park",
+          "Monument",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -763,7 +948,14 @@
         "primaryPropertyType": 6,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -794,7 +986,15 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "Garden",
+          "House"
+        ]
       }
     },
     {
@@ -820,7 +1020,13 @@
         "primaryPropertyType": 7,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman"
+        ]
       }
     },
     {
@@ -846,7 +1052,16 @@
         "primaryPropertyType": 7,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Roman",
+          "Monument",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -872,7 +1087,15 @@
         "primaryPropertyType": 2,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Castle",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -898,7 +1121,14 @@
         "primaryPropertyType": 4,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Industrial",
+        "period_detail": "Cadw designated: Industrial",
+        "category": "Industrial",
+        "categories": [
+          "Industrial",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -929,7 +1159,16 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman",
+          "Castle",
+          "House",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -960,7 +1199,13 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Georgian",
+        "period_detail": "18th Century (1717 Nicholas Hawksmoor barracks)",
+        "category": "Military",
+        "categories": [
+          "Military"
+        ]
       }
     },
     {
@@ -986,7 +1231,13 @@
         "primaryPropertyType": 2,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ]
       }
     },
     {
@@ -1001,7 +1252,7 @@
       "properties": {
         "id": 236071,
         "title": "Bessie Surtees House",
-        "summary": "Two magnificent five-storey Newcastle merchants’ houses, dating from the mid-17th century.",
+        "summary": "Two magnificent five-storey Newcastle merchants\u2019 houses, dating from the mid-17th century.",
         "path": "/visit/places/bessie-surtees-house/",
         "imagePath": "/siteassets/home/visit/places-to-visit/bessie-surtees-house/bessie-surtees-carousel-1.jpg?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "",
@@ -1012,7 +1263,15 @@
         "primaryPropertyType": 4,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Stuart",
+        "period_detail": "Stuart & Jacobean Era (1603 - 1714)",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "House",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -1038,7 +1297,13 @@
         "primaryPropertyType": 5,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "20th Century",
+        "period_detail": "20th Century & Modern (1901 - present)",
+        "category": "Monument",
+        "categories": [
+          "Monument"
+        ]
       }
     },
     {
@@ -1064,7 +1329,14 @@
         "primaryPropertyType": 1,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -1096,7 +1368,14 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -1127,7 +1406,13 @@
           173,
           175
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "House",
+        "categories": [
+          "House"
+        ]
       }
     },
     {
@@ -1153,7 +1438,15 @@
         "primaryPropertyType": 7,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman",
+          "Park",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -1179,7 +1472,13 @@
         "primaryPropertyType": 4,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Tudor",
+        "period_detail": "Cadw designated: Tudor",
+        "category": "House",
+        "categories": [
+          "House"
+        ]
       }
     },
     {
@@ -1207,7 +1506,14 @@
         "selectedFacilityList": [
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -1233,7 +1539,15 @@
         "primaryPropertyType": 5,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Tudor",
+        "period_detail": "Cadw designated: Tudor",
+        "category": "Religious",
+        "categories": [
+          "Religious",
+          "House",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -1248,7 +1562,7 @@
       "properties": {
         "id": 2381,
         "title": "Blakeney Guildhall",
-        "summary": "The remains of the house of a prosperous Blakeney merchant, with a fine 15th century brick-vaulted undercroft. Later the guildhall of Blakeney’s guild of fish merchants.",
+        "summary": "The remains of the house of a prosperous Blakeney merchant, with a fine 15th century brick-vaulted undercroft. Later the guildhall of Blakeney\u2019s guild of fish merchants.",
         "path": "/visit/places/blakeney-guildhall/",
         "imagePath": "/siteassets/home/visit/places-to-visit/blakeney-guildhall/blakeney-guildhall-hero.jpg?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "",
@@ -1259,7 +1573,14 @@
         "primaryPropertyType": 4,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "House",
+        "categories": [
+          "House",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -1285,7 +1606,15 @@
         "primaryPropertyType": 2,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Castle",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -1316,7 +1645,13 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Stuart",
+        "period_detail": "Stuart & Jacobean Era (1603 - 1714)",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ]
       }
     },
     {
@@ -1342,7 +1677,14 @@
         "primaryPropertyType": 4,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Stuart",
+        "period_detail": "Stuart & Jacobean Era (1603 - 1714)",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "House"
+        ]
       }
     },
     {
@@ -1371,7 +1713,13 @@
           173,
           175
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Stuart",
+        "period_detail": "17th Century (1651 Charles II escape)",
+        "category": "House",
+        "categories": [
+          "House"
+        ]
       }
     },
     {
@@ -1397,7 +1745,14 @@
         "primaryPropertyType": 5,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious",
+          "Monument"
+        ]
       }
     },
     {
@@ -1423,7 +1778,14 @@
         "primaryPropertyType": 2,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman",
+          "Castle"
+        ]
       }
     },
     {
@@ -1451,7 +1813,14 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious",
+          "House"
+        ]
       }
     },
     {
@@ -1477,7 +1846,13 @@
         "primaryPropertyType": 5,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ]
       }
     },
     {
@@ -1505,7 +1880,13 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ]
       }
     },
     {
@@ -1535,7 +1916,14 @@
           38
         ],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -1565,7 +1953,14 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious",
+          "House"
+        ]
       }
     },
     {
@@ -1597,7 +1992,15 @@
           176,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Victorian",
+        "period_detail": "Victorian Era (1837 - 1901)",
+        "category": "House",
+        "categories": [
+          "Garden",
+          "House",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -1623,7 +2026,14 @@
         "primaryPropertyType": 5,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman",
+          "Castle"
+        ]
       }
     },
     {
@@ -1653,7 +2063,13 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ]
       }
     },
     {
@@ -1679,7 +2095,13 @@
         "primaryPropertyType": 7,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman"
+        ]
       }
     },
     {
@@ -1709,7 +2131,16 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Religious",
+          "House",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -1724,7 +2155,7 @@
       "properties": {
         "id": 2393,
         "title": "Burgh Castle Roman Fort",
-        "summary": "The imposing stone walls, with added towers for catapults, of a Roman 3rd century ‘Saxon Shore’ fort. Enjoy panoramic views over Breydon Water, into which the fourth wall long since collapsed.",
+        "summary": "The imposing stone walls, with added towers for catapults, of a Roman 3rd century \u2018Saxon Shore\u2019 fort. Enjoy panoramic views over Breydon Water, into which the fourth wall long since collapsed.",
         "path": "/visit/places/burgh-castle/",
         "imagePath": "/siteassets/home/visit/places-to-visit/burgh-castle--caister-roman-site/burgh-castle.jpg?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "",
@@ -1737,7 +2168,14 @@
           32
         ],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman",
+          "Castle"
+        ]
       }
     },
     {
@@ -1763,7 +2201,13 @@
         "primaryPropertyType": 5,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "House",
+        "categories": [
+          "House"
+        ]
       }
     },
     {
@@ -1789,7 +2233,13 @@
         "primaryPropertyType": 1,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ]
       }
     },
     {
@@ -1804,7 +2254,7 @@
       "properties": {
         "id": 2220,
         "title": "Bushmead Priory",
-        "summary": "A complete and unusually well-preserved 13th-century monk’s dining hall.",
+        "summary": "A complete and unusually well-preserved 13th-century monk\u2019s dining hall.",
         "path": "/visit/places/bushmead-priory/",
         "imagePath": "/siteassets/home/visit/places-to-visit/bushmead-priory/bushmead-priory-hero.jpg?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "Exterior photo of Bushmead Priory surrounded by trees on a sunny day",
@@ -1815,7 +2265,14 @@
         "primaryPropertyType": 5,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious",
+          "House"
+        ]
       }
     },
     {
@@ -1845,7 +2302,13 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ]
       }
     },
     {
@@ -1860,7 +2323,7 @@
       "properties": {
         "id": 2397,
         "title": "Caister Roman Fort",
-        "summary": "The partial excavated remains of a Roman ‘Saxon Shore’ fort, including wall and ditch sections and building foundations.",
+        "summary": "The partial excavated remains of a Roman \u2018Saxon Shore\u2019 fort, including wall and ditch sections and building foundations.",
         "path": "/visit/places/caister-roman-fort/",
         "imagePath": "/siteassets/home/visit/places-to-visit/caister-roman-fort/caister-roman-fort.jpg?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "",
@@ -1873,7 +2336,13 @@
           32
         ],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman"
+        ]
       }
     },
     {
@@ -1904,7 +2373,15 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "House",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -1934,7 +2411,14 @@
         "selectedFacilityList": [
           175
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Tudor",
+        "period_detail": "Cadw designated: Tudor",
+        "category": "Castle",
+        "categories": [
+          "Military",
+          "Castle"
+        ]
       }
     },
     {
@@ -1960,7 +2444,13 @@
         "primaryPropertyType": 2,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Industrial",
+        "period_detail": "19th Century (1813 cast-iron road bridge)",
+        "category": "Industrial",
+        "categories": [
+          "Industrial"
+        ]
       }
     },
     {
@@ -1992,7 +2482,14 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -2022,7 +2519,14 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -2048,7 +2552,13 @@
         "primaryPropertyType": 6,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Iron Age / Romano-British fogou village",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric"
+        ]
       }
     },
     {
@@ -2063,7 +2573,7 @@
       "properties": {
         "id": 2677,
         "title": "Carrawburgh Roman Fort and Temple of Mithras - Hadrian's Wall",
-        "summary": "One of 16 forts along Hadrian’s Wall, Carrawburgh once housed about 500 soldiers responsible for defending the frontier. Nearby stands a fascinating temple to the god Mithras, with facsimiles of altars found during excavation.",
+        "summary": "One of 16 forts along Hadrian\u2019s Wall, Carrawburgh once housed about 500 soldiers responsible for defending the frontier. Nearby stands a fascinating temple to the god Mithras, with facsimiles of altars found during excavation.",
         "path": "/visit/places/temple-of-mithras-carrawburgh-hadrians-wall/",
         "imagePath": "/siteassets/home/visit/places-to-visit/temple-of-mithras-carrawburgh-hadrians-wall/editeh-brocolitia-low-res-15.jpg?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "",
@@ -2074,7 +2584,15 @@
         "primaryPropertyType": 7,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman",
+          "House",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -2100,7 +2618,15 @@
         "primaryPropertyType": 2,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "House",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -2115,7 +2641,7 @@
       "properties": {
         "id": 3414,
         "title": "Castle Acre: Castle Acre Priory",
-        "summary": "Explore East Anglia’s biggest and best-preserved monastic ruins",
+        "summary": "Explore East Anglia\u2019s biggest and best-preserved monastic ruins",
         "path": "/visit/places/castle-acre-castle-acre-priory/",
         "imagePath": "/siteassets/home/visit/places-to-visit/castle-acre-priory/castle-acre-carousel-1.jpg?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "The ruins of Castle Acre Priory",
@@ -2130,7 +2656,14 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "Religious"
+        ]
       }
     },
     {
@@ -2156,7 +2689,15 @@
         "primaryPropertyType": 5,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Castle",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -2182,7 +2723,15 @@
         "primaryPropertyType": 6,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Castle",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -2208,7 +2757,14 @@
         "primaryPropertyType": 7,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman",
+          "Castle"
+        ]
       }
     },
     {
@@ -2238,7 +2794,14 @@
         "selectedFacilityList": [
           172
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious",
+          "House"
+        ]
       }
     },
     {
@@ -2266,7 +2829,16 @@
         "selectedFacilityList": [
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "Religious",
+          "House",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -2294,7 +2866,13 @@
         "selectedFacilityList": [
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman"
+        ]
       }
     },
     {
@@ -2320,7 +2898,14 @@
         "primaryPropertyType": 7,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman",
+          "Monument"
+        ]
       }
     },
     {
@@ -2350,7 +2935,14 @@
           173,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman",
+          "House"
+        ]
       }
     },
     {
@@ -2376,7 +2968,13 @@
         "primaryPropertyType": 5,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "15th Century (1412) collegiate foundation",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ]
       }
     },
     {
@@ -2402,7 +3000,13 @@
         "primaryPropertyType": 1,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ]
       }
     },
     {
@@ -2435,7 +3039,13 @@
           175,
           176
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Georgian",
+        "period_detail": "18th Century (1729 Palladian Lord Burlington)",
+        "category": "House",
+        "categories": [
+          "House"
+        ]
       }
     },
     {
@@ -2465,7 +3075,16 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "Religious",
+          "House",
+          "Monument"
+        ]
       }
     },
     {
@@ -2495,7 +3114,13 @@
           173,
           175
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Romano-British ancient settlement (c. 100 BC - 300 AD)",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric"
+        ]
       }
     },
     {
@@ -2521,7 +3146,15 @@
         "primaryPropertyType": 7,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Roman",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -2551,7 +3184,14 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious",
+          "Monument"
+        ]
       }
     },
     {
@@ -2577,7 +3217,13 @@
         "primaryPropertyType": 5,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "11th-13th Century Norman Castle keep",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ]
       }
     },
     {
@@ -2603,7 +3249,13 @@
         "primaryPropertyType": 5,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "15th Century manor tower",
+        "category": "House",
+        "categories": [
+          "House"
+        ]
       }
     },
     {
@@ -2629,7 +3281,15 @@
         "primaryPropertyType": 2,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Castle",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -2655,7 +3315,14 @@
         "primaryPropertyType": 5,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious",
+          "Monument"
+        ]
       }
     },
     {
@@ -2687,7 +3354,13 @@
           176,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ]
       }
     },
     {
@@ -2718,7 +3391,13 @@
           172,
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Tudor",
+        "period_detail": "Cadw designated: Tudor",
+        "category": "House",
+        "categories": [
+          "House"
+        ]
       }
     },
     {
@@ -2749,7 +3428,13 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman"
+        ]
       }
     },
     {
@@ -2777,7 +3462,15 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "Monument",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -2792,7 +3485,7 @@
       "properties": {
         "id": 2425,
         "title": "Cow Tower, Norwich",
-        "summary": "One of the earliest purpose-built artillery blockhouses in England, this brick tower was built in c.1398-9 to command a strategic point in Norwich’s city defence.",
+        "summary": "One of the earliest purpose-built artillery blockhouses in England, this brick tower was built in c.1398-9 to command a strategic point in Norwich\u2019s city defence.",
         "path": "/visit/places/cow-tower-norwich/",
         "imagePath": "/siteassets/home/visit/places-to-visit/cow-tower-norwich/cow-tower-hero.jpg?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "",
@@ -2803,7 +3496,13 @@
         "primaryPropertyType": 2,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "14th Century (1398) artillery tower",
+        "category": "Military",
+        "categories": [
+          "Military"
+        ]
       }
     },
     {
@@ -2829,7 +3528,13 @@
         "primaryPropertyType": 1,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ]
       }
     },
     {
@@ -2855,7 +3560,13 @@
         "primaryPropertyType": 2,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Stuart",
+        "period_detail": "Stuart & Jacobean Era (1603 - 1714)",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ]
       }
     },
     {
@@ -2881,7 +3592,15 @@
         "primaryPropertyType": 1,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Religious",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -2912,7 +3631,15 @@
           174,
           175
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "Monument",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -2938,7 +3665,14 @@
         "primaryPropertyType": 2,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Early Medieval",
+        "period_detail": "Early Medieval (c. 410 - 1066 AD: Anglo-Saxon / Celtic / Viking)",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -2964,7 +3698,13 @@
         "primaryPropertyType": 1,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Stuart",
+        "period_detail": "17th Century (begun 1614 sepulchral chapel, Earls of Kent)",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ]
       }
     },
     {
@@ -2979,7 +3719,7 @@
       "properties": {
         "id": 3482,
         "title": "Deal Castle",
-        "summary": "Devilish defences at one of Henry VIII’s finest artillery forts ",
+        "summary": "Devilish defences at one of Henry VIII\u2019s finest artillery forts ",
         "path": "/visit/places/deal-castle/",
         "imagePath": "/siteassets/home/visit/places-to-visit/deal-castle/deal-carousel-1.jpg?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "The entrance of Deal Castle",
@@ -2992,7 +3732,15 @@
           32
         ],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Tudor",
+        "period_detail": "Cadw designated: Tudor",
+        "category": "Castle",
+        "categories": [
+          "Military",
+          "Castle",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -3018,7 +3766,15 @@
         "primaryPropertyType": 2,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Castle",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -3048,7 +3804,14 @@
           173,
           175
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -3074,7 +3837,14 @@
         "primaryPropertyType": 7,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman",
+          "House"
+        ]
       }
     },
     {
@@ -3100,7 +3870,13 @@
         "primaryPropertyType": 5,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Georgian",
+        "period_detail": "Georgian & Regency Era (1714 - 1837)",
+        "category": "Industrial",
+        "categories": [
+          "Industrial"
+        ]
       }
     },
     {
@@ -3126,7 +3902,16 @@
         "primaryPropertyType": 2,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Castle",
+          "House",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -3160,7 +3945,15 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "20th Century",
+        "period_detail": "20th Century & Modern (1901 - present)",
+        "category": "Castle",
+        "categories": [
+          "Military",
+          "Castle",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -3191,7 +3984,14 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -3219,7 +4019,14 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious",
+          "Monument"
+        ]
       }
     },
     {
@@ -3247,7 +4054,13 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "15th Century stone packhorse bridge",
+        "category": "Monument",
+        "categories": [
+          "Monument"
+        ]
       }
     },
     {
@@ -3275,7 +4088,14 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Stuart",
+        "period_detail": "Stuart & Jacobean Era (1603 - 1714)",
+        "category": "House",
+        "categories": [
+          "House",
+          "Monument"
+        ]
       }
     },
     {
@@ -3303,7 +4123,13 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Tudor",
+        "period_detail": "Cadw designated: Tudor",
+        "category": "House",
+        "categories": [
+          "House"
+        ]
       }
     },
     {
@@ -3329,7 +4155,13 @@
         "primaryPropertyType": 1,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "14th Century hospital chantry chapel",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ]
       }
     },
     {
@@ -3357,7 +4189,13 @@
           32
         ],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Georgian",
+        "period_detail": "19th Century (1808 Napoleonic coastal defence)",
+        "category": "Military",
+        "categories": [
+          "Military"
+        ]
       }
     },
     {
@@ -3383,7 +4221,14 @@
         "primaryPropertyType": 1,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "Religious"
+        ]
       }
     },
     {
@@ -3409,7 +4254,14 @@
         "primaryPropertyType": 2,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "House"
+        ]
       }
     },
     {
@@ -3435,7 +4287,16 @@
         "primaryPropertyType": 1,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Castle",
+          "Religious",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -3465,7 +4326,14 @@
           173,
           174
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "Religious"
+        ]
       }
     },
     {
@@ -3493,7 +4361,13 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "13th Century (1290, Edward I memorial)",
+        "category": "Monument",
+        "categories": [
+          "Monument"
+        ]
       }
     },
     {
@@ -3525,7 +4399,13 @@
           176,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "20th Century",
+        "period_detail": "Medieval Royal Palace & 1930s Art Deco mansion",
+        "category": "House",
+        "categories": [
+          "House"
+        ]
       }
     },
     {
@@ -3555,7 +4435,14 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -3585,7 +4472,14 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "House"
+        ]
       }
     },
     {
@@ -3616,7 +4510,14 @@
           175,
           176
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "Religious"
+        ]
       }
     },
     {
@@ -3646,7 +4547,13 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ]
       }
     },
     {
@@ -3676,7 +4583,13 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Early Medieval",
+        "period_detail": "Early Medieval (c. 410 - 1066 AD: Anglo-Saxon / Celtic / Viking)",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ]
       }
     },
     {
@@ -3702,7 +4615,13 @@
         "primaryPropertyType": 4,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "14th Century (c. 1370) stone manor",
+        "category": "House",
+        "categories": [
+          "House"
+        ]
       }
     },
     {
@@ -3730,7 +4649,13 @@
         "selectedFacilityList": [
           172
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ]
       }
     },
     {
@@ -3760,7 +4685,14 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -3789,7 +4721,13 @@
           173,
           175
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Victorian",
+        "period_detail": "Victorian Era (1837 - 1901)",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ]
       }
     },
     {
@@ -3804,7 +4742,7 @@
       "properties": {
         "id": 3231,
         "title": "Framlingham Castle",
-        "summary": "One of medieval England’s finest baronial fortresses, with plenty to see and do.",
+        "summary": "One of medieval England\u2019s finest baronial fortresses, with plenty to see and do.",
         "path": "/visit/places/framlingham-castle/",
         "imagePath": "/contentassets/f5c96cb227f44e358282242adac5ff50/header-images-2025/eh14472.jpg?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "",
@@ -3821,7 +4759,13 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ]
       }
     },
     {
@@ -3836,7 +4780,7 @@
       "properties": {
         "id": 3291,
         "title": "Furness Abbey",
-        "summary": "The North West’s most majestic abbey ruins, now with a recreated monks’ eye view.",
+        "summary": "The North West\u2019s most majestic abbey ruins, now with a recreated monks\u2019 eye view.",
         "path": "/visit/places/furness-abbey/",
         "imagePath": "/siteassets/home/visit/places-to-visit/furness-abbey/furness-carousel-1.jpg?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "The ruins of Furness Abbey",
@@ -3852,7 +4796,13 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ]
       }
     },
     {
@@ -3867,7 +4817,7 @@
       "properties": {
         "id": 3374,
         "title": "Gainsborough Old Hall",
-        "summary": "Discover one of England’s biggest – yet least known – medieval manor houses",
+        "summary": "Discover one of England\u2019s biggest \u2013 yet least known \u2013 medieval manor houses",
         "path": "/visit/places/gainsborough-old-hall/",
         "imagePath": "/siteassets/home/visit/places-to-visit/gainsborough-old-hall/gainsborough-carousel-1.jpg?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "An aerial view of Gainsborough old Hall",
@@ -3883,7 +4833,14 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "House",
+        "categories": [
+          "House",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -3911,7 +4868,13 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "House",
+        "categories": [
+          "House"
+        ]
       }
     },
     {
@@ -3937,7 +4900,15 @@
         "primaryPropertyType": 7,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Military",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -3966,7 +4937,13 @@
           173,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ]
       }
     },
     {
@@ -3981,7 +4958,7 @@
       "properties": {
         "id": 2569,
         "title": "Glastonbury Tribunal",
-        "summary": "Fine, late 15th century stone townhouse, early Tudor façade and panelled interiors. Home to Glastonbury Lake Village Exhibition: discover life 2000 years ago when much of Somerset consisted of marshy sea.",
+        "summary": "Fine, late 15th century stone townhouse, early Tudor fa\u00e7ade and panelled interiors. Home to Glastonbury Lake Village Exhibition: discover life 2000 years ago when much of Somerset consisted of marshy sea.",
         "path": "/visit/places/glastonbury-tribunal/",
         "imagePath": "/siteassets/home/visit/places-to-visit/glastonbury-tribunal/glastonbury-tribunal-hero.jpg?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "",
@@ -3992,7 +4969,14 @@
         "primaryPropertyType": 5,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Tudor",
+        "period_detail": "Cadw designated: Tudor",
+        "category": "House",
+        "categories": [
+          "House",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -4023,7 +5007,13 @@
           174,
           175
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ]
       }
     },
     {
@@ -4049,7 +5039,13 @@
         "primaryPropertyType": 1,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Georgian",
+        "period_detail": "18th Century (1760 Nonconformist Baptist chapel)",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ]
       }
     },
     {
@@ -4075,7 +5071,14 @@
         "primaryPropertyType": 7,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman",
+          "House"
+        ]
       }
     },
     {
@@ -4104,7 +5107,13 @@
           173,
           174
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "14th Century medieval alley houses & 13th C friary",
+        "category": "House",
+        "categories": [
+          "House"
+        ]
       }
     },
     {
@@ -4130,7 +5139,13 @@
         "primaryPropertyType": 5,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Tudor",
+        "period_detail": "Cadw designated: Tudor",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ]
       }
     },
     {
@@ -4145,7 +5160,7 @@
       "properties": {
         "id": 3295,
         "title": "Grime's Graves - Prehistoric Flint Mine",
-        "summary": "Visit Grime’s Graves and explore Britain’s only open Neolithic flint mine. ",
+        "summary": "Visit Grime\u2019s Graves and explore Britain\u2019s only open Neolithic flint mine. ",
         "path": "/visit/places/grimes-graves-prehistoric-flint-mine/",
         "imagePath": "/contentassets/cd1c2cc0c59e4fae99298b8d29cd1841/grimes-graves-carousel_-hero-lunar-landscape.png?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "",
@@ -4161,7 +5176,14 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -4187,7 +5209,15 @@
         "primaryPropertyType": 6,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "House",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -4213,7 +5243,15 @@
         "primaryPropertyType": 2,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman",
+          "Castle",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -4228,7 +5266,7 @@
       "properties": {
         "id": 3723,
         "title": "Hadrian's Wall",
-        "summary": "Hadrian’s Wall was the north-west frontier of the Roman empire for nearly 300 years. At 73 miles it marches across northern Britain from sea to sea. The most famous of all the frontiers of the Roman empire, Hadrian’s Wall was made a World Heritage Site in 1987.",
+        "summary": "Hadrian\u2019s Wall was the north-west frontier of the Roman empire for nearly 300 years. At 73 miles it marches across northern Britain from sea to sea. The most famous of all the frontiers of the Roman empire, Hadrian\u2019s Wall was made a World Heritage Site in 1987.",
         "path": "/visit/places/hadrians-wall/",
         "imagePath": "/siteassets/home/visit/places-to-visit/hadrians-wall/hadrians-wall-carousel-3.jpg?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "",
@@ -4242,7 +5280,14 @@
           173,
           175
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman",
+          "Monument"
+        ]
       }
     },
     {
@@ -4268,7 +5313,13 @@
         "primaryPropertyType": 1,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ]
       }
     },
     {
@@ -4294,7 +5345,13 @@
         "primaryPropertyType": 1,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ]
       }
     },
     {
@@ -4320,7 +5377,15 @@
         "primaryPropertyType": 6,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "House",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -4346,7 +5411,14 @@
         "primaryPropertyType": 7,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman",
+          "House"
+        ]
       }
     },
     {
@@ -4378,7 +5450,13 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Tudor",
+        "period_detail": "Cadw designated: Tudor",
+        "category": "House",
+        "categories": [
+          "House"
+        ]
       }
     },
     {
@@ -4404,7 +5482,13 @@
         "primaryPropertyType": 7,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman"
+        ]
       }
     },
     {
@@ -4432,7 +5516,16 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious",
+          "House",
+          "Monument",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -4458,7 +5551,14 @@
         "primaryPropertyType": 7,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman",
+          "Castle"
+        ]
       }
     },
     {
@@ -4484,7 +5584,13 @@
         "primaryPropertyType": 2,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Tudor",
+        "period_detail": "16th Century (1551) Edwardian artillery fort",
+        "category": "Military",
+        "categories": [
+          "Military"
+        ]
       }
     },
     {
@@ -4499,7 +5605,7 @@
       "properties": {
         "id": 2601,
         "title": "Hatfield Earthworks (Marden Henge)",
-        "summary": "The earthworks of a Neolithic henge and monumental mound, by a loop in the River Avon. Recent archaeological find of building equivalent to a priest’s quarters.",
+        "summary": "The earthworks of a Neolithic henge and monumental mound, by a loop in the River Avon. Recent archaeological find of building equivalent to a priest\u2019s quarters.",
         "path": "/visit/places/hatfield-earthworks/",
         "imagePath": "/siteassets/home/visit/places-to-visit/hatfield-earthworks-marden-henge/hatfield-earthworks-hero.jpg?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "",
@@ -4510,7 +5616,15 @@
         "primaryPropertyType": 1,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Monument",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -4536,7 +5650,15 @@
         "primaryPropertyType": 1,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Tudor",
+        "period_detail": "Cadw designated: Tudor",
+        "category": "Religious",
+        "categories": [
+          "Religious",
+          "House",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -4562,7 +5684,13 @@
         "primaryPropertyType": 7,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman"
+        ]
       }
     },
     {
@@ -4588,7 +5716,14 @@
         "primaryPropertyType": 0,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Natural / Landscape",
+        "period_detail": "Natural Landscape / Wildlife Reserve",
+        "category": "Nature & Coast",
+        "categories": [
+          "Monument",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -4619,7 +5754,15 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "Monument",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -4648,7 +5791,14 @@
           174,
           175
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Tudor",
+        "period_detail": "Cadw designated: Tudor",
+        "category": "House",
+        "categories": [
+          "House",
+          "Monument"
+        ]
       }
     },
     {
@@ -4674,7 +5824,15 @@
         "primaryPropertyType": 4,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "House",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -4689,7 +5847,7 @@
       "properties": {
         "id": 3498,
         "title": "Home of Charles Darwin - Down House",
-        "summary": "The great scientist’s country-house home and ‘outdoor laboratory’",
+        "summary": "The great scientist\u2019s country-house home and \u2018outdoor laboratory\u2019",
         "path": "/visit/places/home-of-charles-darwin-down-house/",
         "imagePath": "/siteassets/home/visit/places-to-visit/home-of-charles-darwin/down-carousel-1.jpg?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "The exterior of Down House",
@@ -4704,7 +5862,14 @@
           174,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Natural / Landscape",
+        "period_detail": "Natural Landscape / Wildlife Reserve",
+        "category": "House",
+        "categories": [
+          "House",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -4730,7 +5895,13 @@
         "primaryPropertyType": 1,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "14th Century (1366 domestic chapel for William Horne)",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ]
       }
     },
     {
@@ -4745,7 +5916,7 @@
       "properties": {
         "id": 2321,
         "title": "Houghton House",
-        "summary": "Houghton House today is the shell of a 17th century mansion commanding magnificent views, reputedly the inspiration for the ‘House Beautiful’ in John Bunyan’s Pilgrim’s Progress.",
+        "summary": "Houghton House today is the shell of a 17th century mansion commanding magnificent views, reputedly the inspiration for the \u2018House Beautiful\u2019 in John Bunyan\u2019s Pilgrim\u2019s Progress.",
         "path": "/visit/places/houghton-house/",
         "imagePath": "/siteassets/home/visit/places-to-visit/houghton-house/hero-exterior.jpg?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "",
@@ -4756,7 +5927,13 @@
         "primaryPropertyType": 4,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Stuart",
+        "period_detail": "Stuart & Jacobean Era (1603 - 1714)",
+        "category": "House",
+        "categories": [
+          "House"
+        ]
       }
     },
     {
@@ -4784,7 +5961,15 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "House",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -4799,7 +5984,7 @@
       "properties": {
         "id": 3719,
         "title": "Housesteads Roman Fort - Hadrian's Wall",
-        "summary": "Britain’s most complete Roman fort, in a spectacular landscape.",
+        "summary": "Britain\u2019s most complete Roman fort, in a spectacular landscape.",
         "path": "/visit/places/housesteads-roman-fort-hadrians-wall/",
         "imagePath": "/siteassets/home/visit/places-to-visit/housesteads-roman-fort/housesteads-carousel-1.jpg?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "Remains of underfloor heating at Housesteads Roman Fort",
@@ -4815,7 +6000,14 @@
           174,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman",
+          "House"
+        ]
       }
     },
     {
@@ -4843,7 +6035,14 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious",
+          "House"
+        ]
       }
     },
     {
@@ -4871,7 +6070,14 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -4903,7 +6109,14 @@
           173,
           175
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Tudor",
+        "period_detail": "Cadw designated: Tudor",
+        "category": "Castle",
+        "categories": [
+          "Military",
+          "Castle"
+        ]
       }
     },
     {
@@ -4929,7 +6142,14 @@
         "primaryPropertyType": 2,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "House"
+        ]
       }
     },
     {
@@ -4955,7 +6175,14 @@
         "primaryPropertyType": 6,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -4970,7 +6197,7 @@
       "properties": {
         "id": 3147,
         "title": "Iron Bridge",
-        "summary": "The world’s first iron bridge was erected over the River Severn here in 1779 by Abraham Darby III. Costing over £6000, the bridge was cast in his Coalbrookdale foundry, using 378 tons of iron.",
+        "summary": "The world\u2019s first iron bridge was erected over the River Severn here in 1779 by Abraham Darby III. Costing over \u00a36000, the bridge was cast in his Coalbrookdale foundry, using 378 tons of iron.",
         "path": "/visit/places/iron-bridge/",
         "imagePath": "/siteassets/home/visit/places-to-visit/iron-bridge/iron-bridge-repainted/ironbridge-carousel-1.jpg?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "The newly repainted Iron Bridge",
@@ -4981,7 +6208,13 @@
         "primaryPropertyType": 5,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Industrial",
+        "period_detail": "18th Century (1779 world's first cast-iron bridge)",
+        "category": "Industrial",
+        "categories": [
+          "Industrial"
+        ]
       }
     },
     {
@@ -5007,7 +6240,13 @@
         "primaryPropertyType": 1,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ]
       }
     },
     {
@@ -5033,7 +6272,13 @@
         "primaryPropertyType": 4,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Natural / Landscape",
+        "period_detail": "Natural Landscape / Wildlife Reserve",
+        "category": "Nature & Coast",
+        "categories": [
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -5063,7 +6308,13 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "14th Century (1365, Edward III Palace of Westminster)",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ]
       }
     },
     {
@@ -5089,7 +6340,15 @@
         "primaryPropertyType": 7,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman",
+          "House",
+          "Monument"
+        ]
       }
     },
     {
@@ -5115,7 +6374,14 @@
         "primaryPropertyType": 7,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -5150,7 +6416,15 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Tudor",
+        "period_detail": "Cadw designated: Tudor",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "Garden",
+          "House"
+        ]
       }
     },
     {
@@ -5180,7 +6454,13 @@
           173,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Georgian",
+        "period_detail": "18th Century (1764 Robert Adam neoclassical villa)",
+        "category": "House",
+        "categories": [
+          "House"
+        ]
       }
     },
     {
@@ -5206,7 +6486,14 @@
         "primaryPropertyType": 6,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -5232,7 +6519,15 @@
         "primaryPropertyType": 2,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Stuart",
+        "period_detail": "Stuart & Jacobean Era (1603 - 1714)",
+        "category": "Castle",
+        "categories": [
+          "Military",
+          "Castle",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -5258,7 +6553,13 @@
         "primaryPropertyType": 6,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Early Medieval",
+        "period_detail": "9th Century Celtic carved cross",
+        "category": "Monument",
+        "categories": [
+          "Monument"
+        ]
       }
     },
     {
@@ -5284,7 +6585,14 @@
         "primaryPropertyType": 2,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Georgian",
+        "period_detail": "Georgian & Regency Era (1714 - 1837)",
+        "category": "Military",
+        "categories": [
+          "Military",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -5310,7 +6618,14 @@
         "primaryPropertyType": 6,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -5336,7 +6651,16 @@
         "primaryPropertyType": 1,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Religious",
+          "House",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -5367,7 +6691,13 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Stuart",
+        "period_detail": "Stuart & Jacobean Era (1603 - 1714)",
+        "category": "House",
+        "categories": [
+          "House"
+        ]
       }
     },
     {
@@ -5382,7 +6712,7 @@
       "properties": {
         "id": 3219,
         "title": "Kirby Muxloe Castle",
-        "summary": "The unfinished showpiece mansion of a royal favourite – and royal victim",
+        "summary": "The unfinished showpiece mansion of a royal favourite \u2013 and royal victim",
         "path": "/visit/places/kirby-muxloe-castle/",
         "imagePath": "/siteassets/home/visit/inspire-me/travel-guides/a-weekend-in-the-east-midlands/kirby-muxloe-header.png?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "",
@@ -5397,7 +6727,14 @@
           174,
           175
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "House"
+        ]
       }
     },
     {
@@ -5423,7 +6760,14 @@
         "primaryPropertyType": 5,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "House",
+        "categories": [
+          "House",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -5454,7 +6798,14 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -5485,7 +6836,15 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "House",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -5511,7 +6870,13 @@
         "primaryPropertyType": 1,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ]
       }
     },
     {
@@ -5537,7 +6902,15 @@
         "primaryPropertyType": 1,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Religious",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -5571,7 +6944,13 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Stuart",
+        "period_detail": "17th Century (1667 Dutch invasion) & Victorian fort",
+        "category": "Military",
+        "categories": [
+          "Military"
+        ]
       }
     },
     {
@@ -5602,7 +6981,13 @@
           174,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ]
       }
     },
     {
@@ -5628,7 +7013,13 @@
         "primaryPropertyType": 1,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Stuart",
+        "period_detail": "17th Century timber furnished chapel",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ]
       }
     },
     {
@@ -5643,7 +7034,7 @@
       "properties": {
         "id": 3418,
         "title": "Launceston Castle",
-        "summary": "Stunning views from Cornwall’s most important medieval fortress",
+        "summary": "Stunning views from Cornwall\u2019s most important medieval fortress",
         "path": "/visit/places/launceston-castle/",
         "imagePath": "/siteassets/home/visit/places-to-visit/launceston-castle/launceston-carousel-1.jpg?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "Launceston Castle with flowers in the foreground",
@@ -5659,7 +7050,13 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ]
       }
     },
     {
@@ -5685,7 +7082,13 @@
         "primaryPropertyType": 7,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman"
+        ]
       }
     },
     {
@@ -5711,7 +7114,13 @@
         "primaryPropertyType": 5,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "House",
+        "categories": [
+          "House"
+        ]
       }
     },
     {
@@ -5726,7 +7135,7 @@
       "properties": {
         "id": 2361,
         "title": "Leiston Abbey",
-        "summary": "The mainly 14th century remains of an abbey of Premonstratensian canons. Among Suffolk’s most impressive monastic ruins, with some spectacular architectural features.",
+        "summary": "The mainly 14th century remains of an abbey of Premonstratensian canons. Among Suffolk\u2019s most impressive monastic ruins, with some spectacular architectural features.",
         "path": "/visit/places/leiston-abbey/",
         "imagePath": "/siteassets/home/visit/places-to-visit/leiston-abbey/leiston-abbey-hero.jpg?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "",
@@ -5737,7 +7146,14 @@
         "primaryPropertyType": 1,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious",
+          "Monument"
+        ]
       }
     },
     {
@@ -5752,7 +7168,7 @@
       "properties": {
         "id": 2349,
         "title": "Lexden Earthworks and Bluebottle Grove",
-        "summary": "The banks and ditches of a series of late Iron Age defences protecting the western side of Camulodunum – pre-Roman Colchester.",
+        "summary": "The banks and ditches of a series of late Iron Age defences protecting the western side of Camulodunum \u2013 pre-Roman Colchester.",
         "path": "/visit/places/lexden-earthworks-and-bluebottle-grove/",
         "imagePath": "/siteassets/home/visit/places-to-visit/lexden-earthworks-and-bluebottle-grove/lexden-bluebottle-hero.jpg?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "",
@@ -5763,7 +7179,15 @@
         "primaryPropertyType": 6,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Roman",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -5789,7 +7213,14 @@
         "primaryPropertyType": 1,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Stuart",
+        "period_detail": "Stuart & Jacobean Era (1603 - 1714)",
+        "category": "Religious",
+        "categories": [
+          "Religious",
+          "House"
+        ]
       }
     },
     {
@@ -5804,7 +7235,7 @@
       "properties": {
         "id": 3319,
         "title": "Lincoln Medieval Bishops' Palace",
-        "summary": "See how we’ve safeguarded the home of Lincoln’s medieval bishops.",
+        "summary": "See how we\u2019ve safeguarded the home of Lincoln\u2019s medieval bishops.",
         "path": "/visit/places/lincoln-medieval-bishops-palace/",
         "imagePath": "/siteassets/home/visit/places-to-visit/lincoln-medieval-bishops-palace/lincoln-carousel-1.jpg?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "A couple exploire Lincoln Medieval Bishop's Palace",
@@ -5820,7 +7251,14 @@
           175,
           176
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious",
+          "House"
+        ]
       }
     },
     {
@@ -5835,7 +7273,7 @@
       "properties": {
         "id": 3275,
         "title": "Lindisfarne Priory",
-        "summary": "England’s holy island. ",
+        "summary": "England\u2019s holy island. ",
         "path": "/visit/places/lindisfarne-priory/",
         "imagePath": "/siteassets/home/visit/places-to-visit/lindisfarne-priory/lindisfarne-cover-photo-23-2.png?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "",
@@ -5850,7 +7288,13 @@
           174,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Early Medieval",
+        "period_detail": "Early Christian & Medieval monastery (635 AD / Norman)",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ]
       }
     },
     {
@@ -5876,7 +7320,13 @@
         "primaryPropertyType": 1,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ]
       }
     },
     {
@@ -5902,7 +7352,14 @@
         "primaryPropertyType": 7,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -5928,7 +7385,13 @@
         "primaryPropertyType": 2,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Other",
+        "categories": [
+          "Other"
+        ]
       }
     },
     {
@@ -5956,7 +7419,14 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -5985,7 +7455,17 @@
           173,
           174
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Castle",
+          "House",
+          "Monument",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -6015,7 +7495,15 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman",
+          "House",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -6046,7 +7534,15 @@
         "selectedFacilityList": [
           172
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Stuart",
+        "period_detail": "Stuart & Jacobean Era (1603 - 1714)",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "House",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -6075,7 +7571,13 @@
           173,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Tudor",
+        "period_detail": "Medieval Bishop's palace turned Elizabethan almshouse",
+        "category": "House",
+        "categories": [
+          "House"
+        ]
       }
     },
     {
@@ -6101,7 +7603,14 @@
         "primaryPropertyType": 2,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Early Medieval",
+        "period_detail": "Early Medieval (c. 410 - 1066 AD: Anglo-Saxon / Celtic / Viking)",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -6116,7 +7625,7 @@
       "properties": {
         "id": 3651,
         "title": "Maiden Castle",
-        "summary": "Among the largest and most complex Iron Age hillforts in Europe, Maiden Castle’s huge multiple ramparts enclose an area the size of 50 football pitches.",
+        "summary": "Among the largest and most complex Iron Age hillforts in Europe, Maiden Castle\u2019s huge multiple ramparts enclose an area the size of 50 football pitches.",
         "path": "/visit/places/maiden-castle/",
         "imagePath": "/siteassets/home/visit/places-to-visit/maiden-castle/hero-maiden-castle.jpg?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "",
@@ -6127,7 +7636,13 @@
         "primaryPropertyType": 2,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Iron Age hillfort",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric"
+        ]
       }
     },
     {
@@ -6153,7 +7668,13 @@
         "primaryPropertyType": 4,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman"
+        ]
       }
     },
     {
@@ -6184,7 +7705,13 @@
           174,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Georgian",
+        "period_detail": "18th Century (1724 Palladian villa)",
+        "category": "House",
+        "categories": [
+          "House"
+        ]
       }
     },
     {
@@ -6212,7 +7739,13 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "15th Century gatehouse with oriel window",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ]
       }
     },
     {
@@ -6238,7 +7771,14 @@
         "primaryPropertyType": 1,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -6264,7 +7804,14 @@
         "primaryPropertyType": 6,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -6292,7 +7839,13 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "14th Century monastic fishery (Glastonbury Abbey)",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ]
       }
     },
     {
@@ -6320,7 +7873,13 @@
         "selectedFacilityList": [
           175
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "House",
+        "categories": [
+          "House"
+        ]
       }
     },
     {
@@ -6348,7 +7907,15 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Monument",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -6363,7 +7930,7 @@
       "properties": {
         "id": 3323,
         "title": "Middleham Castle",
-        "summary": "The mighty remains of Richard III’s northern power base.",
+        "summary": "The mighty remains of Richard III\u2019s northern power base.",
         "path": "/visit/places/middleham-castle/",
         "imagePath": "/siteassets/home/visit/places-to-visit/middleham-castle/middleham-carousel-1.jpg?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "The ruins of Middleham Castle",
@@ -6379,7 +7946,13 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ]
       }
     },
     {
@@ -6407,7 +7980,14 @@
           359
         ],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "20th Century",
+        "period_detail": "20th Century & Modern (1901 - present)",
+        "category": "Military",
+        "categories": [
+          "Military",
+          "House"
+        ]
       }
     },
     {
@@ -6435,7 +8015,13 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "House",
+        "categories": [
+          "House"
+        ]
       }
     },
     {
@@ -6461,7 +8047,13 @@
         "primaryPropertyType": 1,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Georgian",
+        "period_detail": "Georgian & Regency Era (1714 - 1837)",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ]
       }
     },
     {
@@ -6489,7 +8081,14 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -6515,7 +8114,14 @@
         "primaryPropertyType": 2,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious",
+          "House"
+        ]
       }
     },
     {
@@ -6543,7 +8149,14 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Tudor",
+        "period_detail": "Cadw designated: Tudor",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "House"
+        ]
       }
     },
     {
@@ -6569,7 +8182,13 @@
         "primaryPropertyType": 5,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Monument",
+        "categories": [
+          "Monument"
+        ]
       }
     },
     {
@@ -6599,7 +8218,15 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Victorian",
+        "period_detail": "Victorian Era (1837 - 1901)",
+        "category": "Religious",
+        "categories": [
+          "Religious",
+          "Garden",
+          "House"
+        ]
       }
     },
     {
@@ -6614,7 +8241,7 @@
       "properties": {
         "id": 3675,
         "title": "Muchelney Abbey",
-        "summary": "Abbots’ luxury living on the Somerset Levels",
+        "summary": "Abbots\u2019 luxury living on the Somerset Levels",
         "path": "/visit/places/muchelney-abbey/",
         "imagePath": "/siteassets/home/visit/places-to-visit/muchelney-abbey/muchelney-carousel-4.jpg?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "The exterior of Muchelney Abbey",
@@ -6628,7 +8255,13 @@
           173,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ]
       }
     },
     {
@@ -6654,7 +8287,13 @@
         "primaryPropertyType": 7,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Georgian",
+        "period_detail": "Georgian & Regency Era (1714 - 1837)",
+        "category": "Other",
+        "categories": [
+          "Other"
+        ]
       }
     },
     {
@@ -6685,7 +8324,15 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Religious",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -6713,7 +8360,14 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -6739,7 +8393,13 @@
         "primaryPropertyType": 2,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ]
       }
     },
     {
@@ -6767,7 +8427,14 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Early Medieval",
+        "period_detail": "Early Medieval (c. 410 - 1066 AD: Anglo-Saxon / Celtic / Viking)",
+        "category": "Religious",
+        "categories": [
+          "Religious",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -6795,7 +8462,13 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Stuart",
+        "period_detail": "Stuart & Jacobean Era (1603 - 1714)",
+        "category": "House",
+        "categories": [
+          "House"
+        ]
       }
     },
     {
@@ -6823,7 +8496,14 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman",
+          "House"
+        ]
       }
     },
     {
@@ -6851,7 +8531,13 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Stuart",
+        "period_detail": "Stuart & Jacobean Era (1603 - 1714)",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ]
       }
     },
     {
@@ -6879,7 +8565,14 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -6905,7 +8598,15 @@
         "primaryPropertyType": 1,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Early Medieval",
+        "period_detail": "Early Medieval (c. 410 - 1066 AD: Anglo-Saxon / Celtic / Viking)",
+        "category": "Religious",
+        "categories": [
+          "Religious",
+          "House",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -6931,7 +8632,13 @@
         "primaryPropertyType": 6,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Early Medieval",
+        "period_detail": "8th Century Anglo-Saxon earthwork (King Offa)",
+        "category": "Monument",
+        "categories": [
+          "Monument"
+        ]
       }
     },
     {
@@ -6946,7 +8653,7 @@
       "properties": {
         "id": 3679,
         "title": "Okehampton Castle",
-        "summary": "One of Devon’s biggest and most picturesque castle.",
+        "summary": "One of Devon\u2019s biggest and most picturesque castle.",
         "path": "/visit/places/okehampton-castle/",
         "imagePath": "/siteassets/home/visit/places-to-visit/okehampton-castle/okehampton-carousel-1.jpg?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "The exterior of Okehampton Castle",
@@ -6962,7 +8669,13 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ]
       }
     },
     {
@@ -6990,7 +8703,15 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Stuart",
+        "period_detail": "Stuart & Jacobean Era (1603 - 1714)",
+        "category": "Military",
+        "categories": [
+          "Military",
+          "House",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -7005,7 +8726,7 @@
       "properties": {
         "id": 2689,
         "title": "Old Gorhambury House",
-        "summary": "The remains of a once immense mansion built in 1563-8 by Sir Nicholas Bacon, Queen Elizabeth’s Lord Keeper and visited by the queen on at least four occasions.",
+        "summary": "The remains of a once immense mansion built in 1563-8 by Sir Nicholas Bacon, Queen Elizabeth\u2019s Lord Keeper and visited by the queen on at least four occasions.",
         "path": "/visit/places/old-gorhambury-house/",
         "imagePath": "/siteassets/home/visit/places-to-visit/old-gorhambury-house/old-gorhambury-hero.jpg?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "",
@@ -7016,7 +8737,13 @@
         "primaryPropertyType": 4,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Tudor",
+        "period_detail": "16th Century (1563-8, Sir Nicholas Bacon)",
+        "category": "House",
+        "categories": [
+          "House"
+        ]
       }
     },
     {
@@ -7044,7 +8771,13 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Iron Age hillfort",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric"
+        ]
       }
     },
     {
@@ -7075,7 +8808,13 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Iron Age / Roman / Norman motte & cathedral",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ]
       }
     },
     {
@@ -7103,7 +8842,13 @@
           34
         ],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "13th Century (c. 1290) stone manor house",
+        "category": "House",
+        "categories": [
+          "House"
+        ]
       }
     },
     {
@@ -7134,7 +8879,15 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman",
+          "Castle",
+          "House"
+        ]
       }
     },
     {
@@ -7163,7 +8916,13 @@
           173,
           174
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ]
       }
     },
     {
@@ -7178,7 +8937,7 @@
       "properties": {
         "id": 3458,
         "title": "Osborne",
-        "summary": "Queen Victoria and Prince Albert’s beloved seaside palace",
+        "summary": "Queen Victoria and Prince Albert\u2019s beloved seaside palace",
         "path": "/visit/places/osborne/",
         "imagePath": "/siteassets/home/visit/places-to-visit/osborne/osborne-carousel-1.jpg?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "A view from the roof of Osborne, looking down at the terraces",
@@ -7195,7 +8954,13 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Victorian",
+        "period_detail": "19th Century (1845 Queen Victoria & Prince Albert)",
+        "category": "House",
+        "categories": [
+          "House"
+        ]
       }
     },
     {
@@ -7224,7 +8989,13 @@
           174,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Industrial",
+        "period_detail": "19th Century (1825 Thomas Telford stone bridge)",
+        "category": "Industrial",
+        "categories": [
+          "Industrial"
+        ]
       }
     },
     {
@@ -7255,7 +9026,14 @@
           174,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -7281,7 +9059,13 @@
         "primaryPropertyType": 4,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "13th Century moated manor house",
+        "category": "House",
+        "categories": [
+          "House"
+        ]
       }
     },
     {
@@ -7307,7 +9091,14 @@
         "primaryPropertyType": 2,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -7340,7 +9131,15 @@
           174,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman",
+          "Castle",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -7355,7 +9154,7 @@
       "properties": {
         "id": 2685,
         "title": "Peveril Castle",
-        "summary": "Spectacular hilltop castle that’s well worth the climb. ",
+        "summary": "Spectacular hilltop castle that\u2019s well worth the climb. ",
         "path": "/visit/places/peveril-castle/",
         "imagePath": "/siteassets/home/visit/places-to-visit/peveril-castle/peveril-carousel-1.jpg?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "The ruins of Peveril Castle",
@@ -7370,7 +9169,13 @@
           174,
           175
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ]
       }
     },
     {
@@ -7398,7 +9203,14 @@
         "selectedFacilityList": [
           174
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -7426,7 +9238,13 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ]
       }
     },
     {
@@ -7454,7 +9272,13 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman"
+        ]
       }
     },
     {
@@ -7480,7 +9304,13 @@
         "primaryPropertyType": 7,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman"
+        ]
       }
     },
     {
@@ -7506,7 +9336,13 @@
         "primaryPropertyType": 7,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman"
+        ]
       }
     },
     {
@@ -7532,7 +9368,14 @@
         "primaryPropertyType": 7,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman",
+          "Castle"
+        ]
       }
     },
     {
@@ -7563,7 +9406,15 @@
           176,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman",
+          "Castle",
+          "Religious"
+        ]
       }
     },
     {
@@ -7591,7 +9442,14 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -7621,7 +9479,14 @@
           173,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -7647,7 +9512,13 @@
         "primaryPropertyType": 5,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "House",
+        "categories": [
+          "House"
+        ]
       }
     },
     {
@@ -7678,7 +9549,13 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ]
       }
     },
     {
@@ -7693,7 +9570,7 @@
       "properties": {
         "id": 3343,
         "title": "Ranger's House - The Wernher Collection",
-        "summary": "Discover a diamond magnate’s fabulous jewels ",
+        "summary": "Discover a diamond magnate\u2019s fabulous jewels ",
         "path": "/visit/places/rangers-house-the-wernher-collection/",
         "imagePath": "/siteassets/home/visit/places-to-visit/rangers-house-the-wernher-collection/rangers-carousel-1.jpg?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "The garden at  the rear of Rangers House",
@@ -7706,7 +9583,13 @@
         "selectedFacilityList": [
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Georgian",
+        "period_detail": "18th Century (1723 Palladian mansion)",
+        "category": "House",
+        "categories": [
+          "House"
+        ]
       }
     },
     {
@@ -7732,7 +9615,14 @@
         "primaryPropertyType": 7,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman",
+          "House"
+        ]
       }
     },
     {
@@ -7763,7 +9653,14 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman",
+          "Religious"
+        ]
       }
     },
     {
@@ -7778,7 +9675,7 @@
       "properties": {
         "id": 3683,
         "title": "Restormel Castle",
-        "summary": "Cornwall’s classic circular castle.",
+        "summary": "Cornwall\u2019s classic circular castle.",
         "path": "/visit/places/restormel-castle/",
         "imagePath": "/siteassets/home/visit/places-to-visit/restormel-castle/restormel-hero.jpg?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "",
@@ -7793,7 +9690,14 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -7824,7 +9728,13 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman"
+        ]
       }
     },
     {
@@ -7850,7 +9760,13 @@
         "primaryPropertyType": 2,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ]
       }
     },
     {
@@ -7865,7 +9781,7 @@
       "properties": {
         "id": 3438,
         "title": "Rievaulx Abbey",
-        "summary": "England’s most majestic and complete abbey ruins in a lovely wooded valley.",
+        "summary": "England\u2019s most majestic and complete abbey ruins in a lovely wooded valley.",
         "path": "/visit/places/rievaulx-abbey/",
         "imagePath": "/siteassets/home/visit/places-to-visit/rievaulx-abbey/rievaulx-carousel-1.jpg?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "A dramatic view inside the ruins of Rievaulx Abbey",
@@ -7881,7 +9797,14 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -7911,7 +9834,15 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Religious",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -7942,7 +9873,15 @@
           174,
           175
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "Monument",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -7972,7 +9911,16 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "House",
+          "Monument",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -8000,7 +9948,14 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -8026,7 +9981,14 @@
         "primaryPropertyType": 1,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Victorian",
+        "period_detail": "Victorian Era (1837 - 1901)",
+        "category": "Religious",
+        "categories": [
+          "Religious",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -8052,7 +10014,13 @@
         "primaryPropertyType": 5,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Stuart",
+        "period_detail": "17th Century (1665, Charles II coastal fortress)",
+        "category": "Military",
+        "categories": [
+          "Military"
+        ]
       }
     },
     {
@@ -8080,7 +10048,13 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "13th Century (c. 1212) Domus Dei hospital",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ]
       }
     },
     {
@@ -8108,7 +10082,17 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Religious",
+          "House",
+          "Park",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -8123,7 +10107,7 @@
       "properties": {
         "id": 2329,
         "title": "Rushton Triangular Lodge",
-        "summary": "One of England’s strangest buildings, packed with secret codes.",
+        "summary": "One of England\u2019s strangest buildings, packed with secret codes.",
         "path": "/visit/places/rushton-triangular-lodge/",
         "imagePath": "/siteassets/home/visit/places-to-visit/rushton-triangular-lodge/rushton-triangular-hero.jpg?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "",
@@ -8136,7 +10120,13 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Tudor",
+        "period_detail": "16th Century (1597, Sir Thomas Tresham)",
+        "category": "Monument",
+        "categories": [
+          "Monument"
+        ]
       }
     },
     {
@@ -8162,7 +10152,13 @@
         "primaryPropertyType": 6,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Early Medieval",
+        "period_detail": "Early Medieval (c. 410 - 1066 AD: Anglo-Saxon / Celtic / Viking)",
+        "category": "Monument",
+        "categories": [
+          "Monument"
+        ]
       }
     },
     {
@@ -8188,7 +10184,15 @@
         "primaryPropertyType": 1,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Religious",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -8214,7 +10218,13 @@
         "primaryPropertyType": 6,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Industrial",
+        "period_detail": "18th-19th Century operating corn windmill",
+        "category": "Industrial",
+        "categories": [
+          "Industrial"
+        ]
       }
     },
     {
@@ -8248,7 +10258,14 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -8274,7 +10291,16 @@
         "primaryPropertyType": 7,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Roman",
+          "Castle",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -8302,7 +10328,13 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ]
       }
     },
     {
@@ -8333,7 +10365,13 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ]
       }
     },
     {
@@ -8359,7 +10397,13 @@
         "primaryPropertyType": 0,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Industrial",
+        "period_detail": "18th Century (1797 world's first iron-framed building)",
+        "category": "Industrial",
+        "categories": [
+          "Industrial"
+        ]
       }
     },
     {
@@ -8387,7 +10431,13 @@
         "selectedFacilityList": [
           172
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Industrial",
+        "period_detail": "19th Century (1877 six-storey windmill)",
+        "category": "Industrial",
+        "categories": [
+          "Industrial"
+        ]
       }
     },
     {
@@ -8413,7 +10463,13 @@
         "primaryPropertyType": 6,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Neolithic artificial chalk mound (c. 2400 BC)",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric"
+        ]
       }
     },
     {
@@ -8441,7 +10497,15 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Roman",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -8469,7 +10533,13 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Stuart",
+        "period_detail": "17th Century (1643 Battle of Lansdown memorial)",
+        "category": "Monument",
+        "categories": [
+          "Monument"
+        ]
       }
     },
     {
@@ -8497,7 +10567,15 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Castle",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -8523,7 +10601,14 @@
         "primaryPropertyType": 1,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -8551,7 +10636,14 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "House"
+        ]
       }
     },
     {
@@ -8582,7 +10674,13 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Early Medieval",
+        "period_detail": "Early Christian monastery (597 AD)",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ]
       }
     },
     {
@@ -8608,7 +10706,14 @@
         "primaryPropertyType": 4,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious",
+          "House"
+        ]
       }
     },
     {
@@ -8634,7 +10739,13 @@
         "primaryPropertyType": 5,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Early Medieval",
+        "period_detail": "Early Medieval (c. 410 - 1066 AD: Anglo-Saxon / Celtic / Viking)",
+        "category": "Monument",
+        "categories": [
+          "Monument"
+        ]
       }
     },
     {
@@ -8662,7 +10773,14 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -8688,7 +10806,16 @@
         "primaryPropertyType": 2,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "House",
+          "Monument",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -8716,7 +10843,14 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -8744,7 +10878,16 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious",
+          "Industrial",
+          "House",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -8770,7 +10913,14 @@
         "primaryPropertyType": 5,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious",
+          "House"
+        ]
       }
     },
     {
@@ -8796,7 +10946,13 @@
         "primaryPropertyType": 5,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "13th Century Knights Hospitallers hall & chapel",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ]
       }
     },
     {
@@ -8822,7 +10978,13 @@
         "primaryPropertyType": 2,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ]
       }
     },
     {
@@ -8848,7 +11010,13 @@
         "primaryPropertyType": 5,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ]
       }
     },
     {
@@ -8878,7 +11046,15 @@
           174,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Victorian",
+        "period_detail": "Victorian Era (1837 - 1901)",
+        "category": "Religious",
+        "categories": [
+          "Religious",
+          "Monument",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -8893,7 +11069,7 @@
       "properties": {
         "id": 3179,
         "title": "St Mawes Castle",
-        "summary": "Henry VIII’s best-preserved artillery fort.",
+        "summary": "Henry VIII\u2019s best-preserved artillery fort.",
         "path": "/visit/places/st-mawes-castle/",
         "imagePath": "/siteassets/home/visit/places-to-visit/st-mawes-castle/st-mawes-header-3-2025-1440x612.jpg?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "Image: St Mawes Castle",
@@ -8908,7 +11084,14 @@
           174,
           175
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Tudor",
+        "period_detail": "Cadw designated: Tudor",
+        "category": "Castle",
+        "categories": [
+          "Military",
+          "Castle"
+        ]
       }
     },
     {
@@ -8934,7 +11117,15 @@
         "primaryPropertyType": 1,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious",
+          "House",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -8960,7 +11151,13 @@
         "primaryPropertyType": 1,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Early Medieval",
+        "period_detail": "Early Medieval (c. 410 - 1066 AD: Anglo-Saxon / Celtic / Viking)",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ]
       }
     },
     {
@@ -8989,7 +11186,14 @@
           174,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Early Medieval",
+        "period_detail": "Early Medieval (c. 410 - 1066 AD: Anglo-Saxon / Celtic / Viking)",
+        "category": "Religious",
+        "categories": [
+          "Religious",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -9004,7 +11208,7 @@
       "properties": {
         "id": 3075,
         "title": "Stanton Drew Circles and Cove",
-        "summary": "Although this is the third largest complex of prehistoric standing stones in England, the three circles and three-stone ‘cove’ of Stanton Drew in Somerset are surprisingly little known. The Great Circle, 113 metres in diameter, is one of the largest stone circles in the country and has 26 surviving upright stones. Yet recent surveys have revealed that the circles and cove were just part of a much more elaborate and important ritual site than had previously been imagined.",
+        "summary": "Although this is the third largest complex of prehistoric standing stones in England, the three circles and three-stone \u2018cove\u2019 of Stanton Drew in Somerset are surprisingly little known. The Great Circle, 113 metres in diameter, is one of the largest stone circles in the country and has 26 surviving upright stones. Yet recent surveys have revealed that the circles and cove were just part of a much more elaborate and important ritual site than had previously been imagined.",
         "path": "/visit/places/stanton-drew-circles-and-cove/",
         "imagePath": "/siteassets/home/visit/places-to-visit/stanton-drew-circles-and-cove/hero-stanton-drew.jpg?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "",
@@ -9015,7 +11219,14 @@
         "primaryPropertyType": 6,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -9043,7 +11254,15 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Roman",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -9069,7 +11288,13 @@
         "primaryPropertyType": 5,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "House",
+        "categories": [
+          "House"
+        ]
       }
     },
     {
@@ -9084,7 +11309,7 @@
       "properties": {
         "id": 3151,
         "title": "Stokesay Castle",
-        "summary": "England’s finest – and most picturesque – medieval fortified manor house. ",
+        "summary": "England\u2019s finest \u2013 and most picturesque \u2013 medieval fortified manor house. ",
         "path": "/visit/places/stokesay-castle/",
         "imagePath": "/siteassets/home/visit/places-to-visit/stokesay-castle/2025-stokesay-1440x612.jpg?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "Image: Stokesay Castle",
@@ -9100,7 +11325,14 @@
           174,
           175
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "House"
+        ]
       }
     },
     {
@@ -9115,7 +11347,7 @@
       "properties": {
         "id": 3752,
         "title": "Stonehenge",
-        "summary": "Walk in the footsteps of your Neolithic ancestors at Stonehenge – one of the wonders of the world and the best-known prehistoric monument in Europe.",
+        "summary": "Walk in the footsteps of your Neolithic ancestors at Stonehenge \u2013 one of the wonders of the world and the best-known prehistoric monument in Europe.",
         "path": "/visit/places/stonehenge/",
         "imagePath": "/siteassets/home/visit/places-to-visit/stonehenge/solstice-banner.jpg?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "",
@@ -9131,7 +11363,13 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Neolithic / Bronze Age (c. 3000-2000 BC)",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric"
+        ]
       }
     },
     {
@@ -9159,7 +11397,14 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -9189,7 +11434,13 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Industrial",
+        "period_detail": "19th Century (1835 Industrial Revolution mill)",
+        "category": "Industrial",
+        "categories": [
+          "Industrial"
+        ]
       }
     },
     {
@@ -9215,7 +11466,14 @@
         "primaryPropertyType": 4,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Georgian",
+        "period_detail": "Georgian & Regency Era (1714 - 1837)",
+        "category": "House",
+        "categories": [
+          "House",
+          "Monument"
+        ]
       }
     },
     {
@@ -9245,7 +11503,13 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ]
       }
     },
     {
@@ -9273,7 +11537,15 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Stuart",
+        "period_detail": "Stuart & Jacobean Era (1603 - 1714)",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "Religious",
+          "House"
+        ]
       }
     },
     {
@@ -9301,7 +11573,14 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "20th Century",
+        "period_detail": "20th Century & Modern (1901 - present)",
+        "category": "Religious",
+        "categories": [
+          "Religious",
+          "Garden"
+        ]
       }
     },
     {
@@ -9327,7 +11606,13 @@
         "primaryPropertyType": 5,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "13th Century (c. 1240) Knights Templar manor",
+        "category": "House",
+        "categories": [
+          "House"
+        ]
       }
     },
     {
@@ -9355,7 +11640,13 @@
           40
         ],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "20th Century",
+        "period_detail": "20th Century (1920 Sir Edwin Lutyens war memorial)",
+        "category": "Monument",
+        "categories": [
+          "Monument"
+        ]
       }
     },
     {
@@ -9383,7 +11674,13 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Georgian",
+        "period_detail": "19th Century (1809 Greek Revival temple mansion)",
+        "category": "House",
+        "categories": [
+          "House"
+        ]
       }
     },
     {
@@ -9411,7 +11708,14 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -9439,7 +11743,13 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Neolithic ceremonial circle (c. 3000 BC)",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric"
+        ]
       }
     },
     {
@@ -9465,7 +11775,13 @@
         "primaryPropertyType": 1,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ]
       }
     },
     {
@@ -9493,7 +11809,13 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "15th Century (c. 1400) fortified lodge",
+        "category": "House",
+        "categories": [
+          "House"
+        ]
       }
     },
     {
@@ -9521,7 +11843,13 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ]
       }
     },
     {
@@ -9536,7 +11864,7 @@
       "properties": {
         "id": 174468,
         "title": "Thornborough Henges",
-        "summary": "Thornborough Henges: A unique cluster of Neolithic monuments - sometimes described as the ‘Stonehenge of the North’.",
+        "summary": "Thornborough Henges: A unique cluster of Neolithic monuments - sometimes described as the \u2018Stonehenge of the North\u2019.",
         "path": "/visit/places/thornborough-henges/",
         "imagePath": "/contentassets/385c713069aa4a8c949b724dca020a7b/central-henge.jpg?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "",
@@ -9547,7 +11875,15 @@
         "primaryPropertyType": 6,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Monument",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -9576,7 +11912,14 @@
           172,
           175
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious",
+          "House"
+        ]
       }
     },
     {
@@ -9591,7 +11934,7 @@
       "properties": {
         "id": 2577,
         "title": "Tilbury Fort",
-        "summary": "London’s guardian from Tudor times to the Second World War. ",
+        "summary": "London\u2019s guardian from Tudor times to the Second World War. ",
         "path": "/visit/places/tilbury-fort/",
         "imagePath": "/siteassets/home/visit/places-to-visit/tilbury-fort/tilbury-carousel-1.jpg?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "The exterior of Tilbury Fort",
@@ -9608,7 +11951,13 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "20th Century",
+        "period_detail": "20th Century & Modern (1901 - present)",
+        "category": "Other",
+        "categories": [
+          "Other"
+        ]
       }
     },
     {
@@ -9639,7 +11988,13 @@
           174,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Early Medieval",
+        "period_detail": "5th-7th C Post-Roman stronghold & 13th C Castle",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ]
       }
     },
     {
@@ -9665,7 +12020,15 @@
         "primaryPropertyType": 5,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman",
+          "Religious",
+          "House"
+        ]
       }
     },
     {
@@ -9696,7 +12059,13 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle"
+        ]
       }
     },
     {
@@ -9724,7 +12093,14 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -9752,7 +12128,14 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -9783,7 +12166,14 @@
           175,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "Religious"
+        ]
       }
     },
     {
@@ -9811,7 +12201,15 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Castle",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -9839,7 +12237,14 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -9870,7 +12275,15 @@
           174,
           175
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Tudor",
+        "period_detail": "Cadw designated: Tudor",
+        "category": "Castle",
+        "categories": [
+          "Military",
+          "Castle",
+          "House"
+        ]
       }
     },
     {
@@ -9896,7 +12309,14 @@
         "primaryPropertyType": 5,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -9925,7 +12345,13 @@
           173,
           174
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman"
+        ]
       }
     },
     {
@@ -9951,7 +12377,13 @@
         "primaryPropertyType": 7,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman"
+        ]
       }
     },
     {
@@ -9982,7 +12414,15 @@
           172,
           174
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Tudor",
+        "period_detail": "Cadw designated: Tudor",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "Garden",
+          "House"
+        ]
       }
     },
     {
@@ -10012,7 +12452,14 @@
           174,
           175
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Early Medieval",
+        "period_detail": "Early Medieval (c. 410 - 1066 AD: Anglo-Saxon / Celtic / Viking)",
+        "category": "Religious",
+        "categories": [
+          "Religious",
+          "House"
+        ]
       }
     },
     {
@@ -10042,7 +12489,15 @@
           174,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "Religious",
+          "Monument"
+        ]
       }
     },
     {
@@ -10068,7 +12523,13 @@
         "primaryPropertyType": 5,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "14th Century stone house & courthouse",
+        "category": "House",
+        "categories": [
+          "House"
+        ]
       }
     },
     {
@@ -10096,7 +12557,15 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Religious",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -10124,7 +12593,14 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -10152,7 +12628,14 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Early Medieval",
+        "period_detail": "Early Medieval (c. 410 - 1066 AD: Anglo-Saxon / Celtic / Viking)",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "House"
+        ]
       }
     },
     {
@@ -10180,7 +12663,13 @@
         "selectedFacilityList": [
           174
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Georgian",
+        "period_detail": "19th Century (1826 Decimus Burton triumphal arch)",
+        "category": "Monument",
+        "categories": [
+          "Monument"
+        ]
       }
     },
     {
@@ -10209,7 +12698,14 @@
           173,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious",
+          "Garden"
+        ]
       }
     },
     {
@@ -10224,7 +12720,7 @@
       "properties": {
         "id": 2665,
         "title": "West Kennet Avenue, Avebury",
-        "summary": "This ‘avenue’ originally of around 100 pairs of prehistoric standing stones, was raised to form a winding 1 1⁄2 mile ritual link between the pre-existing monuments of Avebury and The Sanctuary.",
+        "summary": "This \u2018avenue\u2019 originally of around 100 pairs of prehistoric standing stones, was raised to form a winding 1 1\u20442 mile ritual link between the pre-existing monuments of Avebury and The Sanctuary.",
         "path": "/visit/places/west-kennet-avenue/",
         "imagePath": "/siteassets/home/visit/places-to-visit/west-kennet-avenue/hero-1440-k020807.jpg?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "",
@@ -10238,7 +12734,15 @@
           173,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Monument",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -10264,7 +12768,13 @@
         "primaryPropertyType": 6,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Neolithic chambered tomb (c. 3650 BC)",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric"
+        ]
       }
     },
     {
@@ -10290,7 +12800,13 @@
         "primaryPropertyType": 2,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Georgian",
+        "period_detail": "19th Century (1804 Napoleonic to Victorian fortress)",
+        "category": "Military",
+        "categories": [
+          "Military"
+        ]
       }
     },
     {
@@ -10316,7 +12832,15 @@
         "primaryPropertyType": 2,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "Religious",
+        "categories": [
+          "Religious",
+          "House",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -10342,7 +12866,16 @@
         "primaryPropertyType": 1,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Religious",
+          "House",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -10370,7 +12903,14 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "House",
+        "categories": [
+          "House",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -10396,7 +12936,14 @@
         "primaryPropertyType": 7,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -10427,7 +12974,13 @@
           174,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Early Medieval",
+        "period_detail": "Early Christian (Synod of Whitby 664 AD) & 13th C Gothic",
+        "category": "Religious",
+        "categories": [
+          "Religious"
+        ]
       }
     },
     {
@@ -10442,7 +12995,7 @@
       "properties": {
         "id": 3643,
         "title": "White Ladies Priory",
-        "summary": "Ruins of the late 12th-century church of a small nunnery of ‘white ladies’ or Augustinian canonesses. Charles II hid nearby in 1651, before moving to Boscobel House.",
+        "summary": "Ruins of the late 12th-century church of a small nunnery of \u2018white ladies\u2019 or Augustinian canonesses. Charles II hid nearby in 1651, before moving to Boscobel House.",
         "path": "/visit/places/white-ladies-priory/",
         "imagePath": "/siteassets/home/visit/places-to-visit/white-ladies-priory/white-ladies-hero3.jpg?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "",
@@ -10455,7 +13008,14 @@
         "selectedFacilityList": [
           173
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Stuart",
+        "period_detail": "Stuart & Jacobean Era (1603 - 1714)",
+        "category": "Religious",
+        "categories": [
+          "Religious",
+          "House"
+        ]
       }
     },
     {
@@ -10483,7 +13043,15 @@
         "selectedFacilityList": [
           174
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Stuart",
+        "period_detail": "Stuart & Jacobean Era (1603 - 1714)",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "Monument",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -10509,7 +13077,13 @@
         "primaryPropertyType": 7,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman"
+        ]
       }
     },
     {
@@ -10535,7 +13109,13 @@
         "primaryPropertyType": 4,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "House",
+        "categories": [
+          "House"
+        ]
       }
     },
     {
@@ -10561,7 +13141,13 @@
         "primaryPropertyType": 6,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Neolithic causewayed enclosure (c. 3670 BC)",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric"
+        ]
       }
     },
     {
@@ -10587,7 +13173,15 @@
         "primaryPropertyType": 6,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Industrial",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -10613,7 +13207,14 @@
         "primaryPropertyType": 5,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Medieval",
+        "period_detail": "Cadw designated: Medieval",
+        "category": "House",
+        "categories": [
+          "House",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -10639,7 +13240,13 @@
         "primaryPropertyType": 7,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman"
+        ]
       }
     },
     {
@@ -10665,7 +13272,14 @@
         "primaryPropertyType": 6,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Cadw designated: Prehistoric",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -10680,7 +13294,7 @@
       "properties": {
         "id": 3434,
         "title": "Witley Court and Gardens",
-        "summary": "Enjoy a grand family adventure in Witley Court’s vast and varied country house estate.",
+        "summary": "Enjoy a grand family adventure in Witley Court\u2019s vast and varied country house estate.",
         "path": "/visit/places/witley-court-and-gardens/",
         "imagePath": "/siteassets/home/visit/places-to-visit/witley-court/witley-banner-ext.png?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "",
@@ -10700,7 +13314,13 @@
           176,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Victorian",
+        "period_detail": "19th Century Victorian palatial estate & fountains",
+        "category": "House",
+        "categories": [
+          "House"
+        ]
       }
     },
     {
@@ -10728,7 +13348,15 @@
           34
         ],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Early Medieval",
+        "period_detail": "Early Medieval (c. 410 - 1066 AD: Anglo-Saxon / Celtic / Viking)",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "Religious",
+          "House"
+        ]
       }
     },
     {
@@ -10754,7 +13382,13 @@
         "primaryPropertyType": 6,
         "selectedPropertyTypeList": [],
         "selectedFacilityList": [],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Prehistoric",
+        "period_detail": "Neolithic timber circle monument (c. 2500 BC)",
+        "category": "Prehistoric",
+        "categories": [
+          "Prehistoric"
+        ]
       }
     },
     {
@@ -10787,7 +13421,13 @@
           176,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Victorian",
+        "period_detail": "19th Century (1834 French ch\u00e2teau mansion & 18th C gardens)",
+        "category": "Garden",
+        "categories": [
+          "Garden"
+        ]
       }
     },
     {
@@ -10819,7 +13459,14 @@
           176,
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Roman",
+        "period_detail": "Cadw designated: Roman",
+        "category": "Roman",
+        "categories": [
+          "Roman",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -10834,7 +13481,7 @@
       "properties": {
         "id": 3474,
         "title": "Yarmouth Castle",
-        "summary": "Henry VIII’s last and most advanced coastal fort",
+        "summary": "Henry VIII\u2019s last and most advanced coastal fort",
         "path": "/visit/places/yarmouth-castle/",
         "imagePath": "/siteassets/home/visit/places-to-visit/yarmouth-castle/yarmouth-carousel-1.jpg?w=550&h=442&mode=crop&scale=both&cache=always&quality=60&anchor=&WebsiteVersion=20200219",
         "imageAlt": "The sign over the entrance to Yarmouth Castle",
@@ -10851,7 +13498,14 @@
           175,
           176
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "Tudor",
+        "period_detail": "Cadw designated: Tudor",
+        "category": "Castle",
+        "categories": [
+          "Castle",
+          "Nature & Coast"
+        ]
       }
     },
     {
@@ -10879,7 +13533,13 @@
         "selectedFacilityList": [
           177
         ],
-        "distance": 0.0
+        "distance": 0.0,
+        "period": "20th Century",
+        "period_detail": "20th Century (1961 Cold War nuclear monitoring post)",
+        "category": "Military",
+        "categories": [
+          "Military"
+        ]
       }
     }
   ]

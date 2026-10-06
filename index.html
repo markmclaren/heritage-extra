@@ -279,6 +279,38 @@
                         </div>
                         <div class="col-6">
                             <div class="btn-check-pill-wrapper">
+                                <input type="checkbox" class="btn-check category-checkbox" id="cat-nature" autocomplete="off">
+                                <label class="btn btn-outline-category w-100 text-start d-flex align-items-center" for="cat-nature">
+                                    <span class="dot cat-dot-nature"></span> Nature &amp; Coast
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="btn-check-pill-wrapper">
+                                <input type="checkbox" class="btn-check category-checkbox" id="cat-industrial" autocomplete="off">
+                                <label class="btn btn-outline-category w-100 text-start d-flex align-items-center" for="cat-industrial">
+                                    <span class="dot cat-dot-industrial"></span> Industrial
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="btn-check-pill-wrapper">
+                                <input type="checkbox" class="btn-check category-checkbox" id="cat-military" autocomplete="off">
+                                <label class="btn btn-outline-category w-100 text-start d-flex align-items-center" for="cat-military">
+                                    <span class="dot cat-dot-military"></span> Military &amp; Forts
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="btn-check-pill-wrapper">
+                                <input type="checkbox" class="btn-check category-checkbox" id="cat-monument" autocomplete="off">
+                                <label class="btn btn-outline-category w-100 text-start d-flex align-items-center" for="cat-monument">
+                                    <span class="dot cat-dot-monument"></span> Monuments
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="btn-check-pill-wrapper">
                                 <input type="checkbox" class="btn-check category-checkbox" id="cat-other" autocomplete="off">
                                 <label class="btn btn-outline-category w-100 text-start d-flex align-items-center" for="cat-other">
                                     <span class="dot cat-dot-other"></span> Other
@@ -308,11 +340,17 @@
                     <label class="section-label mb-2">Historical Period</label>
                     <select id="period-select" class="form-select">
                         <option value="">All Historical Periods</option>
-                        <option value="Prehistoric">Prehistoric</option>
-                        <option value="Roman">Roman</option>
-                        <option value="Medieval">Medieval</option>
-                        <option value="Tudor">Tudor</option>
-                        <option value="Industrial">Industrial / Later</option>
+                        <option value="Prehistoric">Prehistoric (Neolithic / Bronze / Iron Age)</option>
+                        <option value="Roman">Roman Britain (43 – 410 AD)</option>
+                        <option value="Early Medieval">Early Medieval (Saxon / Celtic / Viking)</option>
+                        <option value="Medieval">Medieval (Norman / 1066 – 1485)</option>
+                        <option value="Tudor">Tudor (1485 – 1603)</option>
+                        <option value="Stuart">Stuart &amp; Civil War (1603 – 1714)</option>
+                        <option value="Georgian">Georgian &amp; Regency (1714 – 1837)</option>
+                        <option value="Victorian">Victorian (1837 – 1901)</option>
+                        <option value="Industrial">Industrial Era</option>
+                        <option value="20th Century">20th Century &amp; Modern</option>
+                        <option value="Natural / Landscape">Natural / Landscape</option>
                     </select>
                 </div>
 
@@ -351,12 +389,16 @@
             </div>
             <div class="p-4">
                 <h4 id="sidebar-title" class="outfit-font fw-bold text-dark mb-2">Property Title</h4>
-                <div class="d-flex flex-wrap gap-2 mb-3">
+                <div class="d-flex flex-wrap gap-2 mb-2">
                     <span class="badge bg-primary" id="sidebar-category-badge">Category</span>
                     <span class="badge bg-secondary d-none" id="sidebar-period-badge">Period</span>
                     <span class="badge bg-success d-none" id="sidebar-free-badge">Free Entry</span>
                     <span class="badge bg-warning text-dark d-none" id="sidebar-top-badge"><i class="bi bi-star-fill"></i> Star Site</span>
                     <span class="badge d-none" id="sidebar-status-badge" style="background:#c8a84b;color:#1a3a2a;"></span>
+                </div>
+                <div id="sidebar-period-detail" class="small text-muted mb-3 d-none">
+                    <i class="bi bi-clock-history me-1 text-primary"></i>
+                    <span id="sidebar-period-detail-text"></span>
                 </div>
                 <div id="sidebar-location" class="property-location mb-3 d-none">
                     <i class="bi bi-geo-alt-fill text-muted me-1"></i>

@@ -18,12 +18,12 @@ An interactive map combining **four** heritage organisations across the UK and I
 - **Unified map** — all four datasets on a single MapLibre GL JS map, centred to show both the UK and Ireland
 - **Region toggle** — quickly show/hide UK & Wales or Ireland with one click
 - **Organisation filters** — toggle each of the four organisations independently
-- **Category filters** — Castles, Religious sites, Houses, Roman, Prehistoric, Gardens, Parks, Other
-- **Admission & Highlight** — Free Entry and Star Site filters (English Heritage data)
-- **Historical Period** — Prehistoric, Roman, Medieval, Tudor, Industrial
+- **Category filters** — Castles, Religious sites, Houses, Roman, Prehistoric, Gardens, Parks, Nature & Coast, Industrial, Military & Forts, Monuments, Other
+- **Admission & Highlight** — Free Entry and Star Site filters (English Heritage, National Trust, Cadw, Heritage Ireland)
+- **Historical Period** — Prehistoric, Roman, Early Medieval, Medieval, Tudor, Stuart, Georgian, Victorian, Industrial, 20th Century, Natural / Landscape
 - **Colour-by toggle** — colour markers by Organisation or by Category
 - **Search autocomplete** — real-time search across all 1,304 site names
-- **Slide-out property sidebar** — image, description, category/period badges, status (Ireland), and direct website link
+- **Slide-out property sidebar** — image, description, category/period badges, historical context details, status (Ireland), and direct website link
 - **Draggable filter panel** — drag to any screen position on desktop
 - **Mobile responsive** — bottom-sheet filter panel and full-width sidebar on small screens
 - **Fullscreen mode** — MapLibre fullscreen control
@@ -33,17 +33,19 @@ An interactive map combining **four** heritage organisations across the UK and I
 - [MapLibre GL JS](https://maplibre.org/) v4.7.1
 - [Bootstrap](https://getbootstrap.com/) 5.3.2 + Bootstrap Icons 1.11.2
 - [OpenFreeMap](https://openfreemap.org/) tile style (`liberty`)
+- [DuckDB-Wasm](https://duckdb.org/docs/api/wasm/overview) in-browser spatial SQL engine
 - Vanilla JavaScript (ES2020 class)
 - Self-contained — no build step, no server required
 
-## Data Sources
+## Data Sources & Unified Dataset
 
-| File | Source |
-|---|---|
-| `english-heritage.geojson` | English Heritage website scrape |
-| `NationalTrust.geojson` | National Trust API |
-| `cadw.geojson` | Cadw Welsh Heritage |
-| `heritage_ireland.geojson` | Heritage Ireland website |
+| File | Source | Description |
+|---|---|---|
+| `heritage_unified.geojson` | Unified DuckDB Pipeline | Consolidated, enriched dataset of all 1,304 sites with standardized schema |
+| `english-heritage.geojson` | English Heritage | Augmented with period, category, and period details |
+| `NationalTrust.geojson` | National Trust | Augmented with period, category, and period details |
+| `cadw.geojson` | Cadw Welsh Heritage | Augmented with period, category, and period details |
+| `heritage_ireland.geojson` | Heritage Ireland | Augmented with period, category, and period details |
 
 ## Running Locally
 

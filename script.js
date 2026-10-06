@@ -69,7 +69,17 @@ class HeritageCombinedExplorer {
 
     async loadAllDatasets() {
         try {
-            // Load sequentially to avoid overwhelming the connection on first load
+            // Check for unified dataset first
+            this.updateLoadingStatus('Loading unified heritage dataset…');
+            const unifiedRes = await this.fetchJson('heritage_unified.geojson');
+            if (unifiedRes && unifiedRes.features && unifiedRes.features.length > 0) {
+                this.rawFeatures = unifiedRes.features;
+                this.filteredFeatures = [...this.rawFeatures];
+                console.log(`Unified dataset loaded: ${this.rawFeatures.length} features total.`);
+                return true;
+            }
+
+            // Fallback: Load sequentially to avoid overwhelming connection
             this.updateLoadingStatus('Loading Cadw Wales data…');
             const cadwRes = await this.fetchJson('cadw.geojson');
             this.updateLoadingStatus('Loading English Heritage data…');
@@ -475,13 +485,18 @@ class HeritageCombinedExplorer {
         // Category colour coding matching UI dots
         return [
             'match', ['get', 'category'],
-            'Castle',     '#CF142B',
-            'Abbey',      '#8e44ad',
-            'House',      '#1a6e3c',
-            'Roman',      '#8B4513',
-            'Prehistoric','#FF8C00',
-            'Garden',     '#2ecc71',
-            'Park',       '#16a085',
+            'Castle',         '#CF142B',
+            'Abbey',          '#8e44ad',
+            'Religious',      '#8e44ad',
+            'House',          '#1a6e3c',
+            'Roman',          '#8B4513',
+            'Prehistoric',    '#FF8C00',
+            'Garden',         '#2ecc71',
+            'Park',           '#16a085',
+            'Nature & Coast', '#0284c7',
+            'Industrial',     '#d97706',
+            'Military',       '#991b1b',
+            'Monument',       '#6366f1',
             '#6c757d'
         ];
     }
@@ -510,18 +525,25 @@ class HeritageCombinedExplorer {
         const period   = document.getElementById('period-select').value;
         const query    = (document.getElementById('search-input').value || '').toLowerCase().trim();
 
-        // Category map from checkbox id → property value
+        // Category map from checkbox id → property values
         const CAT_MAP = {
-            castle:     'Castle',
-            abbey:      'Abbey',
-            house:      'House',
-            roman:      'Roman',
-            prehistoric:'Prehistoric',
-            garden:     'Garden',
-            park:       'Park',
-            other:      'Other',
+            castle:      ['Castle'],
+            abbey:       ['Religious', 'Abbey'],
+            house:       ['House'],
+            roman:       ['Roman'],
+            prehistoric: ['Prehistoric'],
+            garden:      ['Garden'],
+            park:        ['Park'],
+            nature:      ['Nature & Coast'],
+            industrial:  ['Industrial'],
+            military:    ['Military'],
+            monument:    ['Monument'],
+            other:       ['Other'],
         };
-        const activeCatValues = activeCats.map(k => CAT_MAP[k]).filter(Boolean);
+        const activeCatValues = [];
+        activeCats.forEach(k => {
+            if (CAT_MAP[k]) activeCatValues.push(...CAT_MAP[k]);
+        });
 
         this.filteredFeatures = this.rawFeatures.filter(f => {
             const p = f.properties;
@@ -537,7 +559,11 @@ class HeritageCombinedExplorer {
             if (p.org === 'heritage-ireland' && !orgHi) return false;
 
             // Category filter (any active → must match one)
-            if (activeCatValues.length > 0 && !activeCatValues.includes(p.category)) return false;
+            if (activeCatValues.length > 0) {
+                const siteCats = Array.isArray(p.categories) ? p.categories : [p.category];
+                const matches = siteCats.some(c => activeCatValues.includes(c)) || activeCatValues.includes(p.category);
+                if (!matches) return false;
+            }
 
             // Spec filters (UK-only fields)
             if (specFree && p.isFreeEntry !== true) return false;
@@ -694,14 +720,19 @@ class HeritageCombinedExplorer {
             catBadge.parentElement.querySelectorAll('.hi-cat-badge').forEach(el => el.remove());
             catBadge.textContent = props.category;
             const CAT_COLORS = {
-                'Castle':      '#CF142B',
-                'Abbey':       '#8e44ad',
-                'House':       '#1a6e3c',
-                'Roman':       '#8B4513',
-                'Prehistoric': '#FF8C00',
-                'Garden':      '#2ecc71',
-                'Park':        '#16a085',
-                'Other':       '#6c757d'
+                'Castle':         '#CF142B',
+                'Abbey':          '#8e44ad',
+                'Religious':      '#8e44ad',
+                'House':          '#1a6e3c',
+                'Roman':          '#8B4513',
+                'Prehistoric':    '#FF8C00',
+                'Garden':         '#2ecc71',
+                'Park':           '#16a085',
+                'Nature & Coast': '#0284c7',
+                'Industrial':     '#d97706',
+                'Military':       '#991b1b',
+                'Monument':       '#6366f1',
+                'Other':          '#6c757d'
             };
             catBadge.style.background = CAT_COLORS[props.category] || '#6c757d';
             catBadge.style.color = '#ffffff';
@@ -713,6 +744,16 @@ class HeritageCombinedExplorer {
             periodBadge.classList.remove('d-none');
         } else {
             periodBadge.classList.add('d-none');
+        }
+
+        // Period detail (context / dates)
+        const periodDetailEl = document.getElementById('sidebar-period-detail');
+        const periodDetailText = document.getElementById('sidebar-period-detail-text');
+        if (props.period_detail && periodDetailEl && periodDetailText) {
+            periodDetailText.textContent = props.period_detail;
+            periodDetailEl.classList.remove('d-none');
+        } else if (periodDetailEl) {
+            periodDetailEl.classList.add('d-none');
         }
 
         // Free / Star badges
@@ -1155,6 +1196,7 @@ class HeritageCombinedExplorer {
                     image_url VARCHAR,
                     category VARCHAR,
                     period VARCHAR,
+                    period_detail VARCHAR,
                     org VARCHAR,
                     region VARCHAR,
                     is_free_entry BOOLEAN,
@@ -1175,7 +1217,7 @@ class HeritageCombinedExplorer {
                     const coords = (f.geometry && f.geometry.coordinates) ? f.geometry.coordinates : [0, 0];
                     const esc = (s) => (s ? String(s).replace(/'/g, "''") : '');
                     return `('${esc(p.id)}', '${esc(p.title)}', '${esc(p.description)}', '${esc(p.visitUrl)}', ` +
-                           `'${esc(p.imageUrl)}', '${esc(p.category)}', '${esc(p.period)}', '${esc(p.org)}', ` +
+                           `'${esc(p.imageUrl)}', '${esc(p.category)}', '${esc(p.period)}', '${esc(p.period_detail)}', '${esc(p.org)}', ` +
                            `'${esc(p.region)}', ${p.isFreeEntry ? 'true' : 'false'}, ${p.isTopSite ? 'true' : 'false'}, ` +
                            `'${esc(p.locationText)}', '${esc(p.statusText)}', ${coords[0]}, ${coords[1]}, ST_Point(${coords[0]}, ${coords[1]}))`;
                 }).join(',\n');
@@ -1191,6 +1233,7 @@ class HeritageCombinedExplorer {
                     image_url VARCHAR,
                     category VARCHAR,
                     period VARCHAR,
+                    period_detail VARCHAR,
                     org VARCHAR,
                     region VARCHAR,
                     is_free_entry BOOLEAN,
@@ -1209,7 +1252,7 @@ class HeritageCombinedExplorer {
                     const coords = (f.geometry && f.geometry.coordinates) ? f.geometry.coordinates : [0, 0];
                     const esc = (s) => (s ? String(s).replace(/'/g, "''") : '');
                     return `('${esc(p.id)}', '${esc(p.title)}', '${esc(p.description)}', '${esc(p.visitUrl)}', ` +
-                           `'${esc(p.imageUrl)}', '${esc(p.category)}', '${esc(p.period)}', '${esc(p.org)}', ` +
+                           `'${esc(p.imageUrl)}', '${esc(p.category)}', '${esc(p.period)}', '${esc(p.period_detail)}', '${esc(p.org)}', ` +
                            `'${esc(p.region)}', ${p.isFreeEntry ? 'true' : 'false'}, ${p.isTopSite ? 'true' : 'false'}, ` +
                            `'${esc(p.locationText)}', '${esc(p.statusText)}', ${coords[0]}, ${coords[1]})`;
                 }).join(',\n');
