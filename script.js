@@ -72,6 +72,12 @@ class HeritageCombinedExplorer {
             this.updateLoadingStatus('Loading unified heritage dataset…');
             const res = await this.fetchJson('heritage_unified.geojson');
             if (res && res.features && res.features.length > 0) {
+                res.features.forEach(({ properties }) => {
+                    const prefix = 'Cadw designated: ';
+                    if (properties.org !== 'cadw' && typeof properties.period_detail === 'string' && properties.period_detail.startsWith(prefix)) {
+                        properties.period_detail = `Period: ${properties.period_detail.slice(prefix.length)}`;
+                    }
+                });
                 this.rawFeatures = res.features;
                 this.filteredFeatures = [...this.rawFeatures];
                 console.log(`Unified dataset loaded: ${this.rawFeatures.length} features total.`);
